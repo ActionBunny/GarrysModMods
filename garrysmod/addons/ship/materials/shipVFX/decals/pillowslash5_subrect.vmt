@@ -1,0 +1,8 @@
+"Subrect"
+{
+	"$Material"	"decals/decals_mod2x"
+	"$Pos"		"896 704"
+	"$Size"		"128 64"
+	"$decalscale" 	0.15
+	"$modelmaterial" "shipVFX/decals/pillowslash5"
+}

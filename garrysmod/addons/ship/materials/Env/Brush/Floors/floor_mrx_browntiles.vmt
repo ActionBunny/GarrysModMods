@@ -1,0 +1,17 @@
+
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/floors/floor_mrx_browntiles"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$envMap"				"env_cubemap"
+	"$envmapcontrast"			1
+	"$envMapTint"				"[0.4 0.4 0.4]"
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"			1
+	"$normalMapAlphaEnvMapMask"			0
+	"$surfaceprop" "tile"
+}

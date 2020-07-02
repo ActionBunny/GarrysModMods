@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "HUD/hunter_quarry_jailed"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

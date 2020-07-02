@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"char/attach/hair_floppy_red"
+	"$translucent" 			1
+	"$alpha"				1
+	"$halflambert"		1
+	"$nodecal" "1"
+}

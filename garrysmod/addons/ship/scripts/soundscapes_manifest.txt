@@ -1,0 +1,39 @@
+soundscaples_manifest
+{
+
+	//generic soundscapes for the ship
+	"file"		"scripts/soundscapes_ship_generic.txt"
+
+	//soundscapes for batavier
+	"file"		"scripts/soundscapes_ship_hmsbatavier.txt"
+
+	//soundscapes for huronian
+	"file"		"scripts/soundscapes_ship_huronian.txt"
+
+	//soundscapes for rubicon
+	"file"		"scripts/soundscapes_ship_rubicon.txt"
+
+	//soundscapes for atalanta
+	"file"		"scripts/soundscapes_ship_atalanta.txt"
+
+	//soundscapes for andrea doria
+	"file"		"scripts/soundscapes_ship_andrea_doria.txt"
+
+	//soundscapes for cyclops
+	"file"		"scripts/soundscapes_ship_cyclops.txt"
+	
+	//soundscapes for cotopaxi
+	"file"		"scripts/soundscapes_ship_cotopaxi.txt"
+	
+	//soundscapes for connemara
+	"file"		"scripts/soundscapes_ship_connemara.txt"
+	
+	//soundscapes for raifucu_maru
+	"file"		"scripts/soundscapes_ship_ricebarge.txt"
+	
+	//soundscapes for batavier christmas
+	"file"		"scripts/soundscapes_ship_christmas.txt"
+	
+	//soundscapes for krassin
+	"file"		"scripts/soundscapes_ship_krassin.txt"
+}

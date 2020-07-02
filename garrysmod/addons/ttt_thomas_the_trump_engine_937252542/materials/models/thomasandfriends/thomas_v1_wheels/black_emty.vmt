@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "thomas/black_emty"
+	"$surfaceprop" "metal"
+}

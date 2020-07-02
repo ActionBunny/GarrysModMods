@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"char/npc_takamura_naked"
+	"$halflambert"		1
+	"$nodecal" "1"
+}

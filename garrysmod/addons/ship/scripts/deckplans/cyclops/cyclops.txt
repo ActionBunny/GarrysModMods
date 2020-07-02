@@ -1,0 +1,2902 @@
+"deckscript"
+{
+	"ship_name"	"CYCLOPS"
+	"title_image"	"deckplans/cyclops/title"
+	"deck_switcher"
+	{
+		"deck_switcher_image"	"deckplans/cyclops/cyclops_deck_cutaway"
+		"deck"
+		{
+			"deck_name"	"#Ship_DeckA"
+			"x"	"2"
+			"y"	"32"
+			"width"	"169"
+			"height"	"32"
+		}
+		"deck"
+		{
+			"deck_name"	"#Ship_DeckB"
+			"x"	"2"
+			"y"	"66"
+			"width"	"169"
+			"height"	"32"
+		}
+		"deck"
+		{
+			"deck_name"	"#Ship_DeckC"
+			"x"	"2"
+			"y"	"100"
+			"width"	"169"
+			"height"	"32"
+		}
+		"deck"
+		{
+			"deck_name"	"#Ship_DeckD"
+			"x"	"2"
+			"y"	"134"
+			"width"	"169"
+			"height"	"32"
+		}
+		"deck"
+		{
+			"deck_name"	"#Ship_DeckE"
+			"x"	"2"
+			"y"	"168"
+			"width"	"169"
+			"height"	"32"
+		}
+		"deck"
+		{
+			"deck_name"	"#Ship_DeckF"
+			"x"	"6"
+			"y"	"202"
+			"width"	"161"
+			"height"	"32"
+		}
+		"deck"
+		{
+			"deck_name"	"#Ship_DeckG"
+			"x"	"16"
+			"y"	"236"
+			"width"	"141"
+			"height"	"32"
+		}
+	}
+
+	"deck"
+	{
+		"deck_name"	"#Ship_DeckA"
+		"deck_image"	"deckplans/cyclops/cyclops_deck_a"
+		"room"
+		{
+			"room_name"	"#Ship_Sickbay_Ward"
+			"icon_health"	"1"
+			"x"	"140"
+			"y"	"37"
+			"width"	"75"
+			"height"	"182"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Sickbay_Psychiatrists_Office"
+			"x"	"217"
+			"y"	"175"
+			"width"	"60"
+			"height"	"44"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Sickbay_Reception"
+			"icon_health"	"1"
+			"x"	"217"
+			"y"	"84"
+			"width"	"60"
+			"height"	"88"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Sickbay_Doctors_Office"
+			"icon_health"	"1"
+			"x"	"217"
+			"y"	"37"
+			"width"	"60"
+			"height"	"45"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Sickbay_Corridor"
+			"x"	"279"
+			"y"	"37"
+			"width"	"26"
+			"height"	"182"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Aft_Foyer"
+			"x"	"307"
+			"y"	"74"
+			"width"	"77"
+			"height"	"108"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Aft_Foyer"
+			"x"	"368"
+			"y"	"37"
+			"width"	"16"
+			"height"	"37"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Aft_Foyer"
+			"x"	"368"
+			"y"	"182"
+			"width"	"16"
+			"height"	"37"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Aft_Foyer"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"x"	"350"
+			"y"	"205"
+			"width"	"18"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Aft_Foyer"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"x"	"350"
+			"y"	"37"
+			"width"	"18"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"room_number"	"27"
+			"x"	"307"
+			"y"	"57"
+			"width"	"41"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"room_number"	"24"
+			"x"	"307"
+			"y"	"183"
+			"width"	"41"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"2"
+			"x"	"350"
+			"y"	"183"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"1"
+			"x"	"350"
+			"y"	"53"
+			"width"	"16"
+			"height"	"19"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"19"
+			"x"	"386"
+			"y"	"161"
+			"width"	"26"
+			"height"	"58"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Observation_Deck"
+			"room_number"	"18"
+			"x"	"414"
+			"y"	"193"
+			"width"	"36"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Lounge_Name_D"
+			"icon_dance"	"1"
+			"icon_drink"	"1"
+			"x"	"415"
+			"y"	"65"
+			"width"	"129"
+			"height"	"126"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Observation_Deck"
+			"room_number"	"15"
+			"x"	"414"
+			"y"	"37"
+			"width"	"38"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"12"
+			"x"	"546"
+			"y"	"37"
+			"width"	"26"
+			"height"	"52"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_For'd_Foyer"
+			"x"	"574"
+			"y"	"74"
+			"width"	"77"
+			"height"	"109"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_For'd_Foyer"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"x"	"574"
+			"y"	"205"
+			"width"	"34"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_For'd_Foyer"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"x"	"574"
+			"y"	"37"
+			"width"	"34"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"room_number"	"30"
+			"x"	"610"
+			"y"	"57"
+			"width"	"41"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Corridor"
+			"room_number"	"5"
+			"x"	"653"
+			"y"	"54"
+			"width"	"12"
+			"height"	"52"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Corridor"
+			"room_number"	"6"
+			"x"	"653"
+			"y"	"37"
+			"width"	"47"
+			"height"	"17"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Corridor"
+			"room_number"	"2"
+			"x"	"653"
+			"y"	"203"
+			"width"	"47"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Corridor"
+			"room_number"	"7"
+			"x"	"688"
+			"y"	"54"
+			"width"	"12"
+			"height"	"22"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Corridor"
+			"room_number"	"1"
+			"x"	"688"
+			"y"	"180"
+			"width"	"12"
+			"height"	"23"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"20"
+			"x"	"386"
+			"y"	"137"
+			"width"	"26"
+			"height"	"24"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"21"
+			"x"	"386"
+			"y"	"109"
+			"width"	"26"
+			"height"	"28"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"22"
+			"x"	"386"
+			"y"	"86"
+			"width"	"26"
+			"height"	"23"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"23"
+			"x"	"386"
+			"y"	"37"
+			"width"	"26"
+			"height"	"49"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Observation_Deck"
+			"room_number"	"14"
+			"x"	"452"
+			"y"	"37"
+			"width"	"53"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Observation_Deck"
+			"room_number"	"13"
+			"x"	"505"
+			"y"	"37"
+			"width"	"39"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Observation_Deck"
+			"room_number"	"17"
+			"x"	"450"
+			"y"	"193"
+			"width"	"57"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Observation_Deck"
+			"room_number"	"16"
+			"x"	"507"
+			"y"	"193"
+			"width"	"37"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"11"
+			"x"	"546"
+			"y"	"89"
+			"width"	"26"
+			"height"	"24"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"10"
+			"x"	"546"
+			"y"	"113"
+			"width"	"26"
+			"height"	"30"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"9"
+			"x"	"546"
+			"y"	"143"
+			"width"	"26"
+			"height"	"24"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"8"
+			"x"	"546"
+			"y"	"167"
+			"width"	"26"
+			"height"	"52"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"3"
+			"x"	"574"
+			"y"	"53"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"4"
+			"x"	"574"
+			"y"	"183"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Corridor"
+			"room_number"	"4"
+			"x"	"653"
+			"y"	"106"
+			"width"	"12"
+			"height"	"41"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Corridor"
+			"room_number"	"3"
+			"x"	"653"
+			"y"	"148"
+			"width"	"12"
+			"height"	"55"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Corridor"
+			"x"	"667"
+			"y"	"112"
+			"width"	"33"
+			"height"	"33"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Radio_Room"
+			"x"	"667"
+			"y"	"78"
+			"width"	"33"
+			"height"	"32"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Chart_Room"
+			"x"	"667"
+			"y"	"147"
+			"width"	"33"
+			"height"	"32"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Armoury"
+			"x"	"667"
+			"y"	"181"
+			"width"	"19"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge"
+			"image"	"deckplans/cyclops/bridge_mask"
+			"x"	"702"
+			"y"	"78"
+			"width"	"41"
+			"height"	"101"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_View_Deck"
+			"image"	"deckplans/cyclops/viewdeck_port_mask"
+			"x"	"702"
+			"y"	"58"
+			"width"	"58"
+			"height"	"43"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_View_Deck"
+			"x"	"745"
+			"y"	"101"
+			"width"	"15"
+			"height"	"56"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_View_Deck"
+			"image"	"deckplans/cyclops/viewdeck_star_mask"
+			"x"	"702"
+			"y"	"157"
+			"width"	"58"
+			"height"	"42"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_For'd_Foyer"
+			"x"	"592"
+			"y"	"183"
+			"width"	"16"
+			"height"	"22"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_For'd_Foyer"
+			"x"	"592"
+			"y"	"51"
+			"width"	"16"
+			"height"	"23"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bridge_Radio_Room"
+			"x"	"667"
+			"y"	"56"
+			"width"	"19"
+			"height"	"22"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"room_number"	"1"
+			"x"	"610"
+			"y"	"183"
+			"width"	"41"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"29"
+			"x"	"324"
+			"y"	"37"
+			"width"	"24"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"room_number"	"25"
+			"x"	"307"
+			"y"	"199"
+			"width"	"15"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcfemale"	"1"
+			"icon_wcmale"	"1"
+			"room_number"	"26"
+			"x"	"324"
+			"y"	"201"
+			"width"	"24"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"room_number"	"31"
+			"x"	"610"
+			"y"	"37"
+			"width"	"15"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcfemale"	"1"
+			"icon_wcmale"	"1"
+			"x"	"627"
+			"y"	"37"
+			"width"	"24"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"room_number"	"2"
+			"x"	"610"
+			"y"	"199"
+			"width"	"15"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcfemale"	"1"
+			"icon_wcmale"	"1"
+			"room_number"	"3"
+			"x"	"627"
+			"y"	"201"
+			"width"	"24"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"room_number"	"28"
+			"x"	"307"
+			"y"	"37"
+			"width"	"15"
+			"height"	"20"
+		}
+	}
+	"deck"
+	{
+		"deck_name"	"#Ship_DeckB"
+		"deck_image"	"deckplans/cyclops/cyclops_deck_b"
+		"room"
+		{
+			"room_name"	"#Ship_Outer_Deck"
+			"room_number"	"2"
+			"x"	"140"
+			"y"	"73"
+			"width"	"43"
+			"height"	"34"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Outer_Deck"
+			"room_number"	"2"
+			"x"	"140"
+			"y"	"107"
+			"width"	"25"
+			"height"	"43"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"26"
+			"x"	"185"
+			"y"	"106"
+			"width"	"14"
+			"height"	"45"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"28"
+			"x"	"185"
+			"y"	"179"
+			"width"	"14"
+			"height"	"40"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"24"
+			"x"	"225"
+			"y"	"106"
+			"width"	"35"
+			"height"	"45"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bank_Lobby"
+			"x"	"201"
+			"y"	"75"
+			"width"	"92"
+			"height"	"29"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bank_Lobby"
+			"icon_cash"	"1"
+			"x"	"220"
+			"y"	"52"
+			"width"	"54"
+			"height"	"23"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Games_Room"
+			"icon_dance"	"1"
+			"x"	"201"
+			"y"	"153"
+			"width"	"92"
+			"height"	"66"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"13"
+			"x"	"295"
+			"y"	"75"
+			"width"	"16"
+			"height"	"104"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"room_number"	"15"
+			"x"	"313"
+			"y"	"37"
+			"width"	"35"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"16"
+			"x"	"348"
+			"y"	"37"
+			"width"	"19"
+			"height"	"15"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"18"
+			"x"	"414"
+			"y"	"37"
+			"width"	"22"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"room_number"	"11"
+			"x"	"313"
+			"y"	"183"
+			"width"	"35"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"10"
+			"x"	"348"
+			"y"	"204"
+			"width"	"20"
+			"height"	"15"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"8"
+			"x"	"414"
+			"y"	"193"
+			"width"	"22"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"2"
+			"x"	"350"
+			"y"	"183"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"1"
+			"x"	"349"
+			"y"	"53"
+			"width"	"17"
+			"height"	"21"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Promenade_Deck"
+			"room_number"	"19"
+			"x"	"438"
+			"y"	"37"
+			"width"	"82"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Promenade_Deck"
+			"room_number"	"7"
+			"x"	"438"
+			"y"	"193"
+			"width"	"82"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"20"
+			"x"	"522"
+			"y"	"37"
+			"width"	"22"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"6"
+			"x"	"522"
+			"y"	"193"
+			"width"	"22"
+			"height"	"26"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"5"
+			"x"	"546"
+			"y"	"205"
+			"width"	"64"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"room_number"	"4"
+			"x"	"610"
+			"y"	"183"
+			"width"	"35"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"21"
+			"x"	"546"
+			"y"	"37"
+			"width"	"64"
+			"height"	"15"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"room_number"	"22"
+			"x"	"610"
+			"y"	"37"
+			"width"	"35"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"4"
+			"x"	"574"
+			"y"	"183"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"3"
+			"x"	"574"
+			"y"	"53"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"3"
+			"x"	"647"
+			"y"	"161"
+			"width"	"18"
+			"height"	"58"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Name_E"
+			"image"	"deckplans/cyclops/bar1_mask"
+			"x"	"667"
+			"y"	"58"
+			"width"	"93"
+			"height"	"19"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Name_E"
+			"x"	"745"
+			"y"	"77"
+			"width"	"15"
+			"height"	"102"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Name_E"
+			"image"	"deckplans/cyclops/bar2_mask"
+			"x"	"667"
+			"y"	"179"
+			"width"	"93"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Outer_Deck"
+			"room_number"	"1"
+			"x"	"762"
+			"y"	"107"
+			"width"	"14"
+			"height"	"42"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"5"
+			"x"	"156"
+			"y"	"37"
+			"width"	"29"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"6"
+			"x"	"156"
+			"y"	"203"
+			"width"	"29"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"27"
+			"x"	"185"
+			"y"	"151"
+			"width"	"14"
+			"height"	"28"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"25"
+			"x"	"199"
+			"y"	"106"
+			"width"	"26"
+			"height"	"45"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"29"
+			"x"	"185"
+			"y"	"70"
+			"width"	"14"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"30"
+			"x"	"185"
+			"y"	"37"
+			"width"	"14"
+			"height"	"33"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"x"	"167"
+			"y"	"109"
+			"width"	"16"
+			"height"	"38"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"23"
+			"x"	"260"
+			"y"	"106"
+			"width"	"35"
+			"height"	"45"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"14"
+			"x"	"295"
+			"y"	"37"
+			"width"	"16"
+			"height"	"38"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"12"
+			"x"	"295"
+			"y"	"179"
+			"width"	"16"
+			"height"	"40"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"17"
+			"x"	"367"
+			"y"	"37"
+			"width"	"45"
+			"height"	"15"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"9"
+			"x"	"368"
+			"y"	"204"
+			"width"	"44"
+			"height"	"15"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"2"
+			"x"	"647"
+			"y"	"93"
+			"width"	"18"
+			"height"	"68"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"1"
+			"x"	"647"
+			"y"	"37"
+			"width"	"18"
+			"height"	"56"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Outer_Deck"
+			"room_number"	"2"
+			"x"	"140"
+			"y"	"150"
+			"width"	"43"
+			"height"	"33"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Outer_Deck"
+			"room_number"	"2"
+			"x"	"140"
+			"y"	"37"
+			"width"	"14"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Outer_Deck"
+			"room_number"	"2"
+			"x"	"140"
+			"y"	"183"
+			"width"	"14"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Name_E"
+			"image"	"deckplans/cyclops/bar3_mask"
+			"x"	"718"
+			"y"	"77"
+			"width"	"27"
+			"height"	"25"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Name_E"
+			"image"	"deckplans/cyclops/bar4_mask"
+			"x"	"718"
+			"y"	"152"
+			"width"	"27"
+			"height"	"27"
+		}
+	}
+	"deck"
+	{
+		"deck_name"	"#Ship_DeckC"
+		"deck_image"	"deckplans/cyclops/cyclops_deck_c"
+		"room"
+		{
+			"room_name"	"#Ship_Male_Changing_Room"
+			"icon_shower"	"1"
+			"x"	"140"
+			"y"	"183"
+			"width"	"14"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Female_Changing_Room"
+			"x"	"140"
+			"y"	"72"
+			"width"	"43"
+			"height"	"56"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Pool_Deck"
+			"icon_drink"	"1"
+			"x"	"54"
+			"y"	"37"
+			"width"	"84"
+			"height"	"182"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Female_Changing_Room"
+			"icon_shower"	"1"
+			"x"	"140"
+			"y"	"37"
+			"width"	"14"
+			"height"	"35"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"5"
+			"x"	"156"
+			"y"	"54"
+			"width"	"27"
+			"height"	"17"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"6"
+			"x"	"156"
+			"y"	"185"
+			"width"	"27"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Swimming_Pool_Corridor"
+			"room_number"	"7"
+			"x"	"185"
+			"y"	"58"
+			"width"	"14"
+			"height"	"140"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"6"
+			"x"	"185"
+			"y"	"37"
+			"width"	"126"
+			"height"	"21"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"8"
+			"x"	"185"
+			"y"	"198"
+			"width"	"126"
+			"height"	"21"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"5"
+			"x"	"295"
+			"y"	"58"
+			"width"	"16"
+			"height"	"49"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Restaurant_Name_B"
+			"icon_meal"	"1"
+			"x"	"247"
+			"y"	"60"
+			"width"	"46"
+			"height"	"136"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"6"
+			"x"	"201"
+			"y"	"60"
+			"width"	"44"
+			"height"	"35"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"5"
+			"x"	"201"
+			"y"	"158"
+			"width"	"44"
+			"height"	"38"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Kitchen_Name_B"
+			"x"	"201"
+			"y"	"97"
+			"width"	"44"
+			"height"	"59"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Aft_Foyer"
+			"x"	"313"
+			"y"	"75"
+			"width"	"71"
+			"height"	"106"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"4"
+			"x"	"313"
+			"y"	"37"
+			"width"	"35"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"3"
+			"x"	"313"
+			"y"	"183"
+			"width"	"35"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"4"
+			"x"	"368"
+			"y"	"183"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"icon_cash"	"1"
+			"room_number"	"2"
+			"x"	"386"
+			"y"	"37"
+			"width"	"26"
+			"height"	"182"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Lounge_Name_C"
+			"x"	"414"
+			"y"	"81"
+			"width"	"130"
+			"height"	"94"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Lounge_Name_C"
+			"icon_dance"	"1"
+			"x"	"450"
+			"y"	"37"
+			"width"	"58"
+			"height"	"44"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Lounge_Name_C"
+			"icon_dance"	"1"
+			"x"	"450"
+			"y"	"175"
+			"width"	"58"
+			"height"	"44"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Boutique_Name_B"
+			"icon_shop"	"1"
+			"x"	"414"
+			"y"	"177"
+			"width"	"34"
+			"height"	"42"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Boutique_Name_A"
+			"icon_shop"	"1"
+			"x"	"414"
+			"y"	"37"
+			"width"	"34"
+			"height"	"42"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Boutique_Name_D"
+			"icon_shop"	"1"
+			"x"	"510"
+			"y"	"37"
+			"width"	"34"
+			"height"	"42"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Boutique_Name_C"
+			"icon_shop"	"1"
+			"x"	"510"
+			"y"	"177"
+			"width"	"34"
+			"height"	"41"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"icon_cash"	"1"
+			"room_number"	"1"
+			"x"	"546"
+			"y"	"37"
+			"width"	"26"
+			"height"	"182"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_For'd_Foyer"
+			"x"	"574"
+			"y"	"74"
+			"width"	"71"
+			"height"	"107"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"2"
+			"x"	"610"
+			"y"	"37"
+			"width"	"35"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"1"
+			"x"	"610"
+			"y"	"183"
+			"width"	"35"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"2"
+			"x"	"592"
+			"y"	"183"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"1"
+			"x"	"592"
+			"y"	"53"
+			"width"	"16"
+			"height"	"21"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"4"
+			"x"	"647"
+			"y"	"56"
+			"width"	"18"
+			"height"	"31"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"3"
+			"x"	"647"
+			"y"	"37"
+			"width"	"18"
+			"height"	"19"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"7"
+			"x"	"647"
+			"y"	"201"
+			"width"	"18"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Name_E"
+			"image"	"deckplans/cyclops/davybar_mask"
+			"icon_drink"	"1"
+			"x"	"667"
+			"y"	"58"
+			"width"	"93"
+			"height"	"141"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"9"
+			"x"	"762"
+			"y"	"107"
+			"width"	"14"
+			"height"	"42"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Outer_Deck"
+			"image"	"deckplans/cyclops/deck_c_bow_mask"
+			"x"	"762"
+			"y"	"37"
+			"width"	"142"
+			"height"	"182"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Outer_Deck"
+			"image"	"deckplans/cyclops/outerdeck_port_mask"
+			"x"	"688"
+			"y"	"37"
+			"width"	"74"
+			"height"	"41"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Outer_Deck"
+			"image"	"deckplans/cyclops/outerdeck_star_mask"
+			"x"	"686"
+			"y"	"177"
+			"width"	"76"
+			"height"	"42"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Male_Changing_Room"
+			"x"	"140"
+			"y"	"130"
+			"width"	"43"
+			"height"	"53"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"3"
+			"x"	"368"
+			"y"	"53"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"4"
+			"x"	"295"
+			"y"	"107"
+			"width"	"16"
+			"height"	"38"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"3"
+			"x"	"295"
+			"y"	"145"
+			"width"	"16"
+			"height"	"53"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"5"
+			"x"	"647"
+			"y"	"87"
+			"width"	"18"
+			"height"	"82"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"6"
+			"x"	"647"
+			"y"	"169"
+			"width"	"18"
+			"height"	"32"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"8"
+			"x"	"665"
+			"y"	"201"
+			"width"	"21"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Bar_Corridor"
+			"room_number"	"2"
+			"x"	"665"
+			"y"	"37"
+			"width"	"21"
+			"height"	"19"
+		}
+	}
+	"deck"
+	{
+		"deck_name"	"#Ship_DeckD"
+		"deck_image"	"deckplans/cyclops/cyclops_deck_d"
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"12"
+			"x"	"239"
+			"y"	"70"
+			"width"	"18"
+			"height"	"58"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"13"
+			"x"	"258"
+			"y"	"70"
+			"width"	"67"
+			"height"	"19"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"10"
+			"x"	"257"
+			"y"	"167"
+			"width"	"34"
+			"height"	"19"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"15"
+			"x"	"325"
+			"y"	"52"
+			"width"	"23"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"7"
+			"x"	"325"
+			"y"	"186"
+			"width"	"23"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"14"
+			"x"	"325"
+			"y"	"70"
+			"width"	"23"
+			"height"	"97"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_3rd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"19"
+			"x"	"292"
+			"y"	"129"
+			"width"	"31"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_3rd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"17"
+			"x"	"259"
+			"y"	"129"
+			"width"	"31"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_3rd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"20"
+			"x"	"292"
+			"y"	"188"
+			"width"	"31"
+			"height"	"31"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_3rd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"18"
+			"x"	"259"
+			"y"	"188"
+			"width"	"31"
+			"height"	"31"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_3rd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"14"
+			"x"	"292"
+			"y"	"91"
+			"width"	"31"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_3rd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"16"
+			"x"	"259"
+			"y"	"91"
+			"width"	"31"
+			"height"	"36"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_3rd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"13"
+			"x"	"292"
+			"y"	"37"
+			"width"	"31"
+			"height"	"31"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_3rd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"15"
+			"x"	"259"
+			"y"	"37"
+			"width"	"31"
+			"height"	"31"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Showers"
+			"icon_shower"	"1"
+			"room_number"	"6"
+			"x"	"350"
+			"y"	"75"
+			"width"	"34"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Showers"
+			"icon_shower"	"1"
+			"room_number"	"5"
+			"x"	"350"
+			"y"	"91"
+			"width"	"34"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"4"
+			"x"	"350"
+			"y"	"107"
+			"width"	"34"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Bathroom"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"3"
+			"x"	"350"
+			"y"	"129"
+			"width"	"34"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Showers"
+			"icon_shower"	"1"
+			"room_number"	"2"
+			"x"	"350"
+			"y"	"151"
+			"width"	"34"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Unisex_Showers"
+			"icon_shower"	"1"
+			"room_number"	"1"
+			"x"	"350"
+			"y"	"167"
+			"width"	"34"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"16"
+			"x"	"325"
+			"y"	"37"
+			"width"	"59"
+			"height"	"15"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"6"
+			"x"	"325"
+			"y"	"204"
+			"width"	"59"
+			"height"	"15"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"3"
+			"x"	"350"
+			"y"	"53"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"4"
+			"x"	"350"
+			"y"	"183"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"17"
+			"x"	"386"
+			"y"	"37"
+			"width"	"46"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"5"
+			"x"	"386"
+			"y"	"205"
+			"width"	"46"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"2"
+			"x"	"574"
+			"y"	"183"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"1"
+			"x"	"574"
+			"y"	"204"
+			"width"	"48"
+			"height"	"15"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"21"
+			"x"	"574"
+			"y"	"37"
+			"width"	"48"
+			"height"	"15"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_2nd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"11"
+			"x"	"386"
+			"y"	"53"
+			"width"	"45"
+			"height"	"51"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_2nd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"9"
+			"x"	"433"
+			"y"	"53"
+			"width"	"45"
+			"height"	"51"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_2nd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"7"
+			"x"	"480"
+			"y"	"53"
+			"width"	"45"
+			"height"	"51"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_2nd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"5"
+			"x"	"526"
+			"y"	"53"
+			"width"	"46"
+			"height"	"51"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_2nd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"12"
+			"x"	"386"
+			"y"	"152"
+			"width"	"45"
+			"height"	"51"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_2nd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"10"
+			"x"	"433"
+			"y"	"152"
+			"width"	"45"
+			"height"	"51"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_2nd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"8"
+			"x"	"480"
+			"y"	"152"
+			"width"	"45"
+			"height"	"51"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_2nd_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"6"
+			"x"	"527"
+			"y"	"152"
+			"width"	"45"
+			"height"	"51"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"24"
+			"x"	"610"
+			"y"	"181"
+			"width"	"12"
+			"height"	"23"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"1"
+			"x"	"574"
+			"y"	"53"
+			"width"	"16"
+			"height"	"20"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"23"
+			"x"	"574"
+			"y"	"75"
+			"width"	"48"
+			"height"	"106"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"23"
+			"x"	"565"
+			"y"	"106"
+			"width"	"9"
+			"height"	"44"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Sauna"
+			"x"	"527"
+			"y"	"106"
+			"width"	"36"
+			"height"	"44"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"25"
+			"x"	"622"
+			"y"	"114"
+			"width"	"72"
+			"height"	"28"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_1st_Class_Cabin"
+			"room_number"	"3"
+			"x"	"655"
+			"y"	"53"
+			"width"	"38"
+			"height"	"59"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_1st_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"3"
+			"x"	"624"
+			"y"	"53"
+			"width"	"31"
+			"height"	"25"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cabin_Ensuite"
+			"icon_shower"	"1"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"3"
+			"x"	"624"
+			"y"	"80"
+			"width"	"30"
+			"height"	"32"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_1st_Class_Cabin"
+			"room_number"	"4"
+			"x"	"656"
+			"y"	"144"
+			"width"	"37"
+			"height"	"59"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_1st_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"4"
+			"x"	"624"
+			"y"	"178"
+			"width"	"32"
+			"height"	"25"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cabin_Ensuite"
+			"icon_shower"	"1"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"4"
+			"x"	"624"
+			"y"	"144"
+			"width"	"30"
+			"height"	"32"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_1st_Class_Cabin"
+			"room_number"	"1"
+			"x"	"695"
+			"y"	"53"
+			"width"	"38"
+			"height"	"59"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_1st_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"1"
+			"x"	"733"
+			"y"	"53"
+			"width"	"31"
+			"height"	"25"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cabin_Ensuite"
+			"icon_shower"	"1"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"1"
+			"x"	"735"
+			"y"	"80"
+			"width"	"29"
+			"height"	"32"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_1st_Class_Cabin"
+			"room_number"	"2"
+			"x"	"695"
+			"y"	"144"
+			"width"	"38"
+			"height"	"59"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_1st_Class_Cabin"
+			"icon_sleep"	"1"
+			"room_number"	"2"
+			"x"	"734"
+			"y"	"178"
+			"width"	"30"
+			"height"	"25"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cabin_Ensuite"
+			"icon_shower"	"1"
+			"icon_wcmale"	"1"
+			"icon_wcfemale"	"1"
+			"room_number"	"2"
+			"x"	"735"
+			"y"	"144"
+			"width"	"29"
+			"height"	"32"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"11"
+			"x"	"239"
+			"y"	"128"
+			"width"	"18"
+			"height"	"58"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"9"
+			"x"	"291"
+			"y"	"167"
+			"width"	"34"
+			"height"	"19"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"18"
+			"x"	"432"
+			"y"	"37"
+			"width"	"47"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"19"
+			"x"	"479"
+			"y"	"37"
+			"width"	"47"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"20"
+			"x"	"526"
+			"y"	"37"
+			"width"	"46"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"4"
+			"x"	"432"
+			"y"	"205"
+			"width"	"47"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"3"
+			"x"	"479"
+			"y"	"205"
+			"width"	"47"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"2"
+			"x"	"526"
+			"y"	"205"
+			"width"	"47"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"22"
+			"x"	"610"
+			"y"	"53"
+			"width"	"12"
+			"height"	"22"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"26"
+			"x"	"694"
+			"y"	"114"
+			"width"	"70"
+			"height"	"28"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"8"
+			"x"	"325"
+			"y"	"167"
+			"width"	"23"
+			"height"	"19"
+		}
+	}
+	"deck"
+	{
+		"deck_name"	"#Ship_DeckE"
+		"deck_image"	"deckplans/cyclops/cyclops_deck_e"
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"4"
+			"x"	"272"
+			"y"	"120"
+			"width"	"16"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"7"
+			"x"	"332"
+			"y"	"120"
+			"width"	"28"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Dormitory"
+			"icon_sleep"	"1"
+			"room_number"	"1"
+			"x"	"290"
+			"y"	"75"
+			"width"	"68"
+			"height"	"43"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Staffroom"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"room_number"	"1"
+			"x"	"290"
+			"y"	"138"
+			"width"	"68"
+			"height"	"43"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"x"	"272"
+			"y"	"75"
+			"width"	"16"
+			"height"	"45"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"x"	"272"
+			"y"	"136"
+			"width"	"16"
+			"height"	"45"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"6"
+			"x"	"360"
+			"y"	"75"
+			"width"	"42"
+			"height"	"106"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"3"
+			"x"	"368"
+			"y"	"53"
+			"width"	"16"
+			"height"	"22"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"4"
+			"x"	"368"
+			"y"	"181"
+			"width"	"16"
+			"height"	"22"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"9"
+			"x"	"402"
+			"y"	"37"
+			"width"	"37"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"10"
+			"x"	"439"
+			"y"	"37"
+			"width"	"31"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"11"
+			"x"	"470"
+			"y"	"37"
+			"width"	"56"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"12"
+			"x"	"526"
+			"y"	"37"
+			"width"	"64"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"5"
+			"x"	"386"
+			"y"	"181"
+			"width"	"16"
+			"height"	"38"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"4"
+			"x"	"402"
+			"y"	"205"
+			"width"	"37"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"3"
+			"x"	"439"
+			"y"	"205"
+			"width"	"33"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"2"
+			"x"	"472"
+			"y"	"205"
+			"width"	"54"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"1"
+			"x"	"526"
+			"y"	"205"
+			"width"	"64"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"13"
+			"x"	"574"
+			"y"	"51"
+			"width"	"16"
+			"height"	"154"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"14"
+			"x"	"590"
+			"y"	"75"
+			"width"	"26"
+			"height"	"106"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"15"
+			"x"	"616"
+			"y"	"120"
+			"width"	"28"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"1"
+			"x"	"646"
+			"y"	"120"
+			"width"	"42"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Staffroom"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"room_number"	"2"
+			"x"	"618"
+			"y"	"75"
+			"width"	"68"
+			"height"	"43"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Dormitory"
+			"room_number"	"2"
+			"x"	"618"
+			"y"	"138"
+			"width"	"68"
+			"height"	"43"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"x"	"688"
+			"y"	"75"
+			"width"	"16"
+			"height"	"44"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"x"	"688"
+			"y"	"138"
+			"width"	"16"
+			"height"	"43"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"1"
+			"x"	"592"
+			"y"	"53"
+			"width"	"16"
+			"height"	"22"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Stairwell"
+			"room_number"	"2"
+			"x"	"592"
+			"y"	"181"
+			"width"	"16"
+			"height"	"22"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Brig_Waiting_Room"
+			"x"	"404"
+			"y"	"106"
+			"width"	"34"
+			"height"	"44"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Brig"
+			"x"	"404"
+			"y"	"152"
+			"width"	"34"
+			"height"	"51"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Security_Office"
+			"x"	"404"
+			"y"	"53"
+			"width"	"34"
+			"height"	"52"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Brig_Corridor"
+			"x"	"440"
+			"y"	"53"
+			"width"	"31"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Brig"
+			"x"	"473"
+			"y"	"53"
+			"width"	"52"
+			"height"	"150"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Brig_Shower_Block"
+			"x"	"440"
+			"y"	"150"
+			"width"	"31"
+			"height"	"53"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cell"
+			"room_number"	"1"
+			"x"	"527"
+			"y"	"53"
+			"width"	"45"
+			"height"	"24"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cell"
+			"room_number"	"2"
+			"x"	"527"
+			"y"	"79"
+			"width"	"45"
+			"height"	"23"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cell"
+			"room_number"	"3"
+			"x"	"527"
+			"y"	"104"
+			"width"	"45"
+			"height"	"23"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cell"
+			"room_number"	"4"
+			"x"	"527"
+			"y"	"129"
+			"width"	"45"
+			"height"	"24"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cell"
+			"room_number"	"5"
+			"x"	"527"
+			"y"	"155"
+			"width"	"45"
+			"height"	"23"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cell"
+			"room_number"	"6"
+			"x"	"527"
+			"y"	"180"
+			"width"	"45"
+			"height"	"23"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"3"
+			"x"	"288"
+			"y"	"120"
+			"width"	"42"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Corridor"
+			"room_number"	"8"
+			"x"	"386"
+			"y"	"37"
+			"width"	"16"
+			"height"	"38"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"2"
+			"x"	"688"
+			"y"	"119"
+			"width"	"16"
+			"height"	"18"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Brig"
+			"x"	"440"
+			"y"	"106"
+			"width"	"31"
+			"height"	"44"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Brig_Toilet_Block"
+			"x"	"440"
+			"y"	"73"
+			"width"	"31"
+			"height"	"33"
+		}
+	}
+	"deck"
+	{
+		"deck_name"	"#Ship_DeckF"
+		"deck_image"	"deckplans/cyclops/cyclops_deck_f"
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"room_number"	"2"
+			"x"	"288"
+			"y"	"133"
+			"width"	"19"
+			"height"	"49"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"icon_drink"	"1"
+			"icon_meal"	"1"
+			"icon_dance"	"1"
+			"icon_sleep"	"1"
+			"room_number"	"4"
+			"x"	"351"
+			"y"	"57"
+			"width"	"57"
+			"height"	"142"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"3"
+			"x"	"410"
+			"y"	"71"
+			"width"	"14"
+			"height"	"114"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"3"
+			"x"	"410"
+			"y"	"57"
+			"width"	"94"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"3"
+			"x"	"450"
+			"y"	"71"
+			"width"	"14"
+			"height"	"114"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"3"
+			"x"	"410"
+			"y"	"185"
+			"width"	"94"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"3"
+			"x"	"490"
+			"y"	"71"
+			"width"	"14"
+			"height"	"114"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"2"
+			"x"	"506"
+			"y"	"120"
+			"width"	"84"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"1"
+			"x"	"592"
+			"y"	"71"
+			"width"	"14"
+			"height"	"114"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"1"
+			"x"	"592"
+			"y"	"57"
+			"width"	"80"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"1"
+			"x"	"592"
+			"y"	"185"
+			"width"	"80"
+			"height"	"14"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"1"
+			"x"	"672"
+			"y"	"57"
+			"width"	"14"
+			"height"	"142"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"1"
+			"x"	"632"
+			"y"	"71"
+			"width"	"14"
+			"height"	"114"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"3"
+			"x"	"688"
+			"y"	"183"
+			"width"	"35"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"4"
+			"x"	"688"
+			"y"	"57"
+			"width"	"35"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"2"
+			"x"	"706"
+			"y"	"73"
+			"width"	"17"
+			"height"	"110"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"room_number"	"3"
+			"x"	"688"
+			"y"	"138"
+			"width"	"16"
+			"height"	"45"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"room_number"	"4"
+			"x"	"688"
+			"y"	"73"
+			"width"	"16"
+			"height"	"45"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"1"
+			"x"	"725"
+			"y"	"120"
+			"width"	"51"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Cargo_Hold"
+			"x"	"778"
+			"y"	"89"
+			"width"	"63"
+			"height"	"78"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"room_number"	"1"
+			"x"	"290"
+			"y"	"72"
+			"width"	"20"
+			"height"	"48"
+		}
+	}
+	"deck"
+	{
+		"deck_name"	"#Ship_DeckG"
+		"deck_image"	"deckplans/cyclops/cyclops_deck_g"
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"room_number"	"1"
+			"x"	"290"
+			"y"	"75"
+			"width"	"16"
+			"height"	"43"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Stairwell"
+			"room_number"	"2"
+			"x"	"290"
+			"y"	"138"
+			"width"	"16"
+			"height"	"43"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"1"
+			"x"	"290"
+			"y"	"120"
+			"width"	"55"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Crew_Corridor"
+			"room_number"	"2"
+			"x"	"346"
+			"y"	"57"
+			"width"	"26"
+			"height"	"142"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"1"
+			"x"	"374"
+			"y"	"64"
+			"width"	"36"
+			"height"	"128"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"3"
+			"x"	"504"
+			"y"	"120"
+			"width"	"45"
+			"height"	"16"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"7"
+			"x"	"546"
+			"y"	"57"
+			"width"	"4"
+			"height"	"61"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"8"
+			"x"	"546"
+			"y"	"138"
+			"width"	"4"
+			"height"	"61"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"12"
+			"x"	"592"
+			"y"	"57"
+			"width"	"94"
+			"height"	"142"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"2"
+			"x"	"410"
+			"y"	"57"
+			"width"	"94"
+			"height"	"142"
+		}
+		"room"
+		{
+			"room_name"	"#Ship_Engineering"
+			"room_number"	"9"
+			"x"	"549"
+			"y"	"120"
+			"width"	"43"
+			"height"	"16"
+		}
+	}
+}

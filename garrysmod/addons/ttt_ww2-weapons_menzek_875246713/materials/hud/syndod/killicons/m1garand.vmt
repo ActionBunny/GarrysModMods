@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"HUD\syndod\killicons\m1garand"
+	$translucent 1
+}

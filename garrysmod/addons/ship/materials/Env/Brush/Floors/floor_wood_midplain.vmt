@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	//"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/floors/floor_wood_midplain"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	//"$envMap"				"env_cubemap"
+	//"$envMapTint"				"[1 1 1]"
+	/"$envMapSphere"				0
+	/"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"			0
+	//"$normalMapAlphaEnvMapMask"			1
+	//"$bumpMap"				"env/brush/floors/floor_wood_darkplain_normal"
+	"$surfaceprop" "Wood_Plank"
+}

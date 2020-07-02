@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\watch\WatchDiff"
+	"bumpmap" "models\weapons\v_models\watch\WatchNormals"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.40 .40 .40]"
+}

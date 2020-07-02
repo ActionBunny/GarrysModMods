@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "char/f_flapper_3"
+	"$nodecal" 1
+	"$halflambert"		1
+
+}

@@ -1,0 +1,249 @@
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+"Announcer.NewRoundIn"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_NewRoundIn.wav"
+}
+"Announcer.5"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_5.wav"
+}
+"Announcer.4"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_4.wav"
+}
+"Announcer.3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_3.wav"
+}
+"Announcer.2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_2.wav"
+}
+"Announcer.1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_1.wav"
+}
+"Announcer.30secs"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_30secs.wav"
+}
+"Announcer.60secs"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_60secs.wav"
+}
+"Announcer.90secs"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_90secs.wav"
+}
+"Announcer.DeathmatchOver"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_DeathmatchOver.wav"
+}
+"Announcer.DuelAssigned"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_DuelAssigned.wav"
+}
+"Announcer.DuelOver"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_DuelOver.wav"
+}
+"Announcer.Eliminated"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_Eliminated.wav"
+}
+"Announcer.EliminatedQuarry"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_EliminatedQuarry.wav"
+}
+"Announcer.EliminationOver"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_EliminationOver.wav"
+}
+"Announcer.HuntOn"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_HuntOn.wav"
+}
+"Announcer.HuntOver"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_HuntOver.wav"
+}
+"Announcer.NewDeathmatch"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_NewDeathmatch.wav"
+}
+"Announcer.NewDuel"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_NewDuel.wav"
+}
+"Announcer.NewHunt"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_NewHunt.wav"
+}
+"Announcer.NewQuary"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_NewQuary.wav"
+}
+"Announcer.NewRound"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_NewRound.wav"
+}
+"Announcer.QuarryAssigned"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_QuarryAssigned.wav"
+}
+"Announcer.QuarryAssignedDuel"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_QuarryAssignedDuel.wav"
+}
+"Announcer.RoundOver"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_RoundOver.wav"
+}
+"Announcer.WaitRound"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_WaitRound.wav"
+}
+"Announcer.WonDeathmatch"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_WonDeathmatch.wav"
+}
+"Announcer.WonDuel"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_WonDuel.wav"
+}
+"Announcer.WonElimination"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_WonElimination.wav"
+}
+"Announcer.WonHunt"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"100"
+	"wave"		"voiceover/announcer/Announcer_WonHunt.wav"
+}

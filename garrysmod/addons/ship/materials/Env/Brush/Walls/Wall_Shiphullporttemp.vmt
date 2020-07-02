@@ -1,0 +1,9 @@
+//
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"Env/Brush/Walls/Wall_Shiphullporttemp"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$surfaceprop" "metal"
+}

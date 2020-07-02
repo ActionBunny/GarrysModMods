@@ -1,0 +1,10 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/obj/christmas/christmas_pud"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$alphatest"				1
+}

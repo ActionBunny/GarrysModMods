@@ -1,0 +1,24 @@
+
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/fx/fx_water_c"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$alpha"				1
+	"$envMap"				"env_cubemap"
+	"$envMapTint"				"[0.6999999881 0.6999999881 0.6999999881]"
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"			1
+	"$normalMapAlphaEnvMapMask"			0
+"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	.1
+			"texturescrollangle" 	0.00
+		}
+	}
+}

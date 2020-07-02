@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "char/thatcher"
+//	"$halflambert"		1
+	"$nodecal" "1"
+}

@@ -1,0 +1,16 @@
+// file to specify which game modes are available for random selection
+// Only used if ship_game_mode_random is set to 1
+
+// Duel mode (ship_game_mode 2) is not allowed as a random mode
+// If no valid modes are defined in this file or file is deleted then
+// all modes (expect duel) are available for the server to choose from
+
+// Make changes here. Value "1" is on, value "0" is off
+"RandomModes"
+{
+	"0" "1" //hunt
+	"1" "1" //elimination
+	"3" "1" //deathmatch
+	"4" "1" //team vip
+	"5" "1" //team elimination
+}

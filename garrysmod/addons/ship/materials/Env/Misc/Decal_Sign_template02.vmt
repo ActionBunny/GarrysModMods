@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "env/misc/Decal_Sign_template02"
+    "$decal" 1
+    "$decalscale" 0.1
+    "$translucent" 1
+    "$alpha"		1
+}

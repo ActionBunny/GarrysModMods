@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "HUD\red_up"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

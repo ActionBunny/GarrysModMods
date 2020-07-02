@@ -1,0 +1,1 @@
+{"Show found bodies":true,"Show radio commands":false,"Show disguisings":false,"Show credit changes":false,"Show weapon purchases":true,"Show C4 logs":true,"Show kills":true,"Show grenade throws":true,"Show damage":true,"Show fall damage":false,"Show DNA":true,"Show teleports":true,"Show suicides":true}

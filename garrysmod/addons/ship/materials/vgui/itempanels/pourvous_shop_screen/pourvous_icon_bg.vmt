@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/itempanels/pourvous_shop_screen/pourvous_icon_bg"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+}

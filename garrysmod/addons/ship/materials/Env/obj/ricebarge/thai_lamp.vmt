@@ -1,0 +1,10 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/obj/ricebarge/thai_lamp"
+	"$selfIllum"			1
+	"$translucent"			0
+	"$alpha"				1
+}

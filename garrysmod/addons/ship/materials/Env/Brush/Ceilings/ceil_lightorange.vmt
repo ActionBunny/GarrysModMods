@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	//"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/ceilings/ceil_lightorange"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$envMap"				"env_cubemap"
+	"$envMapTint"				"[1 1 1]"
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"			1
+	"$normalMapAlphaEnvMapMask"			0
+	//"$bumpMap"				"env/brush/ceilings/"
+	"$surfaceprop" "plaster"
+}

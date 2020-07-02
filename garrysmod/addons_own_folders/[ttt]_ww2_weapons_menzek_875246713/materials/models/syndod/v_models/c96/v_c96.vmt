@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\syndod\v_models\c96/v_c96"
+	"$bumpmap" "models\weapons\syndod\v_models\c96/v_c96_n"
+}

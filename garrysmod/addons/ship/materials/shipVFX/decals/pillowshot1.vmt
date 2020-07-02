@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "shipVFX/decals/pillowshot1"
+	"$decalscale" 0.15
+}

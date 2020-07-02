@@ -1,0 +1,7 @@
+"decalModulate"
+{
+    "$basetexture" "env/misc/Decal_wallcrack02"
+    "$decal" 1
+    "$alpha"				1
+    "$decalscale" 0.2
+}

@@ -1,0 +1,11 @@
+
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/textiles/textiles_towelbluestripe"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$bumpMap"				"env/textiles/textiles_towelbluestripe_normal"
+	"$nocull"			1
+}

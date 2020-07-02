@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/csi/Inv/emptysyringe"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

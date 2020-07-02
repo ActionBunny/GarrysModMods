@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Env/Brush/Floors/floor_tiles_humbug"
+	"$envmapcontrast" 1
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$envMap"				"env_cubemap"
+	"$envMapTint"				"[0.3 0.3 0.3]"
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"				1
+	"$normalMapAlphaEnvMapMask"			0
+	"$surfaceprop" "tile"
+}

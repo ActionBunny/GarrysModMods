@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"env/fx/vol_lighta"
+	"$additive" "1"
+	"$nocull"			1
+	"$model" "1"
+	"$nofullbright"			1
+}

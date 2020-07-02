@@ -1,0 +1,16 @@
+// This file is modified automatically
+// Version is of format
+// x.y.z
+// where
+// x - arbitrary version prefix. This should be updated manually in this file.
+//        if this is updated then Version should be changed to "0"
+// y - auto-incrementing version number. Incremented each time a release build is made
+// z - auto-incrementing build number. Incremented each time the nightly build checks in new code
+
+
+"Version"
+{
+	"Prefix"		"1"
+	"SubVersion"		"276"
+	"Build"			"405"
+}

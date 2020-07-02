@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/csi/cash/cash_minus100"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$ignorez" 1
+}

@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"char/f_beads"
+	"$nocull" 				1
+	"$translucent" 			1
+	"$alpha"				1
+	"$color"				"[1 1 1]"
+	"$model"				1
+	"$selfIllum"			0
+	"$halflambert"		1
+	"$nodecal" "1"
+
+
+}

@@ -1,0 +1,236 @@
+// Channels
+//	CHAN_AUTO		= 0,
+//	CHAN_WEAPON		= 1,
+//	CHAN_VOICE		= 2,
+//	CHAN_ITEM		= 3,
+//	CHAN_BODY		= 4,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+"Player.DenyWeaponSelection"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_50dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"#UI/InventoryError.wav"
+}
+
+"Player.WeaponSelected"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.32"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"common/null.wav"
+}
+
+"Player.WeaponSelectionClose"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.32"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"common/null.wav"
+}
+
+"Player.WeaponSelectionMoveSlot"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.32"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"common/null.wav"
+}
+
+"Ship.Use"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.32"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/null.wav"
+}
+
+"Ship.UseDeny"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_50dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"#UI/InventoryError.wav"
+}
+
+"HudChat.Message"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+	"wave"		"common/null.wav"
+}
+
+
+"HUD.Csi.open"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+	"wave"		"#UI/UIoptions.wav"
+}
+
+
+"UI.select"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.7"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/InventoryClick.wav"
+}
+
+"UI.options"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/UIoptions.wav"
+}
+
+
+//Doesn't make any difference, think it's hardcoded asstill using UIhighlight.wav
+"UI.highlight"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/FrontEndScroll.wav"
+}
+
+
+
+"HUD.needsalert"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/NeedsAlert.wav"
+}
+
+
+"HUD.needsappear"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/NeedsAppear.wav"
+}
+
+
+
+
+"HUD.Highlight"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/HUDselectHighlight.wav"
+}
+
+
+
+"HUD.Options"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/UIoptions.wav"
+}
+
+
+
+"HUD.CashExchange"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/HUDcashexchange.wav"
+}
+
+
+
+"Inventory.Click"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/InventoryClick.wav"
+}
+
+
+
+"Inventory.ClothesSpin"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"UI/Inventory_ClothesSpin.wav"
+}
+
+
+"RedZone.On"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.7"
+	"soundlevel"  	"SNDLVL_50dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"UI/RedZoneOn.wav"
+}
+
+
+"RedZone.Off"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.7"
+	"soundlevel"  	"SNDLVL_50dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"UI/RedZoneOff.wav"
+}
+
+"MFK.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.4"
+	"soundlevel"  	"SNDLVL_50dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"UI/UIoptions.wav"
+}
+
+"HUD.Timer"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.7"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/HUDtimer_Loop.wav"
+}
+"HUD.NoCash"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.7"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"#UI/HUDnocash.wav"
+}
+"Inventory.Error"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_50dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"#UI/InventoryError.wav"
+}

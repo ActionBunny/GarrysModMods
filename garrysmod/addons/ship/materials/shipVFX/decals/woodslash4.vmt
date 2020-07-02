@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "shipVFX/decals/woodslash4"
+	"$decalscale" 0.2
+	"$translucent" 1
+	"$decal" 1
+}

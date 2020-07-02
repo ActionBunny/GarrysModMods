@@ -1,0 +1,4273 @@
+"sprites/640_hud"
+{
+	TextureData
+	{
+//		"crosshair"
+//		{
+//				"file"		"sprites/qi_center"
+//				"x"			"0"
+//				"y"			"0"
+//				"width"		"40"
+//				"height"	"40"
+//		}
+//		"crosshair_left"
+//		{
+//				"font"		"QuickInfo"
+//				"character"	"("
+//		}
+//		"crosshair_right"
+//		{
+//				"font"		"QuickInfo"
+//				"character"	")"
+//		}
+
+	//
+	// OBJECTIVE IMAGES FOR SP - IF YOU ADD A NEW ONE HERE, ADD IT TO THE LIST IN THE .FGD
+	// The names of these should also match up with local tokens in ship_english.txt which will
+	// be displayed on the HUD instead of the usual Quarry Name
+	//
+	
+	"Helmet"
+	{		
+		"file"		"sprites/items/inv_helmet"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"Painting"
+	{		
+		"file"		"sprites/items/inv_rembrandt"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"HolyGrail"
+	{		
+		"file"		"sprites/items/inv_holygrail"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"Ambassador"
+	{		
+		"file"		"sprites/items/inv_sp_ambassador"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"Barman"
+	{		
+		"file"		"sprites/items/inv_sp_barman"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"Bellboy"
+	{		
+		"file"		"sprites/items/inv_sp_bellboy"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"Fence"
+	{		
+		"file"		"sprites/items/inv_sp_fence"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"Grainger"
+	{		
+		"file"		"sprites/items/inv_sp_grainger"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"MissTweed"
+	{		
+		"file"		"sprites/items/inv_sp_miss_tweed"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"Radar"
+	{		
+		"file"		"sprites/items/inv_sp_radar"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"Takamura"
+	{		
+		"file"		"sprites/items/inv_sp_takamura"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"Bible"
+	{		
+		"file"		"sprites/items/inv_thebible"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+
+	"BankManager"
+	{		
+		"file"		"sprites/items/inv_sp_bank_manager"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}	
+
+	"Captain"
+	{		
+		"file"		"sprites/items/inv_sp_captain"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}	
+
+	"Kidnapper"
+	{		
+		"file"		"sprites/items/inv_sp_kidnapper"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}	
+
+	"SPQuarry"
+	{		
+		"file"		"sprites/items/inv_sp_quarry"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+
+	"Thug"
+	{		
+		"file"		"sprites/items/inv_sp_thug"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}
+
+	"Doppelganger"
+	{		
+		"file"		"sprites/items/inv_sp_doppelganger"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}	
+
+	"BillPope"
+	{		
+		"file"		"sprites/items/inv_sp_billpope"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}		
+
+	"PoisonSyringe"
+	{		
+		"file"		"sprites/items/inv_syringe"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}		
+
+	"SleepSyringe"
+	{		
+		"file"		"sprites/items/inv_syringe_sleep"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}			
+
+	"OutfitMaleGuard"
+	{		
+		"file"		"sprites/costume/male_guard"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}			
+
+	"BarmanMark1"
+	{		
+		"file"		"sprites/items/inv_sp_mark1"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}			
+
+	"BarmanMark2"
+	{		
+		"file"		"sprites/items/inv_sp_mark2"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}			
+
+	"BarmanMark3"
+	{		
+		"file"		"sprites/items/inv_sp_mark3"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}			
+
+	"BarmanMark4"
+	{		
+		"file"		"sprites/items/inv_sp_mark4"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}			
+
+	"BarmanMark5"
+	{		
+		"file"		"sprites/items/inv_sp_mark5"
+		"x"			"0"
+		"y"			"0"
+		"width"		"128"
+		"height"	"128"
+	}	
+	
+	//
+	// END SP OBJECTIVE IMAGES
+	//
+	
+	
+
+	"JailWindow"
+	{
+		"file"		"hud/jail_window"
+		"x"		"0"
+		"y"		"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"JailWindow_VIP"
+	{
+		"file"		"hud/vip_jail_window"
+		"x"		"0"
+		"y"		"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"SickbayOverlay"
+	{
+		"file"		"hud/medical_bg"
+		"x"		"0"
+		"y"		"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"JailedOverlay"
+	{
+		"file"		"hud/jailed_overlay"
+		"x"		"0"
+		"y"		"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"JailedOverlay_VIP"
+	{
+		"file"		"hud/vip_jailed_overlay"
+		"x"		"0"
+		"y"		"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"RingBorder128"
+	{
+		"file"		"hud/ring_128_trans"
+		"x"		"0"
+		"y"		"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"RingBorder128_VIP"
+	{
+		"file"		"hud/vip_ring_128_trans"
+		"x"		"0"
+		"y"		"0"
+		"width"		"128"
+		"height"	"128"
+	}
+	
+	"PlainBG128"
+	{
+		"file"		"hud/background_128_circle"
+		"x"		"0"
+		"y"		"0"
+		"width"		"128"
+		"height"	"128"
+	}
+
+
+	"CourtSlip"
+	{
+		"file"		"vgui/court_slip"
+		"x"		"185"
+		"y"		"59"
+		"width"		"654"
+		"height"	"393"
+	}
+
+	// CSI Crosshair Icon
+        "csi_crosshair"
+        {
+                        "file"          "vgui/csi/common/examine"
+                        "x"             "0"
+                        "y"             "0"
+                        "width"         "64"
+                        "height"        "64"
+        }        
+        
+        "EyeOfDoom"
+        {
+            "file"          "HUD/white_eye"
+            "x"             "0"
+            "y"             "0"
+            "width"         "128"
+            "height"        "128"
+        }       
+        
+        "EyeOfDoomBG"
+        {
+            "file"          "HUD/ring_plain"
+            "x"             "0"
+            "y"             "0"
+            "width"         "128"
+            "height"        "128"
+        }
+        
+		"HudSecurityTrespass"
+		{
+			"file"			"vgui/csi/trespass/trespass"
+			"x"				"0"
+			"y"				"0"
+			"width"			"64"
+			"height"		"64"
+		}
+        
+         
+        "ShipFakeEquipment"
+        {
+			"file"		"HUD/Hot-Items-Weapon"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"256"
+        }
+                
+        "ShipSecondaryMessageBackground"
+        {
+			"file"		"HUD/SmallMessageBox"
+			"x"			"0"
+			"y"			"0"
+			"width"		"512"
+			"height"	"64"
+        }
+                
+        "ShipPrimaryMessageBackground"
+        {
+			"file"		"HUD/VitalMessage"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"128"
+        }
+
+		"HudClothingPlayer"
+		{
+			"file"		"HUD/PlayerPortrait"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudClothingPatient"
+		{
+			"file"		"hud/Clothing/Patient"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"256"
+		}
+		
+		"HudClothingGuard"
+		{
+			"file"		"hud/Clothing/Guard"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"256"
+		}
+
+		"HudHelp"
+		{
+			"file"		"HUD/Help/help"
+			"x"			"0"
+			"y"			"128"
+			"width"		"1024"
+			"height"	"786"
+		}
+
+		"HudMission1"
+		{
+			"file"		"HUD/Help/mission_push"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+
+		"HudMission2"
+		{
+			"file"		"HUD/Help/mission_soap"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+
+		"HudMission3"
+		{
+			"file"		"HUD/Help/mission_overboard"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+
+		"HudMission4"
+		{
+			"file"		"HUD/Help/mission_poison"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+
+		"HudMission5"
+		{
+			"file"		"HUD/Help/mission_heartmonitor"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+
+		"HudMission6"
+		{
+			"file"		"HUD/Help/mission_glittersmash"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+		
+		"HudEndMission_Success"
+		{
+			"file"		"HUD/EndMission/Missionsuccess"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+		
+		"HudEndMission_Fail"
+		{
+			"file"		"HUD/EndMission/Missionfailed"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}		
+
+		"HudEndMission_BustedByCamera"
+		{
+			"file"		"HUD/EndMission/Bustedcamera"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+		
+		"HudEndMission_BustedByGuard"
+		{
+			"file"		"HUD/EndMission/BustedGuard"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+		
+		"HudEndMission_BustedByNurse"
+		{
+			"file"		"HUD/EndMission/BustedWitness"
+			"x"			"0"
+			"y"			"0"
+			"width"		"1024"
+			"height"	"256"
+		}
+
+		"HudIdentityBG"
+		{
+			"file"		"HUD/Needs/hudbg_identity"
+			"x"			"0"
+			"y"			"0"
+			"width"		"199"
+			"height"	"154"
+		}
+
+		"HudIdentityPanel"
+		{
+			"file"		"HUD/Needs/NeedsBar"
+			"x"			"1"
+			"y"			"2"
+			"width"		"131"
+			"height"	"32"
+		}
+	
+		"HudSecurityCamera"
+		{
+			"file"		"HUD/camera_64"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudSecurityGuard"
+		{
+			"file"		"HUD/security_shield"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		"HudSecurityPassenger"
+		{
+			"file"		"HUD/passenger_witness"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		"HudQuarryRing"
+		{
+			"file"		"HUD/quarry"
+			"x"			"0"
+			"y"			"0"
+			"width"		"160"
+			"height"	"160"
+		}
+		
+		"HudQuarryRing_VIP"
+		{
+			"file"		"HUD/vip_quarry"
+			"x"			"0"
+			"y"			"0"
+			"width"		"160"
+			"height"	"160"
+		}
+		
+		"HudQuarryPlainBG"
+		{
+			"file"		"HUD/quarry_ring_bg"
+			"x"			"0"
+			"y"			"0"
+			"width"		"160"
+			"height"	"160"
+		}
+
+		"HudQuarryPicture"
+		{
+			"file"		"HUD/ring_plain"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudQuarryAnon"
+		{
+			"file"		"hud/quarry_unknown"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudQuarryNone"
+		{
+			"file"		"hud/no_quarry"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudQuarryKilledByHunter"
+		{
+			"file"		"hud/dead_player"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudQuarryKilled"
+		{
+			"file"		"hud/dead_quarry"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudQuarryName"
+		{
+			"file"		"HUD/Needs/NeedsBar"
+			"x"			"1"
+			"y"			"2"
+			"width"		"130"
+			"height"	"30"
+		}
+		
+		"HudWinnerRing"
+		{			
+			"file"		"vgui/score_board/game_winner"
+			"x"			"1"
+			"y"			"2"
+			"width"		"512"
+			"height"	"256"
+		}
+
+		"HudActiveObjectsBG"
+		{
+			"file"		"HUD/Needs/hudbg_activeo"
+			"x"			"0"
+			"y"			"0"
+			"width"		"198"
+			"height"	"103"
+		}
+
+		"HudActiveObjectsPanel"
+		{
+			"file"		"HUD/Needs/NeedsBar"
+			"x"			"1"
+			"y"			"74"
+			"width"		"113"
+			"height"	"77"
+		}
+
+		"HudActiveObjectHands"
+		{
+			"file"		"HUD/Needs/NeedsBar"
+			"x"			"120"
+			"y"			"77"
+			"width"		"110"
+			"height"	"71"
+		}
+
+		//start of the object items
+		"HudActiveObjectSoapReady"
+		{
+			"file"		"vgui/csi/Inv/soap"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudActiveObjectSoapHolstered"
+		{
+			"file"		"vgui/csi/Inv/soap_hol"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudActiveObjectPoisonReady"
+		{
+			"file"		"vgui/csi/Inv/poison"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudActiveObjectPoisonHolstered"
+		{
+			"file"		"vgui/csi/Inv/poison_hol"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudActiveObjectHypodermicEmptyReady"
+		{
+			"file"		"vgui/csi/Inv/emptysyringe"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudActiveObjectHypodermicEmptyHolstered"
+		{
+			"file"		"vgui/csi/Inv/emptysyringe_hol"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudActiveObjectHypodermicFullReady"
+		{
+			"file"		"vgui/csi/Inv/fullsyringe"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudActiveObjectHypodermicFullHolstered"
+		{
+			"file"		"vgui/csi/Inv/fullsyringe_hol"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		//end of active object items
+
+		"HudBottomBar"
+		{
+			"file"		"HUD/Needs/hudbg_bottombar"
+			"x"			"0"
+			"y"			"0"
+			"width"		"623"
+			"height"	"27"
+		}
+
+		"HudInfoBarBG"
+		{
+			"file"		"HUD/Needs/hudbg_infobar"
+			"x"			"0"
+			"y"			"0"
+			"width"		"624"
+			"height"	"65"
+		}
+
+		"HudInfoBar"
+		{
+			"file"		"HUD/Needs/InfoBar"
+			"x"			"0"
+			"y"			"0"
+			"width"		"577"
+			"height"	"32"
+		}
+
+//OL_NOTE the panel is part of the infobar BG for now...
+//		"HudInfoBarPanel"
+//		{
+//			"file"		"HUD/Needs/NeedBars"
+//			"x"			"22"
+//			"y"			"16"
+//			"width"		"widthofpanel"
+//			"height"	"heightofpanel"
+//		}
+
+		"HudSprintIcon"
+		{
+			"file"	"HUD/sprint"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+			
+		}
+
+		"HudMoneyBagIcon"
+		{
+			"file"	"HUD/moneybag"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+			
+		}
+
+		"HudAmmoIcon"
+		{
+			"file"	"HUD/ammo"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+			
+		}
+
+		"HudNeedsBG"
+		{
+			"file"		"HUD/NeedRing"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsBG_VIP"
+		{
+			"file"		"HUD/vip_NeedRing"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsBGRedGlow"
+		{
+			"file"		"HUD/ring_red_glow"
+			"x"		"24"
+			"y"		"28"
+			"width"		"78"
+			"height"	"78"
+		}
+
+		"HudNeedsBGGreenGlow"
+		{
+			"file"		"HUD/ring_green_glow"
+			"x"		"24"
+			"y"		"28"
+			"width"		"78"
+			"height"	"78"
+		}
+
+		"HudNeedsBGWhiteGlow"
+		{
+			"file"		"HUD/ring_white_glow"
+			"x"		"24"
+			"y"		"28"
+			"width"		"78"
+			"height"	"78"
+		}
+
+		"HudNeedsBGRedGlow_VIP"
+		{
+			"file"		"HUD/vip_ring_red_glow"
+			"x"		"24"
+			"y"		"28"
+			"width"		"78"
+			"height"	"78"
+		}
+
+		"HudNeedsBGGreenGlow_VIP"
+		{
+			"file"		"HUD/vip_ring_green_glow"
+			"x"		"24"
+			"y"		"28"
+			"width"		"78"
+			"height"	"78"
+		}
+
+		"HudNeedsBGWhiteGlow_VIP"
+		{
+			"file"		"HUD/vip_ring_white_glow"
+			"x"		"24"
+			"y"		"28"
+			"width"		"78"
+			"height"	"78"
+		}
+
+		"HudNeedsRedUpArrow"
+		{
+			"file"		"HUD/red_up"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+
+		"HudNeedsGreenDownArrow"
+		{
+			"file"		"HUD/green_down"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+
+		"HudNeedBarsPanel"
+		{
+			"file"		"HUD/Needs/NeedsBar2"
+			"x"			"0"
+			"y"			"0"
+			"width"		"130"
+			"height"	"33"
+		}
+
+
+		"HudNeedsDrink"
+		{
+			"file"		"vgui/csi/drink/drink"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsFood"
+		{
+			"file"		"vgui/csi/food/food"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsPee"
+		{
+			"file"		"vgui/csi/toilet/pee"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsPoo"
+		{
+			"file"		"vgui/csi/toilet/poo"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsBoredom"
+		{
+			"file"		"vgui/csi/books/read"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsHealth"
+		{
+			"file"		"vgui/csi/sickbay/heal"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsFatigue"
+		{
+			"file"		"vgui/csi/chair/sleep"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsLonely"
+		{
+			"file"		"vgui/csi/talk/talk"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedsDirty"
+		{
+			"file"		"vgui/csi/shower/wash"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudMrX"
+		{
+			"file"		"vgui/csi/MrX/MrXIcon"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"crosshair_default"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"48"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		
+		"HudCompassBG"
+		{
+				"file"		"hud/player_info_compass"
+				"x"			"0"
+				"y"			"0"
+				"width"		"128"
+				"height"	"128"			
+		}
+		
+		"HudCompassBG_VIP"
+		{
+				"file"		"hud/vip_player_info_compass"
+				"x"			"0"
+				"y"			"0"
+				"width"		"128"
+				"height"	"128"			
+		}
+		
+
+		"HudNeedPie0"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_000"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie1"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_001"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie2"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_002"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie3"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_003"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie4"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_004"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie5"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_005"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie6"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_006"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie7"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_007"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie8"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_008"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie9"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_009"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie10"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_010"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie11"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_011"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie12"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_012"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie13"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_013"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie14"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_014"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie15"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_015"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie16"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_016"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie17"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_017"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie18"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_018"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie19"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_019"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie20"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_020"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie21"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_021"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie22"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_022"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie23"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_023"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie24"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_024"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie25"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_025"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie26"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_026"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie27"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_027"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie28"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_028"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie29"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_029"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie30"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_030"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie31"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_031"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie32"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_032"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie33"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_033"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie34"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_034"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie35"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_035"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie36"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_036"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie37"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_037"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie38"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_038"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie39"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_039"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie40"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_040"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie41"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_041"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie42"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_042"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie43"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_043"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie44"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_044"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie45"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_045"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie46"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_046"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie47"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_047"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie48"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_048"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie49"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_049"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie50"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_050"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie51"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_051"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie52"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_052"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie53"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_053"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie54"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_054"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie55"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_055"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie56"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_056"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie57"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_057"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie58"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_058"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie59"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_059"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie60"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_060"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie61"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_061"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie62"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_062"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie63"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_063"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie64"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_064"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie65"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_065"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie66"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_066"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie67"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_067"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie68"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_068"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie69"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_069"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie70"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_070"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie71"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_071"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie72"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_072"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie73"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_073"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie74"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_074"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie75"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_075"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie76"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_076"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie77"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_077"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie78"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_078"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie79"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_079"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie80"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_080"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie81"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_081"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie82"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_082"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie83"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_083"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie84"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_084"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie85"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_085"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie86"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_086"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie87"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_087"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie88"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_088"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie89"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_089"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie90"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_090"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie91"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_091"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie92"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_092"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie93"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_093"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie94"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_094"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie95"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_095"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie96"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_096"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie97"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_097"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie98"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_098"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie99"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_099"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"HudNeedPie100"
+		{
+			"file"		"HUD/Needs/piechart_small/piechart_small_100"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		
+
+		"HudNeedPie128_0"
+		{
+			"file"		"HUD/Needs/piechart/piechart_000"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_1"
+		{
+			"file"		"HUD/Needs/piechart/piechart_001"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_2"
+		{
+			"file"		"HUD/Needs/piechart/piechart_002"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_3"
+		{
+			"file"		"HUD/Needs/piechart/piechart_003"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_4"
+		{
+			"file"		"HUD/Needs/piechart/piechart_004"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_5"
+		{
+			"file"		"HUD/Needs/piechart/piechart_005"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_6"
+		{
+			"file"		"HUD/Needs/piechart/piechart_006"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_7"
+		{
+			"file"		"HUD/Needs/piechart/piechart_007"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_8"
+		{
+			"file"		"HUD/Needs/piechart/piechart_008"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_9"
+		{
+			"file"		"HUD/Needs/piechart/piechart_009"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_10"
+		{
+			"file"		"HUD/Needs/piechart/piechart_010"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_11"
+		{
+			"file"		"HUD/Needs/piechart/piechart_011"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_12"
+		{
+			"file"		"HUD/Needs/piechart/piechart_012"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_13"
+		{
+			"file"		"HUD/Needs/piechart/piechart_013"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_14"
+		{
+			"file"		"HUD/Needs/piechart/piechart_014"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_15"
+		{
+			"file"		"HUD/Needs/piechart/piechart_015"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_16"
+		{
+			"file"		"HUD/Needs/piechart/piechart_016"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_17"
+		{
+			"file"		"HUD/Needs/piechart/piechart_017"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_18"
+		{
+			"file"		"HUD/Needs/piechart/piechart_018"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_19"
+		{
+			"file"		"HUD/Needs/piechart/piechart_019"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_20"
+		{
+			"file"		"HUD/Needs/piechart/piechart_020"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_21"
+		{
+			"file"		"HUD/Needs/piechart/piechart_021"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_22"
+		{
+			"file"		"HUD/Needs/piechart/piechart_022"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_23"
+		{
+			"file"		"HUD/Needs/piechart/piechart_023"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_24"
+		{
+			"file"		"HUD/Needs/piechart/piechart_024"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_25"
+		{
+			"file"		"HUD/Needs/piechart/piechart_025"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_26"
+		{
+			"file"		"HUD/Needs/piechart/piechart_026"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_27"
+		{
+			"file"		"HUD/Needs/piechart/piechart_027"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_28"
+		{
+			"file"		"HUD/Needs/piechart/piechart_028"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_29"
+		{
+			"file"		"HUD/Needs/piechart/piechart_029"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_30"
+		{
+			"file"		"HUD/Needs/piechart/piechart_030"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_31"
+		{
+			"file"		"HUD/Needs/piechart/piechart_031"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_32"
+		{
+			"file"		"HUD/Needs/piechart/piechart_032"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_33"
+		{
+			"file"		"HUD/Needs/piechart/piechart_033"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_34"
+		{
+			"file"		"HUD/Needs/piechart/piechart_034"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_35"
+		{
+			"file"		"HUD/Needs/piechart/piechart_035"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_36"
+		{
+			"file"		"HUD/Needs/piechart/piechart_036"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_37"
+		{
+			"file"		"HUD/Needs/piechart/piechart_037"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_38"
+		{
+			"file"		"HUD/Needs/piechart/piechart_038"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_39"
+		{
+			"file"		"HUD/Needs/piechart/piechart_039"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_40"
+		{
+			"file"		"HUD/Needs/piechart/piechart_040"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_41"
+		{
+			"file"		"HUD/Needs/piechart/piechart_041"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_42"
+		{
+			"file"		"HUD/Needs/piechart/piechart_042"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_43"
+		{
+			"file"		"HUD/Needs/piechart/piechart_043"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_44"
+		{
+			"file"		"HUD/Needs/piechart/piechart_044"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_45"
+		{
+			"file"		"HUD/Needs/piechart/piechart_045"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_46"
+		{
+			"file"		"HUD/Needs/piechart/piechart_046"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_47"
+		{
+			"file"		"HUD/Needs/piechart/piechart_047"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_48"
+		{
+			"file"		"HUD/Needs/piechart/piechart_048"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_49"
+		{
+			"file"		"HUD/Needs/piechart/piechart_049"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_50"
+		{
+			"file"		"HUD/Needs/piechart/piechart_050"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_51"
+		{
+			"file"		"HUD/Needs/piechart/piechart_051"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_52"
+		{
+			"file"		"HUD/Needs/piechart/piechart_052"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_53"
+		{
+			"file"		"HUD/Needs/piechart/piechart_053"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_54"
+		{
+			"file"		"HUD/Needs/piechart/piechart_054"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_55"
+		{
+			"file"		"HUD/Needs/piechart/piechart_055"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_56"
+		{
+			"file"		"HUD/Needs/piechart/piechart_056"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_57"
+		{
+			"file"		"HUD/Needs/piechart/piechart_057"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_58"
+		{
+			"file"		"HUD/Needs/piechart/piechart_058"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_59"
+		{
+			"file"		"HUD/Needs/piechart/piechart_059"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_60"
+		{
+			"file"		"HUD/Needs/piechart/piechart_060"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_61"
+		{
+			"file"		"HUD/Needs/piechart/piechart_061"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_62"
+		{
+			"file"		"HUD/Needs/piechart/piechart_062"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_63"
+		{
+			"file"		"HUD/Needs/piechart/piechart_063"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_64"
+		{
+			"file"		"HUD/Needs/piechart/piechart_064"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_65"
+		{
+			"file"		"HUD/Needs/piechart/piechart_065"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_66"
+		{
+			"file"		"HUD/Needs/piechart/piechart_066"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_67"
+		{
+			"file"		"HUD/Needs/piechart/piechart_067"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_68"
+		{
+			"file"		"HUD/Needs/piechart/piechart_068"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_69"
+		{
+			"file"		"HUD/Needs/piechart/piechart_069"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_70"
+		{
+			"file"		"HUD/Needs/piechart/piechart_070"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_71"
+		{
+			"file"		"HUD/Needs/piechart/piechart_071"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_72"
+		{
+			"file"		"HUD/Needs/piechart/piechart_072"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_73"
+		{
+			"file"		"HUD/Needs/piechart/piechart_073"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_74"
+		{
+			"file"		"HUD/Needs/piechart/piechart_074"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_75"
+		{
+			"file"		"HUD/Needs/piechart/piechart_075"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_76"
+		{
+			"file"		"HUD/Needs/piechart/piechart_076"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_77"
+		{
+			"file"		"HUD/Needs/piechart/piechart_077"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_78"
+		{
+			"file"		"HUD/Needs/piechart/piechart_078"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_79"
+		{
+			"file"		"HUD/Needs/piechart/piechart_079"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_80"
+		{
+			"file"		"HUD/Needs/piechart/piechart_080"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_81"
+		{
+			"file"		"HUD/Needs/piechart/piechart_081"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_82"
+		{
+			"file"		"HUD/Needs/piechart/piechart_082"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_83"
+		{
+			"file"		"HUD/Needs/piechart/piechart_083"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_84"
+		{
+			"file"		"HUD/Needs/piechart/piechart_084"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_85"
+		{
+			"file"		"HUD/Needs/piechart/piechart_085"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_86"
+		{
+			"file"		"HUD/Needs/piechart/piechart_086"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_87"
+		{
+			"file"		"HUD/Needs/piechart/piechart_087"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_88"
+		{
+			"file"		"HUD/Needs/piechart/piechart_088"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_89"
+		{
+			"file"		"HUD/Needs/piechart/piechart_089"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_90"
+		{
+			"file"		"HUD/Needs/piechart/piechart_090"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_91"
+		{
+			"file"		"HUD/Needs/piechart/piechart_091"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_92"
+		{
+			"file"		"HUD/Needs/piechart/piechart_092"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_93"
+		{
+			"file"		"HUD/Needs/piechart/piechart_093"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_94"
+		{
+			"file"		"HUD/Needs/piechart/piechart_094"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_95"
+		{
+			"file"		"HUD/Needs/piechart/piechart_095"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_96"
+		{
+			"file"		"HUD/Needs/piechart/piechart_096"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_97"
+		{
+			"file"		"HUD/Needs/piechart/piechart_097"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_98"
+		{
+			"file"		"HUD/Needs/piechart/piechart_098"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_99"
+		{
+			"file"		"HUD/Needs/piechart/piechart_099"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"HudNeedPie128_100"
+		{
+			"file"		"HUD/Needs/piechart/piechart_100"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		
+		
+		
+		
+		
+		"HudCompassNeedle_0"
+		{
+			"file"		"HUD/ship_compass/ship_compass_000"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_1"
+		{
+			"file"		"HUD/ship_compass/ship_compass_001"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_2"
+		{
+			"file"		"HUD/ship_compass/ship_compass_002"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_3"
+		{
+			"file"		"HUD/ship_compass/ship_compass_003"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_4"
+		{
+			"file"		"HUD/ship_compass/ship_compass_004"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_5"
+		{
+			"file"		"HUD/ship_compass/ship_compass_005"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_6"
+		{
+			"file"		"HUD/ship_compass/ship_compass_006"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_7"
+		{
+			"file"		"HUD/ship_compass/ship_compass_007"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_8"
+		{
+			"file"		"HUD/ship_compass/ship_compass_008"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_9"
+		{
+			"file"		"HUD/ship_compass/ship_compass_009"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassNeedle_10"
+		{
+			"file"		"HUD/ship_compass/ship_compass_010"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_11"
+		{
+			"file"		"HUD/ship_compass/ship_compass_011"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_12"
+		{
+			"file"		"HUD/ship_compass/ship_compass_012"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_13"
+		{
+			"file"		"HUD/ship_compass/ship_compass_013"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_14"
+		{
+			"file"		"HUD/ship_compass/ship_compass_014"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_15"
+		{
+			"file"		"HUD/ship_compass/ship_compass_015"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_16"
+		{
+			"file"		"HUD/ship_compass/ship_compass_016"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_17"
+		{
+			"file"		"HUD/ship_compass/ship_compass_017"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_18"
+		{
+			"file"		"HUD/ship_compass/ship_compass_018"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_19"
+		{
+			"file"		"HUD/ship_compass/ship_compass_019"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassNeedle_20"
+		{
+			"file"		"HUD/ship_compass/ship_compass_020"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_21"
+		{
+			"file"		"HUD/ship_compass/ship_compass_021"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_22"
+		{
+			"file"		"HUD/ship_compass/ship_compass_022"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_23"
+		{
+			"file"		"HUD/ship_compass/ship_compass_023"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_24"
+		{
+			"file"		"HUD/ship_compass/ship_compass_024"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_25"
+		{
+			"file"		"HUD/ship_compass/ship_compass_025"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_26"
+		{
+			"file"		"HUD/ship_compass/ship_compass_026"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_27"
+		{
+			"file"		"HUD/ship_compass/ship_compass_027"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_28"
+		{
+			"file"		"HUD/ship_compass/ship_compass_028"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_29"
+		{
+			"file"		"HUD/ship_compass/ship_compass_029"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassNeedle_30"
+		{
+			"file"		"HUD/ship_compass/ship_compass_030"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_31"
+		{
+			"file"		"HUD/ship_compass/ship_compass_031"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_32"
+		{
+			"file"		"HUD/ship_compass/ship_compass_032"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_33"
+		{
+			"file"		"HUD/ship_compass/ship_compass_033"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_34"
+		{
+			"file"		"HUD/ship_compass/ship_compass_034"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_35"
+		{
+			"file"		"HUD/ship_compass/ship_compass_035"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_36"
+		{
+			"file"		"HUD/ship_compass/ship_compass_036"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_37"
+		{
+			"file"		"HUD/ship_compass/ship_compass_037"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_38"
+		{
+			"file"		"HUD/ship_compass/ship_compass_038"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_39"
+		{
+			"file"		"HUD/ship_compass/ship_compass_039"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassNeedle_40"
+		{
+			"file"		"HUD/ship_compass/ship_compass_040"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_41"
+		{
+			"file"		"HUD/ship_compass/ship_compass_041"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_42"
+		{
+			"file"		"HUD/ship_compass/ship_compass_042"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_43"
+		{
+			"file"		"HUD/ship_compass/ship_compass_043"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_44"
+		{
+			"file"		"HUD/ship_compass/ship_compass_044"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_45"
+		{
+			"file"		"HUD/ship_compass/ship_compass_045"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_46"
+		{
+			"file"		"HUD/ship_compass/ship_compass_046"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_47"
+		{
+			"file"		"HUD/ship_compass/ship_compass_047"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_48"
+		{
+			"file"		"HUD/ship_compass/ship_compass_048"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_49"
+		{
+			"file"		"HUD/ship_compass/ship_compass_049"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassNeedle_50"
+		{
+			"file"		"HUD/ship_compass/ship_compass_050"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_51"
+		{
+			"file"		"HUD/ship_compass/ship_compass_051"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_52"
+		{
+			"file"		"HUD/ship_compass/ship_compass_052"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_53"
+		{
+			"file"		"HUD/ship_compass/ship_compass_053"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_54"
+		{
+			"file"		"HUD/ship_compass/ship_compass_054"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_55"
+		{
+			"file"		"HUD/ship_compass/ship_compass_055"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_56"
+		{
+			"file"		"HUD/ship_compass/ship_compass_056"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_57"
+		{
+			"file"		"HUD/ship_compass/ship_compass_057"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_58"
+		{
+			"file"		"HUD/ship_compass/ship_compass_058"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_59"
+		{
+			"file"		"HUD/ship_compass/ship_compass_059"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_60"
+		{
+			"file"		"HUD/ship_compass/ship_compass_060"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_61"
+		{
+			"file"		"HUD/ship_compass/ship_compass_061"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_62"
+		{
+			"file"		"HUD/ship_compass/ship_compass_062"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_63"
+		{
+			"file"		"HUD/ship_compass/ship_compass_063"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_64"
+		{
+			"file"		"HUD/ship_compass/ship_compass_064"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_65"
+		{
+			"file"		"HUD/ship_compass/ship_compass_065"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_66"
+		{
+			"file"		"HUD/ship_compass/ship_compass_066"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_67"
+		{
+			"file"		"HUD/ship_compass/ship_compass_067"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_68"
+		{
+			"file"		"HUD/ship_compass/ship_compass_068"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_69"
+		{
+			"file"		"HUD/ship_compass/ship_compass_069"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassNeedle_70"
+		{
+			"file"		"HUD/ship_compass/ship_compass_070"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassNeedle_71"
+		{
+			"file"		"HUD/ship_compass/ship_compass_071"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		
+		"HudCompassQuarry_0"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_000"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_1"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_001"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_2"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_002"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_3"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_003"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_4"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_004"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_5"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_005"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_6"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_006"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_7"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_007"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_8"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_008"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_9"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_009"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassQuarry_10"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_010"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_11"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_011"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_12"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_012"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_13"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_013"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_14"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_014"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_15"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_015"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_16"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_016"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_17"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_017"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_18"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_018"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_19"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_019"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassQuarry_20"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_020"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_21"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_021"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_22"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_022"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_23"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_023"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_24"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_024"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_25"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_025"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_26"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_026"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_27"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_027"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_28"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_028"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_29"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_029"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassQuarry_30"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_030"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_31"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_031"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_32"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_032"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_33"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_033"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_34"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_034"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_35"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_035"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_36"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_036"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_37"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_037"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_38"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_038"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_39"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_039"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassQuarry_40"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_040"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_41"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_041"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_42"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_042"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_43"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_043"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_44"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_044"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_45"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_045"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_46"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_046"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_47"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_047"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_48"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_048"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_49"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_049"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassQuarry_50"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_050"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_51"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_051"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_52"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_052"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_53"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_053"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_54"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_054"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_55"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_055"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_56"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_056"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_57"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_057"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_58"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_058"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_59"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_059"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_60"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_060"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_61"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_061"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_62"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_062"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_63"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_063"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_64"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_064"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_65"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_065"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_66"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_066"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_67"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_067"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_68"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_068"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_69"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_069"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"HudCompassQuarry_70"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_070"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassQuarry_71"
+		{
+			"file"		"HUD/ship_compass/ship_compass_quarry_071"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassPlayer"
+		{
+				"file"		"hud/ship_compass/ship_compass_player"
+				"x"			"0"
+				"y"			"0"
+				"width"		"128"
+				"height"	"128"			
+		}
+		
+		"HudCompassDeck_a"
+		{
+			"file"		"HUD/ship_compass/ship_compass_deck_a"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassDeck_b"
+		{
+			"file"		"HUD/ship_compass/ship_compass_deck_b"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassDeck_c"
+		{
+			"file"		"HUD/ship_compass/ship_compass_deck_c"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassDeck_d"
+		{
+			"file"		"HUD/ship_compass/ship_compass_deck_d"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassDeck_e"
+		{
+			"file"		"HUD/ship_compass/ship_compass_deck_e"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassDeck_f"
+		{
+			"file"		"HUD/ship_compass/ship_compass_deck_f"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassDeck_g"
+		{
+			"file"		"HUD/ship_compass/ship_compass_deck_g"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"HudCompassDeck_h"
+		{
+			"file"		"HUD/ship_compass/ship_compass_deck_h"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+	}	
+}

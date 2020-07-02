@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "sprites/items/inv_christmas_candy"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

@@ -1,0 +1,5 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Env/Brush/blend/floor_snow_light"	
+	"$basetexture2" "Env/Brush/blend/floor_snow_dark"
+}

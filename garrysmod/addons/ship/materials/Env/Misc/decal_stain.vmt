@@ -1,0 +1,8 @@
+"decalModulate"
+{
+    "$basetexture" "env/misc/decal_stain"
+    "$decal" 1
+    "$alpha"				1
+    "$decalscale" 2.5
+    
+}

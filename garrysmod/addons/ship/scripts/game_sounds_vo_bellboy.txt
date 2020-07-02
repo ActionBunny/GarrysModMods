@@ -1,0 +1,645 @@
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+
+
+//Attacks
+
+
+"Bellboy.BludgeonA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.BludgeonB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.Push"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.Slash"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.Stab"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.Syringe"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.ThrowA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.ThrowB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+//Pain
+
+
+"Bellboy.FlinchBack"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_FlinchBack1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_FlinchBack2.wav"
+	}
+}
+
+
+"Bellboy.FlinchForward"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_FlinchForward1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_FlinchForward2.wav"
+	}
+}
+
+
+
+"Bellboy.OnFire"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+"Bellboy.Stunned"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+"Bellboy.Vomit"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+//Needs
+
+"Bellboy.Depressed"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.NeedDrink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.NeedEntertainment"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.NeedFood"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.NeedPee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.NeedPoo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.NeedSleep"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.NeedSocial"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.Pee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.PeeSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.PooSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.PooRelief"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.PooStrain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Bellboy.Shower"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+
+
+//Idles
+
+"Bellboy.IdleCigar"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.IdleWatch"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"	
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.IdlePickNose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{	
+		"wave"	"voiceover/bellboy/Bellboy_IdlePickNose1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_IdlePickNose2.wav"
+	}
+}
+
+
+
+//Bellboy specifc
+
+
+"Bellboy.IdleClean"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"	
+	"wave"		"common/null.wav"
+}
+
+
+
+//Talk
+
+"Bellboy.TalkDontCare"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_TalkDontCare1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkDontCare2.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkDontCare3.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkDontCare4.wav"
+	}
+}
+
+
+
+"Bellboy.TalkExplain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_TalkExplain1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkExplain2.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkExplain3.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkExplain4.wav"
+	}
+}
+
+
+
+"Bellboy.TalkNo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_TalkNo1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkNo2.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkNo3.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkNo4.wav"
+	}
+}
+
+
+"Bellboy.TalkThink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_TalkThink1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkThink2.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkThink3.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkThink4.wav"
+	}
+}
+
+
+"Bellboy.TalkWell"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_TalkWell1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkWell2.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkWell3.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkWell4.wav"
+	}
+}
+
+
+"Bellboy.TalkYes"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_TalkYes1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkYes2.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkYes3.wav"
+		"wave"	"voiceover/bellboy/Bellboy_TalkYes4.wav"
+	}
+}
+
+
+
+
+//Other
+
+"Bellboy.Arrested"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.Pickup"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.PickupHigh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Bellboy.Point"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+// Sounds not played but precached
+"Bellboy.IdleNails"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Bellboy.IdleScratch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Bellboy.IdleSneeze"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Bellboy.IdleSuspicious"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_70dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+//NPC specifics
+
+"Bellboy.ShockA"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_70dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_ShockA1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_ShockA2.wav"
+	}
+}
+
+
+"Bellboy.ShockB"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_70dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_ShockB1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_ShockB2.wav"
+	}
+}
+
+
+"Bellboy.ShockC"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_70dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_ShockC1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_ShockC2.wav"
+	}
+}
+
+
+"Bellboy.ShockD"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_70dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/bellboy/Bellboy_ShockD1.wav"
+		"wave"	"voiceover/bellboy/Bellboy_ShockD2.wav"
+	}
+}
+
+
+"Bellboy.Help"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+

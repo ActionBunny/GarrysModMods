@@ -1,0 +1,26 @@
+"mrx_special_items"
+{
+    "item"
+    {
+        "classname"         "special_moneybag"	// item to spawn
+
+        "params"  // parameters specific to this item type
+        {
+            // 0 - set value, amount awarded is always that specified by "value"
+            // 1 - MFK Median, money bag has the average value of a weapon on the MFK table
+            // 2 - Random, randomly picks from between max and min
+            "type"      "1"
+            "value"     "5000"
+            "minvalue"  "2500"
+            "maxvalue"  "10000"
+            "lifespan"  "30"   // time for which the special item will remain in the map before being cleaned up (seconds)
+        }
+    }
+
+    "timing"
+    {
+        "mininterval"			"2"		// minimum time between offering this item in minutes
+        "maxinterval"			"4"		// maximum time between offering this item in minutes
+        "prespawncountdown"		"90"	// Time in seconds before special item spawns that players are warned
+    }
+}

@@ -1,0 +1,22 @@
+//This Texture is made by Boba Fett and is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+// You are not allowed to alter, distribute or use this work for commercial purposes Without Permission of the author "Boba Fett"
+"Vertexlitgeneric"
+{
+	"$basetexture"	"models\weapons\v_models\gimbal\glass"
+	"$bumpmap"	"models\weapons\v_models\gimbal\glass_normal"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$translucent" "1"
+	"$nocull" "1"
+
+	"$phong"     "1"
+	"$phongexponent"  "8"
+	"$phongboost"   "2"
+	"$phongfresnelranges"   "[1 8 3]"
+	"$phongtint"                   "[0.7 1 1]"
+	"$phongwarptexture"  "models\weapons\v_models\gimbal\phongwarp"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" "0.2"
+}

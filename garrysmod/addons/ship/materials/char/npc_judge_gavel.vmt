@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"char/npc_judge_gavel"
+	"$envmap" 			"char/test"
+	"$envmaptint"			"[.3 .3 .3]"
+	"$basealphaenvmapmask" 		1
+	"$alpha"				1
+	"$nodecal" "1"
+
+}

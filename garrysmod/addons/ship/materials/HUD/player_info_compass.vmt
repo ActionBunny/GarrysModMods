@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "HUD/player_info_compass"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

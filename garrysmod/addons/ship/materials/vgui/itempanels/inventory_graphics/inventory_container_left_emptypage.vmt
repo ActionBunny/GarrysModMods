@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/itempanels/inventory_graphics/inventory_container_left_emptypage"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+}

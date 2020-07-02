@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"Env/obj/icebergs/iceberg_01"
+	"$selfIllum"			0
+	"$nocull"			0
+	"$translucent"			0
+	"$alpha"				1
+	
+	"$refract"				0
+	
+	"$envMap"				"env_cubemap"
+	"$envmapcontrast"			1
+	"$envMapTint"				"[0.3 0.3 0.3]"
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	
+	"$baseAlphaEnvMapMask"			0
+	"$normalMapAlphaEnvMapMask"			0
+	"$bumpMap"				"Env/obj/icebergs/iceberg_01_normal"	
+}

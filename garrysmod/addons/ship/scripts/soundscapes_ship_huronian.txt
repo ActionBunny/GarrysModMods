@@ -1,0 +1,2481 @@
+//HMS Huronian (Timandra) specific soundscapes
+"HMST.Nuestra"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.8" 
+               "pitch"        "100" 
+               "music"  "1"
+		//"position" 	"0"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.07" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+}
+"HMST.NuestraKitchen"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.Kitchen"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+}
+"HMST.NuestraFreezer"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.Freezer"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+}
+"HMST.Bank"
+{
+	"dsp"		"12"
+	"dsp_volume" 	"0.6"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.07" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+}
+"HMST.BankOffice"
+{
+	"dsp"		"12"
+	"dsp_volume" 	"0.6"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+}
+"HMST.BankCorridor"
+{
+	"dsp"		"12"
+	"dsp_volume" 	"0.6"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBase_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+}
+"HMST.BankManager"
+{
+	"playsoundscape"
+	{
+		"name" 	"HMS.BaseSmallRoomWater"
+		"volume" "1.0"
+	}
+}
+"HMST.BankVault"
+{
+	"dsp"		"11"
+	"dsp_volume" 	"0.6"
+	"playlooping" 
+	{ 
+       		"volume"	"0.2" 
+		"pitch"		"100" 
+		"wave"		"ambience/common/InsideBase_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.2" 
+		"pitch"		"100" 
+		"wave"		"ambience/brig/BrigLight_Loop.wav" 
+        }
+}
+"HMST.PoolDeck"
+{
+      "playsoundscape"
+	{
+		"name" 	"HMS.BowDeck"
+		"volume" "1.0"
+	}
+}
+"HMST.Nautilis"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseSmallRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.45" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BashfulTom_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.Marco"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseSmallRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.6" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Bohemia1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.PourVous"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseSmallRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.6" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Dinah2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.Secrets"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseSmallRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.55" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FancyNancy2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }	
+}
+"HMST.NemoKitchen"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.Kitchen"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.MallCafe"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.2"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.6" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.Mall"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.2"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.5" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.Mall1"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.6"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.3"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.5" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.Mall2"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.2"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.5" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.Mall3"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.2"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.5" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.Mall4"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.08"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.5" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.BluesBar"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseMediumRoomWater"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.5"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.4" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.GamesRoom"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseMediumRoomWater"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.3"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.6" 
+               "pitch"        "100" 
+               "music"  "1"
+		//"position" 	"0"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.GamesToilets"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletBig"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.Britannic"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.6" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.Library"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBase_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.LibraryStairwellC"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.SickbayStairwellD"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.SickbayReception"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BrightCorridor"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" "HMS.SickbayWardBackground"
+		"volume" "0.4"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/ChantSansParoles1_Loop.wav" 
+        }
+}
+"HMST.SickbayWard"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BrightCorridor"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" "HMS.SickbayWard"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/ChantSansParoles1_Loop.wav" 
+        }
+}
+"HMST.Doctors"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseSmallRoomWater"
+		"volume" "1.0"
+	}
+}
+"HMST.Psychiatrist"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseSmallRoomWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.5" 
+               "pitch"        "100" 
+               "music"  "1"
+		//"position" 	"0"
+               "wave"         "ambience/music/ChantSansParoles1_Loop.wav" 
+        }
+}
+"HMST.Security"
+{
+	"dsp"		"11"
+	"dsp_volume" 	"0.8"
+	"playlooping" 
+	{ 
+        	"volume"	"0.2" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/common/InsideBase_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.5" 
+               "pitch"        "100" 
+               "music"  "1"
+		//"position" 	"0"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/RoomToneComputer_Loop.wav" 
+        }
+}
+"HMST.CrewCorridor"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+	{ 
+        	"volume"	"0.2" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/common/InsideBase_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.13" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/bridge/Engine_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.06" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/cargo/ShipWashCargo_Loop.wav" 
+        }
+}
+"HMST.CargoHold1"
+{
+	"dsp"		"19"
+	"dsp_volume" 	"1.0"
+	"playlooping" 
+	{ 
+        	"volume"	"0.4" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/bridge/Engine_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.3" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/cargo/ShipWashCargo_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.15" 
+        	"pitch"		"100" 
+		"music"  "1"
+        	"wave"		"ambience/music/Elegie1_Loop.wav" 
+        }
+	"playrandom" 
+	{ 
+		"time" 		"4,8" 
+		"volume" 	"0.05, 0.2" 
+		"pitch" 	"95,105"  
+		"rndwave" 
+		{ 
+			"wave" "ambience/cargo/ShipCreak1.wav"
+			"wave" "ambience/cargo/ShipCreak2.wav"
+			"wave" "ambience/cargo/ShipCreak3.wav"
+			"wave" "ambience/cargo/ShipCreak4.wav"
+		}
+	}
+}
+"HMST.CargoHold2"
+{
+	"dsp"		"19"
+	"dsp_volume" 	"1.0"
+	"playlooping" 
+	{ 
+        	"volume"	"0.4" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/bridge/Engine_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.3" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/cargo/ShipWashCargo_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.1" 
+        	"pitch"		"100" 
+		"music"  "1"
+        	"wave"		"ambience/music/Elegie1_Loop.wav" 
+        }
+	"playrandom" 
+	{ 
+		"time" 		"4,8" 
+		"volume" 	"0.05, 0.2" 
+		"pitch" 	"95,105"  
+		"rndwave" 
+		{ 
+			"wave" "ambience/cargo/ShipCreak1.wav"
+			"wave" "ambience/cargo/ShipCreak2.wav"
+			"wave" "ambience/cargo/ShipCreak3.wav"
+			"wave" "ambience/cargo/ShipCreak4.wav"
+		}
+	}
+}
+"HMST.CargoHold3"
+{
+	"dsp"		"19"
+	"dsp_volume" 	"1.0"
+	"playlooping" 
+	{ 
+        	"volume"	"0.4" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/bridge/Engine_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.3" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/cargo/ShipWashCargo_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.04" 
+        	"pitch"		"100" 
+		"music"  "1"
+        	"wave"		"ambience/music/Elegie1_Loop.wav" 
+        }
+	"playrandom" 
+	{ 
+		"time" 		"4,8" 
+		"volume" 	"0.05, 0.2" 
+		"pitch" 	"95,105"  
+		"rndwave" 
+		{ 
+			"wave" "ambience/cargo/ShipCreak1.wav"
+			"wave" "ambience/cargo/ShipCreak2.wav"
+			"wave" "ambience/cargo/ShipCreak3.wav"
+			"wave" "ambience/cargo/ShipCreak4.wav"
+		}
+	}
+}
+"HMST.CargoHoldTreasures1"
+{
+	"dsp"		"19"
+	"dsp_volume" 	"1.0"
+	"dsp_volume" 	"1.0"
+	"playlooping"
+	{ 
+        	"volume"	"0.5" 
+       		"pitch"		"100" 
+       		"wave"		"ambience/cargo/CargoWindStereo_Loop.wav" 
+	} 
+	"playlooping"
+	{ 
+        	"volume"	"0.4" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/bridge/Engine_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.4" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/cargo/ShipWashCargo_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.4" 
+        	"pitch"		"100" 
+		"music"  "1"
+		//"position" 	"0"
+        	"wave"		"ambience/music/Elegie1_Loop.wav" 
+        }
+	"playrandom" 
+	{ 
+		"time" 		"4,8" 
+		"volume" 	"0.15, 0.25" 
+		"pitch" 	"95,105"  
+		"rndwave" 
+		{ 
+			"wave" "ambience/cargo/ShipCreak1.wav"
+			"wave" "ambience/cargo/ShipCreak2.wav"
+			"wave" "ambience/cargo/ShipCreak3.wav"
+			"wave" "ambience/cargo/ShipCreak4.wav"
+		}
+	}
+}
+"HMST.CargoHoldTreasures2"
+{
+	"dsp"		"19"
+	"dsp_volume" 	"1.0"
+	"dsp_volume" 	"1.0"
+	"playlooping"
+	{ 
+        	"volume"	"0.5" 
+        	"pitch"		"100" 
+       		"wave"		"ambience/cargo/CargoWindStereo_Loop.wav" 
+        } 
+	"playlooping"
+	{ 
+       		"volume"	"0.4" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/bridge/Engine_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+       		"volume"	"0.4" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/cargo/ShipWashCargo_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.3" 
+        	"pitch"		"100" 
+		"music"  "1"
+        	"wave"		"ambience/music/Elegie1_Loop.wav" 
+        }
+	"playrandom" 
+	{ 
+		"time" 		"4,8" 
+		"volume" 	"0.15, 0.25" 
+		"pitch" 	"95,105"  
+		"rndwave" 
+		{ 
+			"wave" "ambience/cargo/ShipCreak1.wav"
+			"wave" "ambience/cargo/ShipCreak2.wav"
+			"wave" "ambience/cargo/ShipCreak3.wav"
+			"wave" "ambience/cargo/ShipCreak4.wav"
+		}
+	}
+}
+"HMST.Bridge"
+{
+	"dsp"		"19"
+	"dsp_volume" 	"1.0"
+	"playsoundscape"
+	{
+		"name" "Hms.BowDeckBackground"
+		"volume" "0.6"
+	}
+	"playsoundscape"
+	{
+		"name" "Hms.Bridge"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.ChartRoom"
+{
+	"dsp"		"17"
+	"dsp_volume" 	"1.0"
+	"playsoundscape"
+	{
+		"name" "HMST.Bridge"
+		"volume" "0.5"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.6" 
+               "pitch"        "100" 
+		//"position" 	"4" 
+               "wave"         "ambience/bridge/RadioTuning_Loop.wav" 
+	}
+}
+"HMST.TreatRoomD"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.8"	
+	"playlooping" 
+        { 
+               	"volume"	"0.2" 
+               	"pitch"		"100" 
+               	"wave"		"ambience/common/InsideBase_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        "volume"	"0.2" 
+        "pitch"		"100" 
+        "wave"		"ambience/brig/BrigLight_Loop.wav" 
+        }
+}
+"HMST.TreatRoomC"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.8"	
+	"playlooping" 
+        { 
+               	"volume"	"0.2" 
+               	"pitch"		"100" 
+               	"wave"		"ambience/common/InsideBase_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.2" 
+		"pitch"		"100" 
+		"wave"		"ambience/brig/BrigLight_Loop.wav" 
+        }
+}
+"HMST.StairwellNuestraB1"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.StairwellNuestraC1"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.07" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.AreaB1"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.AreaB1a"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.3" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+}
+"HMST.AreaB1b"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.3" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.AreaB2" 
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" "HMS.BridgeBackground"
+		"volume" "0.1"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.StairwellB1" 
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" "HMS.BridgeBackground"
+		"volume" "0.05"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.StairwellC2" 
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" "HMS.BridgeBackground"
+		"volume" "0.03"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.StairwellC1" 
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.StairwellD1" 
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.015" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.015" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.AreaC1"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.015" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Coquetterie3_Loop.wav" 
+        }
+}
+"HMST.AreaC2"
+{
+	"playsoundscape"
+	{
+		"name" 		"HMS.BaseCorridorWater"
+		"volume" 	"1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.AreaC3"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.AreaC4"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.1"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.AreaC5"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" 		"Hms.BowDeckBackground"
+		"volume" 	"0.05"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.Cabin5"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.CabinFanNoWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.015" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.Cabin6"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.CabinFan"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.015" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.AreaC6"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.AreaC7"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.AreaC8"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+}
+"HMST.AreaC9"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/JazzDeLuxe2_Loop.wav" 
+        }
+}
+"HMST.Cabin3"
+{
+	"playsoundscape"
+	{
+		"name" 	"HMS.CabinFanByWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.55" 
+               "pitch"        "100" 
+               "music"  "1"
+		//"position" 	"0"
+               "wave"         "ambience/music/JazzDeLuxe2_Loop.wav" 
+        }
+}
+"HMST.Cabin3.Ensuite"
+{
+	"playsoundscape"
+	{
+		"name" 	"HMS.EnsuiteByWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.3" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/JazzDeLuxe2_Loop.wav" 
+        }
+}
+"HMST.AreaC10"
+{
+	"dsp"		"5"
+	"dsp_volume" 	"0.8"
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/JazzDeLuxe2_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.32" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playsoundscape"
+	{
+		"name" 		"HMS.ShipHornOutside"
+		"volume" 	"1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/GardenOfLove2_Loop.wav" 
+        }
+}
+"HMST.AreaC11"
+{
+	"dsp"		"5"
+	"dsp_volume" 	"0.8"
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/JazzDeLuxe2_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.32" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playsoundscape"
+	{	
+		"name" 		"HMS.ShipHornOutside"
+		"volume" 	"1.0"
+	}
+}
+"HMST.AreaC12"
+{
+	"dsp"		"5"
+	"dsp_volume" 	"0.8"
+        "playlooping" 
+        { 
+               "volume"       "0.32" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/JazzDeLuxe2_Loop.wav" 
+        }
+	"playsoundscape"
+	{
+		"name" 		"HMS.ShipHornOutside"
+		"volume" 	"1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.AreaC13"
+{
+	"dsp"		"5"
+	"dsp_volume" 	"0.8"
+        "playlooping" 
+        { 
+               "volume"       "0.32" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+	"playsoundscape"
+	{
+		"name" 		"HMS.ShipHornOutside"
+		"volume" 	"1.0"
+	}
+}
+"HMST.AreaC14"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.AreaC15"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+}
+"HMST.AreaC16"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.25" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+}
+"HMST.AreaC16a"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+}
+"HMST.AreaC17"
+{
+	"playsoundscape"
+	{
+		"name" 	"HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+}
+"HMST.AreaC18"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.12" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+}
+"HMST.AreaD1"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DreamTyrolienne1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+}
+"HMST.AreaD2"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/ChantSansParoles1_Loop.wav" 
+        }
+}
+"HMST.AreaD3"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Carmen3_Loop.wav" 
+        }
+}
+"HMST.AreaD4"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.12" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Carmen3_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.AreaD5"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseMediumRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.AreaD6"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+}
+"HMST.AreaD6a"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Carmen3_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.AreaD6b"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Carmen3_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.Cabin7"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.CabinFanNoWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.55" 
+               "pitch"        "100" 
+               "music"  "1"
+		//"position" 	"0"
+               "wave"         "ambience/music/Carmen3_Loop.wav" 
+        }
+}
+"HMST.Cabin8"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.CabinFanNoWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Carmen3_Loop.wav" 
+        }
+}
+"HMST.AreaD7"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Carmen3_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.FemaleShowers"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletBig"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.07" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.AreaD8a"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.AreaD8b"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.Cabin12"
+{
+	"playsoundscape"                               
+	{
+		"name" "HMS.CabinFanNoWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.55" 
+               "pitch"        "100" 
+               "music"  "1"
+		//"position" 	"0"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.Cabin11"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.CabinFan"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.Cabin13"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.CabinFanNoWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.MaleShowers"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletBig"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.AreaD8c"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.AreaD8d"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.AreaD9"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CuteWigglinDance3_Loop.wav" 
+        }
+}
+"HMST.AreaD10"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.Cabin17"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseMediumRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.7" 
+               "pitch"        "100" 
+		//"position" 	"0"
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.AreaD11"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.AreaD13"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.AreaD14"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridorWater"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.AreaD15"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+	"playsoundscape"
+	{
+		"name" "HMST.CargoHold3"
+		"volume" "0.1"
+	}
+}
+"HMST.AreaD16"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseCorridor"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" "HMST.CargoHold3"
+		"volume" "0.4"
+	}
+}
+"HMST.Cabin15"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseMediumRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.Cabin16"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseMediumRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.Cabin18"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BaseMediumRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.FemaleToiletD"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletBig"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/FoolishQuestions1.wav" 
+        }
+}
+"HMST.BrigDining"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BrigDining"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.14" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+}
+"HMST.BrigShower"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BrigShower"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+}
+"HMST.BrigCells"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.Cell"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/deck/ShipMove_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/ShipDeckIndoors_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+}
+"HMST.AreaD17"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BrightCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/ChantSansParoles1_Loop.wav" 
+        }
+}
+"HMST.AreaD18"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BrightCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/ChantSansParoles1_Loop.wav" 
+        }
+}
+"HMST.AreaD19"
+{
+	"dsp"		"11"
+	"dsp_volume" 	"0.8"
+	"playlooping" 
+	{ 
+        	"volume"	"0.2" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/common/InsideBase_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.4" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/VillagePostOffice_Loop.wav" 
+        }
+}
+"HMST.Poseidon"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/InsideBaseWash_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.55" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+}
+"HMST.ToiletFA"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletSmall"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+}
+"HMST.ToiletMA"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletSmall"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CircusGirl1_Loop.wav" 
+        }
+}
+"HMST.Elevator"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.Elevator"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.20" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/elevator/MapleLeaf_Loop.wav" 
+        }
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/plant/jungle_wall_02_hi"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$bumpMap"				"env/plant/jungle_wall_02_hi_normal"
+}

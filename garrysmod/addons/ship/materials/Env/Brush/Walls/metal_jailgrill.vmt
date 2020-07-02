@@ -1,0 +1,9 @@
+
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/walls/metal_jailgrill"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$alphatest"				1
+}

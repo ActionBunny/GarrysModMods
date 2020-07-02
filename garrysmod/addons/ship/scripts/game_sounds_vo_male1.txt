@@ -1,0 +1,636 @@
+
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+
+
+//Attacks
+
+
+"Male1.BludgeonA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_BludgeonA1.wav"
+		"wave"	"voiceover/male1/Male1_BludgeonA2.wav"
+		"wave"	"voiceover/male1/Male1_BludgeonA3.wav"
+		"wave"	"voiceover/male1/Male1_BludgeonA4.wav"
+	}
+}
+
+
+"Male1.BludgeonB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_BludgeonB1.wav"
+		"wave"	"voiceover/male1/Male1_BludgeonB2.wav"
+		"wave"	"voiceover/male1/Male1_BludgeonB3.wav"
+		"wave"	"voiceover/male1/Male1_BludgeonB4.wav"
+	}
+}
+
+
+"Male1.Push"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_Push1.wav"
+		"wave"	"voiceover/male1/Male1_Push2.wav"
+	}
+}
+
+
+"Male1.Slash"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_Slash1.wav"
+		"wave"	"voiceover/male1/Male1_Slash2.wav"
+		"wave"	"voiceover/male1/Male1_Slash3.wav"
+		"wave"	"voiceover/male1/Male1_Slash4.wav"
+	}
+}
+
+
+"Male1.Stab"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_Stab1.wav"
+		"wave"	"voiceover/male1/Male1_Stab2.wav"
+		"wave"	"voiceover/male1/Male1_Stab3.wav"
+		"wave"	"voiceover/male1/Male1_Stab4.wav"
+	}
+}
+
+
+"Male1.Syringe"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_Syringe1.wav"
+		"wave"	"voiceover/male1/Male1_Syringe2.wav"
+	}
+}
+
+
+"Male1.ThrowA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_ThrowA1.wav"
+		"wave"	"voiceover/male1/Male1_ThrowA2.wav"
+	}
+}
+
+
+"Male1.ThrowB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_ThrowB1.wav"
+		"wave"	"voiceover/male1/Male1_ThrowB2.wav"
+	}
+}
+
+
+
+
+//Pain
+
+
+"Male1.FlinchBack"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_85db"
+	"volume"	"1.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_FlinchBack1.wav"
+		"wave"	"voiceover/male1/Male1_FlinchBack2.wav"
+		"wave"	"voiceover/male1/Male1_FlinchBack3.wav"
+		"wave"	"voiceover/male1/Male1_FlinchBack4.wav"
+	}
+}
+
+
+"Male1.FlinchForward"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_85db"
+	"volume"	"1.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_FlinchForward1.wav"
+		"wave"	"voiceover/male1/Male1_FlinchForward2.wav"
+		"wave"	"voiceover/male1/Male1_FlinchForward3.wav"
+		"wave"	"voiceover/male1/Male1_FlinchForward4.wav"
+	}
+}
+
+
+
+"Male1.OnFire"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_85db"
+	"volume"	"1.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_OnFire1.wav"
+		"wave"	"voiceover/male1/Male1_OnFire2.wav"
+		"wave"	"voiceover/male1/Male1_OnFire3.wav"
+	}
+}
+
+
+
+
+"Male1.Stunned"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_Stunned.wav"
+}
+
+
+
+
+"Male1.Vomit"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_Vomit1.wav"
+		"wave"	"voiceover/male1/Male1_Vomit2.wav"
+		"wave"	"voiceover/male1/Male1_Vomit3.wav"
+	}
+}
+
+"Male1.Suicide"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.9"
+	"pitch"		"97,103"
+	"wave"		"voiceover/male1/Male1_Suicide.wav"
+}
+
+
+
+//Needs
+
+"Male1.Depressed"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_Depressed.wav"
+}
+
+
+"Male1.NeedDrink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_NeedDrink.wav"
+}
+
+
+"Male1.NeedEntertainment"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_NeedEntertainment.wav"
+}
+
+
+"Male1.NeedFood"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_NeedFood.wav"
+}
+
+
+"Male1.NeedPee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_NeedPee.wav"
+}
+
+
+"Male1.NeedPoo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_NeedPoo.wav"
+}
+
+
+"Male1.NeedSleep"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_NeedSleep.wav"
+}
+
+
+"Male1.NeedSocial"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_NeedSocial.wav"
+}
+
+
+"Male1.Pee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_Pee1.wav"
+		"wave"	"voiceover/male1/Male1_Pee2.wav"
+		"wave"	"voiceover/male1/Male1_Pee3.wav"
+	}
+}
+
+
+"Male1.PeeSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_PeeSelf.wav"
+}
+
+
+"Male1.PooSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_PooSelf.wav"
+}
+
+
+"Male1.PooRelief"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_PooRelief1.wav"
+		"wave"	"voiceover/male1/Male1_PooRelief2.wav"
+		"wave"	"voiceover/male1/Male1_PooRelief3.wav"
+		"wave"	"voiceover/male1/Male1_PooRelief4.wav"
+	}
+}
+
+
+"Male1.PooStrain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_PooStrain1.wav"
+		"wave"	"voiceover/male1/Male1_PooStrain2.wav"
+	}
+}
+"Male1.ToiletBusiness"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_55dB"
+	"volume"	"1.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_Whistle1.wav"
+		"wave"	"voiceover/male1/Male1_Whistle2.wav"
+		"wave"	"voiceover/male1/Male1_Whistle3.wav"
+		"wave"	"voiceover/male1/Male1_Whistle4.wav"
+		"wave"	"voiceover/male1/Male1_Whistle5.wav"
+	}
+}
+
+"Male1.Shower"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_Shower1.wav"
+		"wave"	"voiceover/male1/Male1_Shower2.wav"
+		"wave"	"voiceover/male1/Male1_Shower3.wav"
+	}
+}
+
+"Male1.SitChair"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_SitChair1.wav"
+		"wave"	"voiceover/male1/Male1_SitChair2.wav"
+		"wave"	"voiceover/male1/Male1_SitChair3.wav"
+	}
+}
+
+
+
+
+//Idles
+
+"Male1.IdleCigar"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_IdleCigar.wav"
+}
+
+
+"Male1.IdleWatch"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_IdleWatch.wav"
+}
+
+
+"Male1.IdlePickNose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_IdleWatch.wav"
+}
+
+
+
+
+//Talk
+
+"Male1.TalkDontCare"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_TalkDontCare1.wav"
+		"wave"	"voiceover/male1/Male1_TalkDontCare2.wav"
+		"wave"	"voiceover/male1/Male1_TalkDontCare3.wav"
+		"wave"	"voiceover/male1/Male1_TalkDontCare4.wav"
+	}
+}
+
+
+
+"Male1.TalkExplain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_TalkExplain1.wav"
+		"wave"	"voiceover/male1/Male1_TalkExplain2.wav"
+		"wave"	"voiceover/male1/Male1_TalkExplain3.wav"
+		"wave"	"voiceover/male1/Male1_TalkExplain4.wav"
+	}
+}
+
+
+
+"Male1.TalkNo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_TalkNo1.wav"
+		"wave"	"voiceover/male1/Male1_TalkNo1.wav"
+		"wave"	"voiceover/male1/Male1_TalkNo3.wav"
+	}
+}
+
+
+"Male1.TalkThink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_TalkThink1.wav"
+		"wave"	"voiceover/male1/Male1_TalkThink2.wav"
+		"wave"	"voiceover/male1/Male1_TalkThink3.wav"
+	}
+}
+
+
+"Male1.TalkWell"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_TalkWell1.wav"
+		"wave"	"voiceover/male1/Male1_TalkWell2.wav"
+		"wave"	"voiceover/male1/Male1_TalkWell3.wav"
+		"wave"	"voiceover/male1/Male1_TalkWell4.wav"
+	}
+}
+
+
+"Male1.TalkYes"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_TalkYes1.wav"
+		"wave"	"voiceover/male1/Male1_TalkYes2.wav"
+	}
+}
+
+
+
+
+//Other
+
+"Male1.Arrested"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_Arrested.wav"
+}
+
+
+"Male1.Pickup"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_Pickup1.wav"
+		"wave"	"voiceover/male1/Male1_Pickup2.wav"
+		"wave"	"voiceover/male1/Male1_Pickup3.wav"
+		"wave"	"voiceover/male1/Male1_Pickup4.wav"
+	}
+}
+
+
+"Male1.PickupHigh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_PickupHigh1.wav"
+		"wave"	"voiceover/male1/Male1_PickupHigh2.wav"
+	}
+}
+
+
+"Male1.Point"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"wave"		"voiceover/male1/Male1_Point.wav"
+}
+"Male1.KillLaugh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/male1/Male1_KillLaugh1.wav"
+		"wave"	"voiceover/male1/Male1_KillLaugh2.wav"
+		"wave"	"voiceover/male1/Male1_KillLaugh3.wav"
+	}
+}
+
+// Sounds not played but precached
+"Male1.IdleNails"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Male1.IdleScratch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Male1.IdleSneeze"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Male1.IdleSuspicious"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Male1.Picknose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}

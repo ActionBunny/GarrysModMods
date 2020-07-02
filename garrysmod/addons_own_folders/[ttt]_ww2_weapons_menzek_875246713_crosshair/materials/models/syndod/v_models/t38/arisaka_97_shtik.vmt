@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\syndod\v_models\T38\Arisaka_97_shtik"
+	"$nocull" "1"
+   	"$bumpmap" "models\weapons\syndod\v_models\T38\Arisaka_97_shtik_normal"
+}

@@ -1,0 +1,956 @@
+// Channels
+//	CHAN_AUTO		= 0,
+//	CHAN_WEAPON		= 1,
+//	CHAN_VOICE		= 2,
+//	CHAN_ITEM		= 3,
+//	CHAN_BODY		= 4,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+
+// DON'T USE THESE - USE SNDLVL_ INSTEAD!!!
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f
+//	ATTN_IDLE		2.0f
+//	ATTN_STATIC		1.25f 
+//	ATTN_RICOCHET	1.5f
+//	ATTN_GUNFIRE	0.27f
+
+//	SNDLVL_NONE		= 0,
+//	SNDLVL_25dB		= 25,
+//	SNDLVL_30dB		= 30,
+//	SNDLVL_35dB		= 35,
+//	SNDLVL_40dB		= 40,
+//	SNDLVL_45dB		= 45,
+//	SNDLVL_50dB		= 50,	// 3.9
+//	SNDLVL_55dB		= 55,	// 3.0
+//	SNDLVL_IDLE		= 60,	// 2.0
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//	SNDLVL_65dB		= 65,	// 1.5
+//	SNDLVL_STATIC	= 66,	// 1.25
+//	SNDLVL_70dB		= 70,	// 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	// 0.8
+//	SNDLVL_80dB		= 80,	// 0.7
+//	SNDLVL_85dB		= 85,	// 0.6
+//	SNDLVL_90dB		= 90,	// 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	// 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140,	// 0.27
+//	SNDLVL_140dB	= 140,	// 0.2
+//	SNDLVL_150dB	= 150,	// 0.2
+
+
+
+// disabled for now
+//"Weapon.Swipe"
+//{
+//	"channel"		"CHAN_BODY"
+//	"volume"		"0.6, 0.7"
+//	"pitch"			"95, 105"
+//	"soundlevel"		"SNDLVL_75dB"
+//
+//	"rndwave"
+//	{
+//		"wave"	"weapon/SwipeWeapon1.wav"
+//		"wave"	"weapon/SwipeWeapon2.wav"
+//		"wave"	"weapon/SwipeWeapon3.wav"
+//	}
+//
+//
+//}
+
+//common to all weapons
+"BaseCombatWeapon.WeaponDrop"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"	  	"95,110"
+	"rndwave"
+	{
+			"wave"	"physics/metal/weapon_impact_hard1.wav"
+			"wave"	"physics/metal/weapon_impact_hard2.wav"
+			"wave"	"physics/metal/weapon_impact_hard3.wav"
+	}
+}
+
+"BaseCombatWeapon.WeaponMaterialize"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"	"150"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+
+//BLADE BIG - axe, meat cleaver, hunting knife, kitchen knife, letter knife
+"Weapon_BladeBig.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_Blade1.wav"
+		"wave"	"^weapons/swipes/Swipe_Blade2.wav"
+	}
+}
+
+
+"Weapon_BladeBig.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7, 0.75"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/blade_big/BigBlade_HitHuman1.wav"
+		"wave"		"^weapons/blade_big/BigBlade_HitHuman2.wav"
+		"wave"		"^weapons/blade_big/BigBlade_HitHuman3.wav"
+	}
+}
+
+
+"Weapon_BladeBig.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55, 0.6"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/blade_big/BigBlade_HitWorld1.wav"
+		"wave"		"^weapons/blade_big/BigBlade_HitWorld2.wav"
+		"wave"		"^weapons/blade_big/BigBlade_HitWorld3.wav"
+	}
+}
+
+
+
+//BLADE SMALL - cut throat razor, scapel
+
+"Weapon_BladeSmall.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_Small1.wav"
+		"wave"	"^weapons/swipes/Swipe_Small2.wav"
+	}
+}
+
+
+"Weapon_BladeSmall.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7, 0.75"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/blade_small/BladeSmall_HitHuman1.wav"
+		"wave"		"^weapons/blade_small/BladeSmall_HitHuman2.wav"
+	}
+}
+
+
+"Weapon_BladeSmall.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55, 0.6"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/blade_small/BladeSmall_HitWorld1.wav"
+		"wave"		"^weapons/blade_small/BladeSmall_HitWorld2.wav"
+	}
+}
+
+
+
+//METAL HOLLOW: frying pan, shovel
+
+"Weapon_MetalHollow.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_Wide1.wav"
+		"wave"	"^weapons/swipes/Swipe_Wide2.wav"
+	}
+}
+
+
+
+"Weapon_MetalHollow.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8, 0.85"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/metal_hollow/MetalHollow_HitHuman1.wav"
+		"wave"		"^weapons/metal_hollow/MetalHollow_HitHuman2.wav"
+	}
+}
+
+
+"Weapon_MetalHollow.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.7"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/metal_hollow/MetalHollow_HitWorld1.wav"
+		"wave"		"^weapons/metal_hollow/MetalHollow_HitWorld2.wav"
+	}
+}
+
+
+
+//METAL JAB: screwdriver, BBQ fork
+
+"Weapon_MetalJab.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_Small1.wav"
+		"wave"	"^weapons/swipes/Swipe_Small2.wav"
+	}
+}
+
+
+
+"Weapon_MetalJab.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7, 0.75"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/metal_jab/MetalJab_HitHuman1.wav"
+		"wave"		"^weapons/metal_jab/MetalJab_HitHuman2.wav"
+	}
+}
+
+
+"Weapon_MetalJab.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55, 0.6"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/metal_jab/MetalJab_HitWorld1.wav"
+		"wave"		"^weapons/metal_jab/MetalJab_HitWorld2.wav"
+	}
+}
+
+
+
+// METAL SOLID: crowbar, hammer, lead pipe, spanner, wrench
+
+"Weapon_MetalSolid.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_Solid1.wav"
+		"wave"	"^weapons/swipes/Swipe_Solid2.wav"
+	}
+}
+
+
+"Weapon_MetalSolid.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8, 0.85"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/metal_solid/MetalSolid_HitHuman1.wav"
+		"wave"		"^weapons/metal_solid/MetalSolid_HitHuman2.wav"
+		"wave"		"^weapons/metal_solid/MetalSolid_HitHuman3.wav"
+		"wave"		"^weapons/metal_solid/MetalSolid_HitHuman4.wav"
+	}
+}
+
+
+"Weapon_MetalSolid.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.7"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/metal_solid/MetalSolid_HitWorld1.wav"
+		"wave"		"^weapons/metal_solid/MetalSolid_HitWorld2.wav"
+		"wave"		"^weapons/metal_solid/MetalSolid_HitWorld3.wav"
+		"wave"		"^weapons/metal_solid/MetalSolid_HitWorld4.wav"
+	}
+}
+
+
+
+
+//PLASTIC SOLID: manequin arm
+
+"Weapon_PlasticSolid.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_Heavy1.wav"
+		"wave"	"^weapons/swipes/Swipe_Heavy2.wav"
+	}
+}
+
+
+
+"Weapon_PlasticSolid.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8, 0.85"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/plastic_solid/PlasticSolid_HitHuman1.wav"
+		"wave"		"^weapons/plastic_solid/PlasticSolid_HitHuman2.wav"
+	}
+}
+
+
+"Weapon_PlasticSolid.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.7"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/plastic_solid/PlasticSolid_HitWorld1.wav"
+		"wave"		"^weapons/plastic_solid/PlasticSolid_HitWorld2.wav"
+	}
+}
+
+
+
+//SWORD: katana
+
+"Weapon_Sword.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_Sword1.wav"
+		"wave"	"^weapons/swipes/Swipe_Sword2.wav"
+	}
+}
+
+
+
+"Weapon_Sword.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7, 0.75"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/sword/Sword_HitHuman1.wav"
+		"wave"		"^weapons/sword/Sword_HitHuman2.wav"
+	}
+}
+
+
+"Weapon_Sword.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55, 0.6"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/sword/Sword_HitWorld1.wav"
+		"wave"		"^weapons/sword/Sword_HitWorld2.wav"
+	}
+}
+
+
+
+
+
+//SYRINGE: syringe
+
+"Weapon_Syringe.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_Small1.wav"
+		"wave"	"^weapons/swipes/Swipe_Small2.wav"
+	}
+}
+
+
+
+"Weapon_Syringe.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7, 0.75"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"wave"			"^weapons/syringe/Syringe_HitHuman.wav"
+}
+
+
+"Weapon_Syringe.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55, 0.6"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"wave"			"^weapons/syringe/Syringe_HitWorld.wav"
+}
+
+
+
+//wOOD SOLID: truncheon, rolling pin
+
+"Weapon_WoodSolid.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_Solid1.wav"
+		"wave"	"^weapons/swipes/Swipe_Solid2.wav"
+	}
+}
+
+
+
+"Weapon_WoodSolid.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8, 0.85"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/wood_solid/WoodSolid_HitHuman1.wav"
+		"wave"		"^weapons/wood_solid/WoodSolid_HitHuman2.wav"
+	}
+}
+
+
+"Weapon_WoodSolid.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.7"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/wood_solid/WoodSolid_HitWorld1.wav"
+		"wave"		"^weapons/wood_solid/WoodSolid_HitWorld2.wav"
+	}
+}
+
+
+
+//wOOD STICK: pool cue
+
+"Weapon_WoodStick.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_WoodStick1.wav"
+		"wave"	"^weapons/swipes/Swipe_WoodStick2.wav"
+	}
+}
+
+
+
+"Weapon_WoodStick.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8, 0.85"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/wood_stick/WoodStick_HitHuman1.wav"
+		"wave"		"^weapons/wood_stick/WoodStick_HitHuman2.wav"
+	}
+}
+
+
+"Weapon_WoodStick.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.7"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"rndwave"
+	{
+		"wave"		"^weapons/wood_stick/WoodStick_HitWorld1.wav"
+		"wave"		"^weapons/wood_stick/WoodStick_HitWorld2.wav"
+	}
+}
+
+
+
+
+//TENNIS RACKET: only
+
+"Weapon_TennisRacket.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_WoodStick1.wav"
+		"wave"	"^weapons/swipes/Swipe_WoodStick2.wav"
+	}
+}
+
+
+
+"Weapon_TennisRacket.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8, 0.85"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"wave"		"weapons/tennis_racket/TennisRacket_HitHuman.wav"
+}
+
+
+
+"Weapon_TennisRacket.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.7"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"wave"		"weapons/tennis_racket/TennisRacket_HitWorld.wav"
+}
+
+
+
+
+
+//UMBRELLA: only
+
+"Weapon_Umbrella.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"^weapons/swipes/Swipe_WoodStick1.wav"
+		"wave"	"^weapons/swipes/Swipe_WoodStick2.wav"
+	}
+}
+
+
+
+"Weapon_Umbrella.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8, 0.85"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"wave"			"weapons/umbrella/Umbrella_HitHuman.wav"
+}
+
+
+
+"Weapon_Umbrella.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.7"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"96,104"
+	"wave"			"weapons/umbrella/Umbrella_HitWorld.wav"
+}
+
+
+
+//GUNS
+
+
+//revolver
+"Weapon_Pistol.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"pitch"			"97,103"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			"^weapons/revolver/RevolverReload.wav"
+}
+
+
+
+"Weapon_Pistol.Empty"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.4"
+	"pitch"			"97,103"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			"^weapons/revolver/RevolverDryFire.wav"
+}
+
+
+"Weapon_Pistol.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.9"
+	"soundlevel"		"SNDLVL_140dB"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"		"^weapons/revolver/RevolverFire1.wav"
+		"wave"		"^weapons/revolver/RevolverFire2.wav"
+	}
+}
+
+
+
+"Weapon_Pistol.NPC_Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"pitch"			"97,103"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			"common/null.wav"
+}
+
+
+
+"Weapon_Pistol.NPC_Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_140dB"
+	"pitch"			"90,110"
+	"wave"			"common/null.wav"
+}
+
+
+"Weapon_Pistol.Special1"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8"
+	"soundlevel"		"SNDLVL_140dB"
+	"wave"			"common/null.wav"
+}
+
+
+
+"Weapon_Pistol.Special2"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_140dB"
+	"wave"			"common/null.wav"
+}
+
+
+"Weapon_Pistol.Burst"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_140dB"
+	"pitch"			"98,105"
+	"wave"			"common/null.wav"
+}
+
+
+
+
+//Winchester
+"Weapon_Winchester.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"pitch"			"97,103"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			"^weapons/winchester/WinchesterReload.wav"
+}
+
+
+
+"Weapon_Winchester.Empty"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.4"
+	"pitch"			"99,101"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			"^weapons/winchester/WinchesterDryFire.wav"
+}
+
+
+"Weapon_Winchester.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8"
+	"soundlevel"		"SNDLVL_140dB"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"		"^weapons/winchester/WinchesterFire1.wav"
+		"wave"		"^weapons/winchester/WinchesterFire2.wav"
+	}
+}
+
+
+
+//Tommy Gun
+"Weapon_Tommy.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"pitch"			"97,103"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			"^weapons/tommygun/TommyGunReload.wav"
+}
+
+
+
+"Weapon_Tommy.Empty"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.6"
+	"pitch"			"98,102"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			"^weapons/tommygun/TommyGunDryFire.wav"
+}
+
+
+"Weapon_Tommy.Single"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.95"
+	"soundlevel"		"SNDLVL_140dB"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"		"^weapons/tommygun/TommyGunFire1.wav"
+		"wave"		"^weapons/tommygun/TommyGunFire2.wav"
+		"wave"		"^weapons/tommygun/TommyGunFire3.wav"
+		"wave"		"^weapons/tommygun/TommyGunFire4.wav"
+		"wave"		"^weapons/tommygun/TommyGunFire5.wav"
+	}
+}
+
+
+"Weapon_Tommy.Burst"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_140dB"
+	"pitch"			"98,105"
+	"wave"			"^weapons/tommygun/TommyGunFireLoop.wav"
+}
+
+
+"Weapon_Tommy.Special1"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_140dB"
+	"wave"			"^weapons/tommygun/TommyGunFireLoopEnd.wav"
+}
+
+
+
+
+//Blunderbuss
+"Weapon_Blunderbuss.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.6"
+	"pitch"			"97,103"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			"^weapons/blunderbuss/BlunderbussReload.wav"
+}
+
+
+
+"Weapon_Blunderbuss.Empty"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.5"
+	"pitch"			"99,101"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			"^weapons/blunderbuss/BlunderbussDryFire.wav"
+}
+
+
+"Weapon_Blunderbuss.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_140dB"
+	"pitch"			"95,105"
+	"wave"			"^weapons/blunderbuss/BlunderbussFire1.wav"
+}
+
+
+
+
+//flaregun
+"Flare.Touch"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_140dB"
+// never got this sound in the sandbox
+//	"wave"			"^weapons/flaregun/impact.wav"
+	"wave"			"^weapons/flaregun/FlareImpact.wav"
+}
+
+
+
+"Weapon_FlareGun.Fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_140dB"
+	"volume"		"0.65"
+	"wave"			"^weapons/flaregun/FlareGunFire.wav"
+}
+
+
+
+"Weapon_FlareGun.Burn"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_140dB"
+	"volume"		"0.4"
+	"wave"			"^weapons/flaregun/FlareBurn.wav"
+}
+
+
+
+"Weapon_FlareGun.Reload"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.75"
+	"wave"			"^weapons/flaregun/FlareGunReload.wav"
+}
+
+
+
+"Metal.SawbladeStick"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"1.0"
+	"pitch"			"98,104"
+	
+	"rndwave"
+	{
+		"wave"		"physics/metal/sawblade_stick1.wav"
+		"wave"		"physics/metal/sawblade_stick2.wav"
+		"wave"		"physics/metal/sawblade_stick3.wav"
+	}
+}
+
+
+
+"Weapon.PushHands"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.65, 0.7"
+	"wave"			"weapons/PushHuman.wav"
+}
+
+
+"Weapon.Draw"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.15, 0.15"
+	"wave"			"weapons/DrawWeapon.wav"
+}
+
+
+
+"Detonator.Press"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.3"
+	"wave"			"weapons/DetonatorBeep.wav"
+}
+
+// added blank version to prevent script error appearing in console
+// see hl2 sound scripts for how they use this
+"Bullets.DefaultNearmiss"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"	"150"
+	"wave"		"common/null.wav"
+}

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"char/mr_x_main"
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	1		
+	"$bumpmap" 			 "char/mr_x_main_normal"
+	"$envmaptint"			"[.2 .2 .2]"
+	"$halflambert"		1
+	"$nodecal" "1"
+	"$envmapsaturation"	0.1
+}

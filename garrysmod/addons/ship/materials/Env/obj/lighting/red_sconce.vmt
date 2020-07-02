@@ -1,0 +1,11 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/obj/lighting/red_sconce"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$nocull"			1
+}

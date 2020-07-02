@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	
+	"$basetexture" "Env/Brush/floors/floor_deck_snow_01"
+	"$basetexture2" "Env/Brush/floors/floor_deckrivitsa"
+	
+	"$bumpmap" "Env/Brush/Blend/blend_deck_snow_01_normal"
+	"$bumpmap2" "Env/Brush/Blend/blend_deckrivitsa_Normal"
+	
+	"$envMapTint"				"[0.5 0.5 0.6]"
+	
+	"$envmap" "env_cubemap"
+	
+	"$normalmapalphaenvmapmask" 1
+	"$normalmapalphaenvmapmask2" 1
+	"$nodecal" "1"
+	"$surfaceprop" 	"Wood_Deck"
+}

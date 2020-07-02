@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$basetexture" 			"Env/Brush/Walls/wall_pool_2tone"
+	"$surfaceprop" 			"tile"
+	"$envMap"				"env_cubemap"
+	"$bumpmap" 			"Env/Brush/Walls/wall_pool_2tone_normal"
+	"$normalmapalphaenvmapmask" 1
+}

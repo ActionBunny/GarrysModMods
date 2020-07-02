@@ -1,0 +1,257 @@
+// Ricebarge specific soundscapes
+"HMSJ.BaseOutdoors"
+{
+	"playlooping" 
+        {
+             	"volume"      "0.3"
+               "pitch"        "100"
+               "wave"         "ambience/ricebarge/RiceBargeWaterLaps.wav"
+	}
+	"playrandom" 
+	{
+		"volume" 	"0.15"
+		"time" 		"4"
+		"pitch" 	"100"
+		"rndwave"
+		{
+			"wave" "ambience/ricebarge/Forest_Amb1.wav"
+			"wave" "ambience/ricebarge/Forest_Amb2.wav"
+			"wave" "ambience/ricebarge/Forest_Amb3.wav"
+			"wave" "ambience/ricebarge/Forest_Amb4.wav"
+			"wave" "ambience/ricebarge/Forest_Amb5.wav"
+			"wave" "ambience/ricebarge/Forest_Amb6.wav"
+			"wave" "ambience/ricebarge/Forest_Amb7.wav"
+		}
+	}
+	"playrandom" 
+	{
+		"volume" 	"0.04,0.12"
+		"time" 		"3,6"
+		"pitch" 	"100"
+		"position"  	"random" 
+		"attenuation" 	"0.7"
+		"rndwave"
+		{
+			"wave" "ambience/ricebarge/RiceBird1.wav"
+			"wave" "ambience/ricebarge/RiceBird2.wav"
+			"wave" "ambience/ricebarge/RiceBird3.wav"
+			"wave" "ambience/ricebarge/RiceBird4.wav"
+			"wave" "ambience/ricebarge/RiceBird5.wav"
+			"wave" "ambience/ricebarge/RiceBird6.wav"
+			"wave" "ambience/ricebarge/RiceBird7.wav"
+		}
+	}
+}
+"HMSJ.BaseIndoors"
+{
+	"playlooping" 
+        { 
+               "volume"       "0.2"
+               "pitch"        "100"
+               "wave"         "ambience/ricebarge/RiceBargeWaterLapsIndoors.wav" 
+	}
+	"playrandom" 
+	{ 
+		"volume" 	"0.03"
+		"time" 		"4"
+		"pitch" 	"100" 
+		"rndwave" 
+		{ 
+			"wave" "ambience/ricebarge/Forest_Amb1.wav"
+			"wave" "ambience/ricebarge/Forest_Amb2.wav"
+			"wave" "ambience/ricebarge/Forest_Amb3.wav"
+			"wave" "ambience/ricebarge/Forest_Amb4.wav"
+			"wave" "ambience/ricebarge/Forest_Amb5.wav"
+			"wave" "ambience/ricebarge/Forest_Amb6.wav"
+			"wave" "ambience/ricebarge/Forest_Amb7.wav"
+		}
+	}
+}
+"HMSJ.Cabin"
+{
+	"playsoundscape"
+	{
+		"name" "HMSJ.BaseIndoors"
+		"volume" "1.0"
+	}
+}
+"HMSJ.Kitchen"
+{
+	"playsoundscape"
+	{
+		"name" "HMSJ.BaseIndoors"
+		"volume" "1.0"
+	}
+	"playlooping" 
+	{ 
+       		"volume"	"0.3" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/kitchen/kitchen_Loop.wav" 
+        }
+}
+"HMSJ.Toilets"
+{
+	"playsoundscape"
+	{
+		"name" "HMSJ.BaseIndoors"
+		"volume" "1.0"
+	}
+}
+"HMSJ.Cargo"
+{
+	"playlooping" 
+        { 
+               "volume"       "0.15"
+               "pitch"        "100"
+               "wave"         "ambience/ricebarge/RiceBargeWaterLapsIndoors.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1"
+               "pitch"        "100"
+               "wave"         "ambience/ricebarge/RiceEngineInside_Loop.wav" 
+	}
+	"playrandom" 
+	{ 
+		"volume" 	"0.05"
+		"time" 		"4"
+		"pitch" 	"100" 
+		"rndwave" 
+		{ 
+			"wave" "ambience/ricebarge/Forest_Amb1.wav"
+			"wave" "ambience/ricebarge/Forest_Amb2.wav"
+			"wave" "ambience/ricebarge/Forest_Amb3.wav"
+			"wave" "ambience/ricebarge/Forest_Amb4.wav"
+			"wave" "ambience/ricebarge/Forest_Amb5.wav"
+			"wave" "ambience/ricebarge/Forest_Amb6.wav"
+			"wave" "ambience/ricebarge/Forest_Amb7.wav"
+		}
+	}
+	"playrandom" 
+	{ 
+		"volume" 	"0.08"
+		"time" 		"3,5"
+		"pitch" 	"90,110" 
+		"position"  	"random" 
+		"attenuation" 	"0.7"
+		"rndwave" 
+		{ 
+			"wave" "ambience/ricebarge/RiceWoodCreak1.wav"
+			"wave" "ambience/ricebarge/RiceWoodCreak2.wav"
+			"wave" "ambience/ricebarge/RiceWoodCreak3.wav"
+		}
+	}
+}
+"HMSJ.CargoCabins"
+{
+	"playlooping" 
+        { 
+               "volume"       "0.08"
+               "pitch"        "100"
+               "wave"         "ambience/ricebarge/RiceBargeWaterLapsIndoors.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1"
+               "pitch"        "100"
+               "wave"         "ambience/ricebarge/RiceEngineInside_Loop.wav" 
+	}
+	"playrandom" 
+	{ 
+		"volume" 	"0.1"
+		"time" 		"3,5"
+		"pitch" 	"90,110" 
+		"position"  	"random" 
+		"attenuation" 	"0.7"
+		"rndwave" 
+		{ 
+			"wave" "ambience/ricebarge/RiceWoodCreak1.wav"
+			"wave" "ambience/ricebarge/RiceWoodCreak2.wav"
+			"wave" "ambience/ricebarge/RiceWoodCreak3.wav"
+		}
+	}
+}
+"HMSJ.Doctors"
+{
+	"playlooping" 
+        { 
+               "volume"       "0.08"
+               "pitch"        "100"
+               "wave"         "ambience/ricebarge/RiceBargeWaterLapsIndoors.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1"
+               "pitch"        "100"
+               "wave"         "ambience/ricebarge/RiceEngineInside_Loop.wav" 
+	}
+	"playrandom" 
+	{ 
+		"volume" 	"0.1"
+		"time" 		"3,5"
+		"pitch" 	"90,110" 
+		"position"  	"random" 
+		"attenuation" 	"0.7"
+		"rndwave" 
+		{ 
+			"wave" "ambience/ricebarge/RiceWoodCreak1.wav"
+			"wave" "ambience/ricebarge/RiceWoodCreak2.wav"
+			"wave" "ambience/ricebarge/RiceWoodCreak3.wav"
+		}
+	}
+}
+"HMSJ.Brig"
+{
+	"playsoundscape"
+	{
+		"name" 	"HMSJ.BaseOutdoors"
+		"volume" "1.0"
+	}
+	"playrandom" 
+	{ 
+		"volume" 	"0.08"
+		"time" 		"2,4"
+		"pitch" 	"90,110" 
+		"position"  	"random" 
+		"attenuation" 	"0.7"
+		"rndwave" 
+		{ 
+			"wave" "ambience/ricebarge/RiceWoodCreak1.wav"
+			"wave" "ambience/ricebarge/RiceWoodCreak2.wav"
+			"wave" "ambience/ricebarge/RiceWoodCreak3.wav"
+		}
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.06"
+               "pitch"        "100"
+               "wave"         "ambience/ricebarge/RiceEngineInside_Loop.wav" 
+	}
+}
+"HMSJ.Cave"
+{
+	"playsoundscape"
+	{
+		"name" "HMSJ.BaseOutdoors"
+		"volume" "1.0"
+	}
+	"playrandom" 
+	{ 
+		"time" 		"1,4" 
+		"volume" 	"0.2,0.3" 
+		"pitch" 	"95,105"  
+		//"position"  	"random"
+		//"attenuation" "0.7" 
+		"rndwave" 
+		{ 
+			"wave" "ambience/brig/BrigDrip1.wav"
+			"wave" "ambience/brig/BrigDrip2.wav"
+			"wave" "ambience/brig/BrigDrip3.wav"
+			"wave" "ambience/brig/BrigDrip4.wav"
+			"wave" "ambience/brig/BrigDrip5.wav"
+			"wave" "ambience/brig/BrigDrip6.wav"
+			"wave" "ambience/brig/BrigDrip7.wav"
+			"wave" "ambience/brig/BrigDrip8.wav"
+		}
+	}
+}

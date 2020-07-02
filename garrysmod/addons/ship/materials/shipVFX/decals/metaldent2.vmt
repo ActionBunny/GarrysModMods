@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "shipVFX/decals/metaldent2"
+	"$decalscale" 0.20
+}

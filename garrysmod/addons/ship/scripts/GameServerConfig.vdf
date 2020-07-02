@@ -1,0 +1,82 @@
+"GameServerConfig.vdf"
+{
+	"ship_game_mode"
+	{
+		"name" "Game Mode Next Map"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "Hunt"
+			"1" "Elimination"
+			"2" "Duel"
+			"3" "Deathmatch"
+			"4" "Team VIP"
+			"5" "Team Elimination"
+		}
+	}
+	"ship_enable_bots"
+	{
+		"name" "Enable Shipmates"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "No Shipmates"
+			"1" "Enable Shipmates"
+		}
+	}
+	"bot_join_after_player"
+	{
+		"name" "Enable Start Game With Only Shipmates"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "Start With Only Shipmates"
+			"1" "Wait for Human Players"
+		}
+	}
+	"ship_num_participants"
+	{
+		"name" "Minimum Participants"
+		"type" "string"
+	}
+	"ship_round_countdown"
+	{
+		"name" "Time Between Rounds"
+		"type" "string"
+	}	
+	"ship_round_end_countdown"
+	{
+		"name" "Countdown to Hunt End"
+		"type" "string"
+	}
+	"ship_victory_bank"
+	{
+		"name" "Victory Money"
+		"type" "string"
+	}
+	"ship_game_time"
+	{
+		"name" "Time Limit"
+		"type" "string"
+	}
+	"ship_map_time"
+	{
+		"name" "Change Map Every"
+		"type" "string"
+	}
+	"ship_new_map_wait"
+	{
+		"name" "Wait at Start of New Map"
+		"type" "string"
+	}
+	"ship_witnesses"
+	{
+		"name" "Number of Witnesses"
+		"type" "string"
+	}
+	"ship_witness_time_limit"
+	{
+		"name" "Witness Time"
+		"type" "string"
+	}
+}

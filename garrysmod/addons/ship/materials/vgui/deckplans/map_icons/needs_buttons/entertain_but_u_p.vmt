@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/deckplans/map_icons/needs_buttons/entertain_but_u_p"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+}

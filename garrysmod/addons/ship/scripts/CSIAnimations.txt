@@ -1,0 +1,1794 @@
+// sample animation script
+//
+//
+// commands:
+//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+//		variables:
+//			FgColor
+//			BgColor
+//			Position
+//			Size
+//			Blur		(hud panels only)
+//			TextColor	(hud panels only)
+//			Ammo2Color	(hud panels only)
+//			Alpha		(hud weapon selection only)
+//			SelectionAlpha  (hud weapon selection only)
+//			TextScan	(hud weapon selection only)
+//
+//		interpolator:
+//			Linear
+//			Accel - starts moving slow, ends fast
+//			Deaccel - starts moving fast, ends slow
+//			Spline - simple ease in/out curve
+//			Pulse - < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
+//			Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
+//
+//	RunEvent <event name> <start time>
+//		starts another even running at the specified time
+//
+//	StopEvent <event name> <start time>
+//		stops another event that is current running at the specified time
+//
+//	StopAnimation <panel name> <variable> <start time>
+//		stops all animations refering to the specified variable in the specified panel
+//
+//	StopPanelAnimations <panel name> <start time>
+//		stops all active animations operating on the specified panel
+//
+//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
+//
+//	SetTexture <panel name> <textureidname> <texturefilename> <set time>
+//
+//  SetString <panel name> <string varname> <stringvalue> <set time>
+//
+//  Useful game console commands:
+//	cl_Animationinfo <hudelement name> or <panelname> 
+//		displays all the animatable variables for the hud element
+//
+
+
+event CSIVendMenuOpen
+{
+	// Scale
+	Animate CSIVend_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIVend_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIVend_Bottle Size "80 80" Linear 0.0 0.0
+	Animate CSIVend_BottleIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIVend_Can Size "80 80" Linear 0.0 0.0
+	Animate CSIVend_CanIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIVend_Crisps Size "80 80" Linear 0.0 0.0
+	Animate CSIVend_CrispsIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIVend_Candy Size "80 80" Linear 0.0 0.0
+	Animate CSIVend_CandyIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIVend_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIVend_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIVend_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_Bottle Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_BottleIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_Can Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_CanIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_Crisps Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_CrispsIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_Candy Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_CandyIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIVend_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIVend_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIVend_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIVend_Bottle Position "280 205" Linear 0.0 0.0
+	Animate CSIVend_BottleIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIVend_Can Position "280 205" Linear 0.0 0.0
+	Animate CSIVend_CanIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIVend_Crisps Position "280 205" Linear 0.0 0.0
+	Animate CSIVend_CrispsIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIVend_Candy Position "280 205" Linear 0.0 0.0
+	Animate CSIVend_CandyIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIVend_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIVend_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIVend_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIVend_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIVend_Bottle Position "280 110" Linear 0.0 0.5
+	Animate CSIVend_BottleIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIVend_Can Position "350 130" Linear 0.0 0.5
+	Animate CSIVend_CanIcon Position "375 155" Linear 0.0 0.5
+	Animate CSIVend_Crisps Position "370 200" Linear 0.0 0.5
+	Animate CSIVend_CrispsIcon Position "395 225" Linear 0.0 0.5
+	Animate CSIVend_Candy Position "350 270" Linear 0.0 0.5
+	Animate CSIVend_CandyIcon Position "375 295" Linear 0.0 0.5
+	Animate CSIVend_Examine Position "280 290" Linear 0.0 0.5
+	Animate CSIVend_ExamineIcon Position "305 315" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIVend_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_Bottle Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_BottleIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_Can Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_CanIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_Crisps Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_CrispsIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_Candy Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_CandyIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIVend_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIVendMenuClose
+{
+	// End Positions
+	Animate CSIVend_Bottle Position "280 205" Linear 0.0 0.5
+	Animate CSIVend_BottleIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIVend_Can Position "280 205" Linear 0.0 0.5
+	Animate CSIVend_CanIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIVend_Crisps Position "280 205" Linear 0.0 0.5
+	Animate CSIVend_CrispsIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIVend_Candy Position "280 205" Linear 0.0 0.5
+	Animate CSIVend_CandyIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIVend_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIVend_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIVend_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_Bottle Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_BottleIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_Can Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_CanIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_Crisps Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_CrispsIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_Candy Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_CandyIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIVend_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIToiletMenuOpen
+{
+	// Scale
+	Animate CSIToilet_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIToilet_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIToilet_Pee Size "80 80" Linear 0.0 0.0
+	Animate CSIToilet_PeeIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIToilet_Poo Size "80 80" Linear 0.0 0.0
+	Animate CSIToilet_PooIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIToilet_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIToilet_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIToilet_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIToilet_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIToilet_Pee Alpha "0" Accel 0.0 0.0
+	Animate CSIToilet_PeeIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIToilet_Poo Alpha "0" Accel 0.0 0.0
+	Animate CSIToilet_PooIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIToilet_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIToilet_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIToilet_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIToilet_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIToilet_Pee Position "280 205" Linear 0.0 0.0
+	Animate CSIToilet_PeeIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIToilet_Poo Position "280 205" Linear 0.0 0.0
+	Animate CSIToilet_PooIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIToilet_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIToilet_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIToilet_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIToilet_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIToilet_Pee Position "280 110" Linear 0.0 0.5
+	Animate CSIToilet_PeeIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIToilet_Poo Position "350 130" Linear 0.0 0.5
+	Animate CSIToilet_PooIcon Position "375 155" Linear 0.0 0.5
+	Animate CSIToilet_Examine Position "370 200" Linear 0.0 0.5
+	Animate CSIToilet_ExamineIcon Position "395 225" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIToilet_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIToilet_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIToilet_Pee Alpha "255" Accel 0.0 0.5
+	Animate CSIToilet_PeeIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIToilet_Poo Alpha "255" Accel 0.0 0.5
+	Animate CSIToilet_PooIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIToilet_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIToilet_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIToiletMenuClose
+{
+	// End Positions
+	Animate CSIToilet_Pee Position "280 205" Linear 0.0 0.5
+	Animate CSIToilet_PeeIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIToilet_Poo Position "280 205" Linear 0.0 0.5
+	Animate CSIToilet_PooIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIToilet_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIToilet_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIToilet_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIToilet_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIToilet_Pee Alpha "0" Accel 0.0 0.5
+	Animate CSIToilet_PeeIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIToilet_Poo Alpha "0" Accel 0.0 0.5
+	Animate CSIToilet_PooIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIToilet_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIToilet_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIChairMenuOpen
+{
+	// Scale
+	Animate CSIChair_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIChair_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIChair_Sit Size "80 80" Linear 0.0 0.0
+	Animate CSIChair_SitIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIChair_Sleep Size "80 80" Linear 0.0 0.0
+	Animate CSIChair_SleepIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIChair_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIChair_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIChair_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIChair_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIChair_Sit Alpha "0" Accel 0.0 0.0
+	Animate CSIChair_SitIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIChair_Sleep Alpha "0" Accel 0.0 0.0
+	Animate CSIChair_SleepIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIChair_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIChair_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIChair_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIChair_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIChair_Sit Position "280 205" Linear 0.0 0.0
+	Animate CSIChair_SitIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIChair_Sleep Position "280 205" Linear 0.0 0.0
+	Animate CSIChair_SleepIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIChair_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIChair_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIChair_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIChair_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIChair_Sit Position "280 110" Linear 0.0 0.5
+	Animate CSIChair_SitIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIChair_Sleep Position "350 130" Linear 0.0 0.5
+	Animate CSIChair_SleepIcon Position "375 155" Linear 0.0 0.5
+	Animate CSIChair_Examine Position "370 200" Linear 0.0 0.5
+	Animate CSIChair_ExamineIcon Position "395 225" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIChair_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIChair_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIChair_Sit Alpha "255" Accel 0.0 0.5
+	Animate CSIChair_SitIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIChair_Sleep Alpha "255" Accel 0.0 0.5
+	Animate CSIChair_SleepIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIChair_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIChair_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIChairMenuClose
+{
+	// End Positions
+	Animate CSIChair_Sit Position "280 205" Linear 0.0 0.5
+	Animate CSIChair_SitIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIChair_Sleep Position "280 205" Linear 0.0 0.5
+	Animate CSIChair_SleepIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIChair_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIChair_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIChair_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIChair_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIChair_Sit Alpha "0" Accel 0.0 0.5
+	Animate CSIChair_SitIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIChair_Sleep Alpha "0" Accel 0.0 0.5
+	Animate CSIChair_SleepIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIChair_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIChair_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIBarMenuOpen
+{
+	// Scale
+	Animate CSIBar_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIBar_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIBar_Pint Size "80 80" Linear 0.0 0.0
+	Animate CSIBar_PintIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIBar_Wine Size "80 80" Linear 0.0 0.0
+	Animate CSIBar_WineIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIBar_Cocktail Size "80 80" Linear 0.0 0.0
+	Animate CSIBar_CocktailIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIBar_Shot Size "80 80" Linear 0.0 0.0
+	Animate CSIBar_ShotIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIBar_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIBar_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIBar_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_Pint Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_PintIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_Wine Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_WineIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_Cocktail Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_CocktailIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_Shot Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_ShotIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIBar_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIBar_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIBar_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIBar_Pint Position "280 205" Linear 0.0 0.0
+	Animate CSIBar_PintIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIBar_Wine Position "280 205" Linear 0.0 0.0
+	Animate CSIBar_WineIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIBar_Cocktail Position "280 205" Linear 0.0 0.0
+	Animate CSIBar_CocktailIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIBar_Shot Position "280 205" Linear 0.0 0.0
+	Animate CSIBar_ShotIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIBar_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIBar_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIBar_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIBar_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIBar_Pint Position "280 110" Linear 0.0 0.5
+	Animate CSIBar_PintIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIBar_Wine Position "350 130" Linear 0.0 0.5
+	Animate CSIBar_WineIcon Position "375 155" Linear 0.0 0.5
+	Animate CSIBar_Cocktail Position "370 200" Linear 0.0 0.5
+	Animate CSIBar_CocktailIcon Position "395 225" Linear 0.0 0.5
+	Animate CSIBar_Shot Position "350 270" Linear 0.0 0.5
+	Animate CSIBar_ShotIcon Position "375 295" Linear 0.0 0.5
+	Animate CSIBar_Examine Position "280 290" Linear 0.0 0.5
+	Animate CSIBar_ExamineIcon Position "305 315" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIBar_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_Pint Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_PintIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_Wine Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_WineIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_Cocktail Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_CocktailIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_Shot Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_ShotIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIBar_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIBarMenuClose
+{
+	// End Positions
+	Animate CSIBar_Pint Position "280 205" Linear 0.0 0.5
+	Animate CSIBar_PintIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIBar_Wine Position "280 205" Linear 0.0 0.5
+	Animate CSIBar_WineIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIBar_Cocktail Position "280 205" Linear 0.0 0.5
+	Animate CSIBar_CocktailIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIBar_Shot Position "280 205" Linear 0.0 0.5
+	Animate CSIBar_ShotIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIBar_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIBar_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIBar_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_Pint Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_PintIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_Wine Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_WineIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_Cocktail Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_CocktailIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_Shot Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_ShotIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIBar_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIAITalkMenuOpen
+{
+	// Scale
+	Animate CSIAITalk_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIAITalk_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIAITalk_TalkTo Size "80 80" Linear 0.0 0.0
+	Animate CSIAITalk_TalkToIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIAITalk_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIAITalk_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIAITalk_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIAITalk_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIAITalk_TalkTo Alpha "0" Accel 0.0 0.0
+	Animate CSIAITalk_TalkToIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIAITalk_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIAITalk_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIAITalk_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIAITalk_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIAITalk_TalkTo Position "280 205" Linear 0.0 0.0
+	Animate CSIAITalk_TalkToIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIAITalk_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIAITalk_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIAITalk_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIAITalk_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIAITalk_TalkTo Position "280 110" Linear 0.0 0.5
+	Animate CSIAITalk_TalkToIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIAITalk_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIAITalk_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIAITalk_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIAITalk_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIAITalk_TalkTo Alpha "255" Accel 0.0 0.5
+	Animate CSIAITalk_TalkToIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIAITalk_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIAITalk_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIAITalkMenuClose
+{
+	// End Positions
+	Animate CSIAITalk_TalkTo Position "280 205" Linear 0.0 0.5
+	Animate CSIAITalk_TalkToIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIAITalk_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIAITalk_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIAITalk_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIAITalk_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIAITalk_TalkTo Alpha "0" Accel 0.0 0.5
+	Animate CSIAITalk_TalkToIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIAITalk_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIAITalk_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSISecurityGuardTalkMenuOpen
+{
+	// Scale
+	Animate CSISecurityGuardTalk_Center Size "100 100" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_TalkTo Size "80 80" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_TalkToIcon Size "32 32" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSISecurityGuardTalk_Center Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardTalk_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardTalk_TalkTo Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardTalk_TalkToIcon Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardTalk_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardTalk_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSISecurityGuardTalk_Center Position "270 190" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_TalkTo Position "280 205" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_TalkToIcon Position "305 230" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSISecurityGuardTalk_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSISecurityGuardTalk_Center Position "270 190" Linear 0.0 0.5
+	Animate CSISecurityGuardTalk_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSISecurityGuardTalk_TalkTo Position "280 110" Linear 0.0 0.5
+	Animate CSISecurityGuardTalk_TalkToIcon Position "305 135" Linear 0.0 0.5
+	Animate CSISecurityGuardTalk_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSISecurityGuardTalk_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSISecurityGuardTalk_Center Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_TalkTo Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_TalkToIcon Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSISecurityGuardTalkMenuClose
+{
+	// End Positions
+	Animate CSISecurityGuardTalk_TalkTo Position "280 205" Linear 0.0 0.5
+	Animate CSISecurityGuardTalk_TalkToIcon Position "305 230" Linear 0.0 0.5
+	Animate CSISecurityGuardTalk_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSISecurityGuardTalk_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSISecurityGuardTalk_Center Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_TalkTo Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_TalkToIcon Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardTalk_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSISecurityGuardBribeMenuOpen
+{
+	// Scale
+	Animate CSISecurityGuardBribe_Center Size "100 100" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_TalkTo Size "80 80" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_TalkToIcon Size "32 32" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_Bribe Size "80 80" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_BribeIcon Size "32 32" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSISecurityGuardBribe_Center Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardBribe_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardBribe_TalkTo Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardBribe_TalkToIcon Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardBribe_Bribe Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardBribe_BribeIcon Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardBribe_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSISecurityGuardBribe_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSISecurityGuardBribe_Center Position "270 190" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_TalkTo Position "280 205" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_TalkToIcon Position "305 230" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_Bribe Position "280 205" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_BribeIcon Position "305 230" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSISecurityGuardBribe_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSISecurityGuardBribe_Center Position "270 190" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_TalkTo Position "280 110" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_TalkToIcon Position "305 135" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_Bribe Position "350 130" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_BribeIcon Position "375 155" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_Examine Position "370 200" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_ExamineIcon Position "395 225" Linear 0.0 0.5	
+
+	// End Alpha
+	Animate CSISecurityGuardBribe_Center Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_TalkTo Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_TalkToIcon Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_Bribe Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_BribeIcon Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSISecurityGuardBribeMenuClose
+{
+	// End Positions
+	Animate CSISecurityGuardBribe_TalkTo Position "280 205" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_TalkToIcon Position "305 230" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_Bribe Position "280 205" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_BribeIcon Position "305 230" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSISecurityGuardBribe_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSISecurityGuardBribe_Center Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_TalkTo Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_TalkToIcon Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_Bribe Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_BribeIcon Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSISecurityGuardBribe_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIBedMenuOpen
+{
+	// Scale
+	Animate CSIBed_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIBed_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIBed_Sleep Size "80 80" Linear 0.0 0.0
+	Animate CSIBed_SleepIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIBed_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIBed_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIBed_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIBed_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIBed_Sleep Alpha "0" Accel 0.0 0.0
+	Animate CSIBed_SleepIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIBed_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIBed_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIBed_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIBed_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIBed_Sleep Position "280 205" Linear 0.0 0.0
+	Animate CSIBed_SleepIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIBed_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIBed_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIBed_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIBed_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIBed_Sleep Position "280 110" Linear 0.0 0.5
+	Animate CSIBed_SleepIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIBed_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIBed_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIBed_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIBed_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIBed_Sleep Alpha "255" Accel 0.0 0.5
+	Animate CSIBed_SleepIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIBed_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIBed_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIBedMenuClose
+{
+	// End Positions
+	Animate CSIBed_Sleep Position "280 205" Linear 0.0 0.5
+	Animate CSIBed_SleepIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIBed_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIBed_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIBed_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIBed_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIBed_Sleep Alpha "0" Accel 0.0 0.5
+	Animate CSIBed_SleepIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIBed_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIBed_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIBooksMenuOpen
+{
+	// Scale
+	Animate CSIBooks_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIBooks_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIBooks_Read Size "80 80" Linear 0.0 0.0
+	Animate CSIBooks_ReadIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIBooks_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIBooks_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIBooks_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIBooks_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIBooks_Read Alpha "0" Accel 0.0 0.0
+	Animate CSIBooks_ReadIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIBooks_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIBooks_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIBooks_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIBooks_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIBooks_Read Position "280 205" Linear 0.0 0.0
+	Animate CSIBooks_ReadIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIBooks_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIBooks_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIBooks_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIBooks_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIBooks_Read Position "280 110" Linear 0.0 0.5
+	Animate CSIBooks_ReadIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIBooks_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIBooks_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIBooks_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIBooks_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIBooks_Read Alpha "255" Accel 0.0 0.5
+	Animate CSIBooks_ReadIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIBooks_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIBooks_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIBooksMenuClose
+{
+	// End Positions
+	Animate CSIBooks_Read Position "280 205" Linear 0.0 0.5
+	Animate CSIBooks_ReadIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIBooks_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIBooks_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIBooks_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIBooks_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIBooks_Read Alpha "0" Accel 0.0 0.5
+	Animate CSIBooks_ReadIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIBooks_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIBooks_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIDoorOpenMenuOpen
+{
+	// Scale
+	Animate CSIDoorOpen_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIDoorOpen_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIDoorOpen_Open Size "80 80" Linear 0.0 0.0
+	Animate CSIDoorOpen_OpenIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIDoorOpen_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIDoorOpen_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIDoorOpen_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorOpen_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorOpen_Open Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorOpen_OpenIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorOpen_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorOpen_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIDoorOpen_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIDoorOpen_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIDoorOpen_Open Position "280 205" Linear 0.0 0.0
+	Animate CSIDoorOpen_OpenIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIDoorOpen_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIDoorOpen_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIDoorOpen_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIDoorOpen_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIDoorOpen_Open Position "280 110" Linear 0.0 0.5
+	Animate CSIDoorOpen_OpenIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIDoorOpen_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIDoorOpen_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIDoorOpen_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorOpen_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorOpen_Open Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorOpen_OpenIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorOpen_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorOpen_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIDoorOpenMenuClose
+{
+	// End Positions
+	Animate CSIDoorOpen_Open Position "280 205" Linear 0.0 0.5
+	Animate CSIDoorOpen_OpenIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIDoorOpen_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIDoorOpen_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIDoorOpen_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorOpen_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorOpen_Open Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorOpen_OpenIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorOpen_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorOpen_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIDoorCloseMenuOpen
+{
+	// Scale
+	Animate CSIDoorClose_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIDoorClose_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIDoorClose_Close Size "80 80" Linear 0.0 0.0
+	Animate CSIDoorClose_CloseIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIDoorClose_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIDoorClose_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIDoorClose_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorClose_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorClose_Close Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorClose_CloseIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorClose_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIDoorClose_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIDoorClose_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIDoorClose_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIDoorClose_Close Position "280 205" Linear 0.0 0.0
+	Animate CSIDoorClose_CloseIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIDoorClose_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIDoorClose_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIDoorClose_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIDoorClose_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIDoorClose_Close Position "280 110" Linear 0.0 0.5
+	Animate CSIDoorClose_CloseIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIDoorClose_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIDoorClose_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIDoorClose_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorClose_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorClose_Close Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorClose_CloseIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorClose_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIDoorClose_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIDoorCloseMenuClose
+{
+	// End Positions
+	Animate CSIDoorClose_Close Position "280 205" Linear 0.0 0.5
+	Animate CSIDoorClose_CloseIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIDoorClose_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIDoorClose_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIDoorClose_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorClose_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorClose_Close Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorClose_CloseIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorClose_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIDoorClose_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIAIPushMenuOpen
+{
+	// Scale
+	Animate CSIAIPush_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIAIPush_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIAIPush_Push Size "80 80" Linear 0.0 0.0
+	Animate CSIAIPush_PushIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIAIPush_TalkTo Size "80 80" Linear 0.0 0.0
+	Animate CSIAIPush_TalkToIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIAIPush_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIAIPush_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIAIPush_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPush_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPush_Push Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPush_PushIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPush_TalkTo Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPush_TalkToIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPush_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPush_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIAIPush_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIAIPush_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIAIPush_Push Position "280 205" Linear 0.0 0.0
+	Animate CSIAIPush_PushIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIAIPush_TalkTo Position "280 205" Linear 0.0 0.0
+	Animate CSIAIPush_TalkToIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIAIPush_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIAIPush_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIAIPush_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIAIPush_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIAIPush_Push Position "280 110" Linear 0.0 0.5
+	Animate CSIAIPush_PushIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIAIPush_TalkTo Position "350 130" Linear 0.0 0.5
+	Animate CSIAIPush_TalkToIcon Position "375 155" Linear 0.0 0.5
+	Animate CSIAIPush_Examine Position "370 200" Linear 0.0 0.5
+	Animate CSIAIPush_ExamineIcon Position "395 225" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIAIPush_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPush_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPush_Push Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPush_PushIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPush_TalkTo Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPush_TalkToIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPush_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPush_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIAIPushMenuClose
+{
+	// End Positions
+	Animate CSIAIPush_Push Position "280 205" Linear 0.0 0.5
+	Animate CSIAIPush_PushIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIAIPush_TalkTo Position "280 205" Linear 0.0 0.5
+	Animate CSIAIPush_TalkToIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIAIPush_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIAIPush_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIAIPush_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPush_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPush_Push Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPush_PushIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPush_TalkTo Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPush_TalkToIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPush_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPush_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIAIPoisonMenuOpen
+{
+	// Scale
+	Animate CSIAIPoison_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIAIPoison_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIAIPoison_Poison Size "80 80" Linear 0.0 0.0
+	Animate CSIAIPoison_PoisonIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIAIPoison_TalkTo Size "80 80" Linear 0.0 0.0
+	Animate CSIAIPoison_TalkToIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIAIPoison_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIAIPoison_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIAIPoison_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPoison_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPoison_Poison Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPoison_PoisonIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPoison_TalkTo Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPoison_TalkToIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPoison_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIAIPoison_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIAIPoison_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIAIPoison_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIAIPoison_Poison Position "280 205" Linear 0.0 0.0
+	Animate CSIAIPoison_PoisonIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIAIPoison_TalkTo Position "280 205" Linear 0.0 0.0
+	Animate CSIAIPoison_TalkToIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIAIPoison_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIAIPoison_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIAIPoison_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIAIPoison_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIAIPoison_Poison Position "280 110" Linear 0.0 0.5
+	Animate CSIAIPoison_PoisonIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIAIPoison_TalkTo Position "350 130" Linear 0.0 0.5
+	Animate CSIAIPoison_TalkToIcon Position "375 155" Linear 0.0 0.5
+	Animate CSIAIPoison_Examine Position "370 200" Linear 0.0 0.5
+	Animate CSIAIPoison_ExamineIcon Position "395 225" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIAIPoison_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPoison_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPoison_Poison Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPoison_PoisonIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPoison_TalkTo Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPoison_TalkToIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPoison_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIAIPoison_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIAIPoisonMenuClose
+{
+	// End Positions
+	Animate CSIAIPoison_Poison Position "280 205" Linear 0.0 0.5
+	Animate CSIAIPoison_PoisonIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIAIPoison_TalkTo Position "280 205" Linear 0.0 0.5
+	Animate CSIAIPoison_TalkToIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIAIPoison_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIAIPoison_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIAIPoison_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPoison_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPoison_Poison Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPoison_PoisonIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPoison_TalkTo Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPoison_TalkToIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPoison_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIAIPoison_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIShowerMenuOpen
+{
+	// Scale
+	Animate CSIShower_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIShower_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIShower_Wash Size "80 80" Linear 0.0 0.0
+	Animate CSIShower_WashIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIShower_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIShower_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIShower_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIShower_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIShower_Wash Alpha "0" Accel 0.0 0.0
+	Animate CSIShower_WashIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIShower_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIShower_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIShower_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIShower_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIShower_Wash Position "280 205" Linear 0.0 0.0
+	Animate CSIShower_WashIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIShower_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIShower_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIShower_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIShower_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIShower_Wash Position "280 110" Linear 0.0 0.5
+	Animate CSIShower_WashIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIShower_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIShower_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIShower_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIShower_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIShower_Wash Alpha "255" Accel 0.0 0.5
+	Animate CSIShower_WashIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIShower_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIShower_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIShowerMenuClose
+{
+	// End Positions
+	Animate CSIShower_Wash Position "280 205" Linear 0.0 0.5
+	Animate CSIShower_WashIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIShower_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIShower_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIShower_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIShower_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIShower_Wash Alpha "0" Accel 0.0 0.5
+	Animate CSIShower_WashIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIShower_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIShower_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIItemPickupMenuOpen
+{
+	// Scale
+	Animate CSIItemPickup_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIItemPickup_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIItemPickup_Pickup Size "80 80" Linear 0.0 0.0
+	Animate CSIItemPickup_PickupIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIItemPickup_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIItemPickup_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIItemPickup_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIItemPickup_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIItemPickup_Pickup Alpha "0" Accel 0.0 0.0
+	Animate CSIItemPickup_PickupIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIItemPickup_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIItemPickup_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIItemPickup_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIItemPickup_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIItemPickup_Pickup Position "280 205" Linear 0.0 0.0
+	Animate CSIItemPickup_PickupIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIItemPickup_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIItemPickup_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIItemPickup_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIItemPickup_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIItemPickup_Pickup Position "280 110" Linear 0.0 0.5
+	Animate CSIItemPickup_PickupIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIItemPickup_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIItemPickup_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIItemPickup_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIItemPickup_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIItemPickup_Pickup Alpha "255" Accel 0.0 0.5
+	Animate CSIItemPickup_PickupIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIItemPickup_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIItemPickup_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIItemPickupMenuClose
+{
+	// End Positions
+	Animate CSIItemPickup_Pickup Position "280 205" Linear 0.0 0.5
+	Animate CSIItemPickup_PickupIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIItemPickup_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIItemPickup_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIItemPickup_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIItemPickup_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIItemPickup_Pickup Alpha "0" Accel 0.0 0.5
+	Animate CSIItemPickup_PickupIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIItemPickup_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIItemPickup_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIItemUseMenuOpen
+{
+	// Scale
+	Animate CSIItemUse_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIItemUse_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIItemUse_Use Size "80 80" Linear 0.0 0.0
+	Animate CSIItemUse_UseIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIItemUse_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIItemUse_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIItemUse_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIItemUse_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIItemUse_Use Alpha "0" Accel 0.0 0.0
+	Animate CSIItemUse_UseIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIItemUse_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIItemUse_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIItemUse_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIItemUse_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIItemUse_Use Position "280 205" Linear 0.0 0.0
+	Animate CSIItemUse_UseIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIItemUse_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIItemUse_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIItemUse_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIItemUse_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIItemUse_Use Position "280 110" Linear 0.0 0.5
+	Animate CSIItemUse_UseIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIItemUse_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIItemUse_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIItemUse_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIItemUse_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIItemUse_Use Alpha "255" Accel 0.0 0.5
+	Animate CSIItemUse_UseIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIItemUse_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIItemUse_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIItemUseMenuClose
+{
+	// End Positions
+	Animate CSIItemUse_Use Position "280 205" Linear 0.0 0.5
+	Animate CSIItemUse_UseIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIItemUse_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIItemUse_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIItemUse_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIItemUse_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIItemUse_Use Alpha "0" Accel 0.0 0.5
+	Animate CSIItemUse_UseIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIItemUse_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIItemUse_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIItemTrapMenuOpen
+{
+	// Scale
+	Animate CSIItemTrap_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIItemTrap_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIItemTrap_Place Size "80 80" Linear 0.0 0.0
+	Animate CSIItemTrap_PlaceIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIItemTrap_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIItemTrap_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIItemTrap_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIItemTrap_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIItemTrap_Place Alpha "0" Accel 0.0 0.0
+	Animate CSIItemTrap_PlaceIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIItemTrap_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIItemTrap_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIItemTrap_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIItemTrap_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIItemTrap_Place Position "280 205" Linear 0.0 0.0
+	Animate CSIItemTrap_PlaceIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIItemTrap_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIItemTrap_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIItemTrap_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIItemTrap_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIItemTrap_Place Position "280 110" Linear 0.0 0.5
+	Animate CSIItemTrap_PlaceIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIItemTrap_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIItemTrap_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIItemTrap_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIItemTrap_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIItemTrap_Place Alpha "255" Accel 0.0 0.5
+	Animate CSIItemTrap_PlaceIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIItemTrap_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIItemTrap_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIItemTrapMenuClose
+{
+	// End Positions
+	Animate CSIItemTrap_Place Position "280 205" Linear 0.0 0.5
+	Animate CSIItemTrap_PlaceIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIItemTrap_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIItemTrap_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIItemTrap_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIItemTrap_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIItemTrap_Place Alpha "0" Accel 0.0 0.5
+	Animate CSIItemTrap_PlaceIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIItemTrap_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIItemTrap_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIItemTrapExamineMenuOpen
+{
+	// Scale
+	Animate CSIItemTrapExamine_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIItemTrapExamine_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIItemTrapExamine_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIItemTrapExamine_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIItemTrapExamine_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIItemTrapExamine_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIItemTrapExamine_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIItemTrapExamine_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIItemTrapExamine_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIItemTrapExamine_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIItemTrapExamine_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIItemTrapExamine_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIItemTrapExamine_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIItemTrapExamine_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIItemTrapExamine_Examine Position "280 110" Linear 0.0 0.5
+	Animate CSIItemTrapExamine_ExamineIcon Position "305 135" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIItemTrapExamine_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIItemTrapExamine_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIItemTrapExamine_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIItemTrapExamine_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIItemTrapExamineMenuClose
+{
+	// End Positions
+	Animate CSIItemTrapExamine_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIItemTrapExamine_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIItemTrapExamine_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIItemTrapExamine_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIItemTrapExamine_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIItemTrapExamine_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSITrapMenuOpen
+{
+	// Scale
+	Animate CSITrap_Center Size "100 100" Linear 0.0 0.0
+	Animate CSITrap_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSITrap_Release Size "80 80" Linear 0.0 0.0
+	Animate CSITrap_ReleaseIcon Size "32 32" Linear 0.0 0.0
+	Animate CSITrap_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSITrap_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSITrap_Center Alpha "0" Accel 0.0 0.0
+	Animate CSITrap_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSITrap_Release Alpha "0" Accel 0.0 0.0
+	Animate CSITrap_ReleaseIcon Alpha "0" Accel 0.0 0.0
+	Animate CSITrap_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSITrap_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSITrap_Center Position "270 190" Linear 0.0 0.0
+	Animate CSITrap_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSITrap_Release Position "280 205" Linear 0.0 0.0
+	Animate CSITrap_ReleaseIcon Position "305 230" Linear 0.0 0.0
+	Animate CSITrap_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSITrap_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSITrap_Center Position "270 190" Linear 0.0 0.5
+	Animate CSITrap_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSITrap_Release Position "280 110" Linear 0.0 0.5
+	Animate CSITrap_ReleaseIcon Position "305 135" Linear 0.0 0.5
+	Animate CSITrap_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSITrap_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSITrap_Center Alpha "255" Accel 0.0 0.5
+	Animate CSITrap_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSITrap_Release Alpha "255" Accel 0.0 0.5
+	Animate CSITrap_ReleaseIcon Alpha "255" Accel 0.0 0.5
+	Animate CSITrap_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSITrap_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSITrapMenuClose
+{
+	// End Positions
+	Animate CSITrap_Release Position "280 205" Linear 0.0 0.5
+	Animate CSITrap_ReleaseIcon Position "305 230" Linear 0.0 0.5
+	Animate CSITrap_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSITrap_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSITrap_Center Alpha "0" Accel 0.0 0.5
+	Animate CSITrap_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSITrap_Release Alpha "0" Accel 0.0 0.5
+	Animate CSITrap_ReleaseIcon Alpha "0" Accel 0.0 0.5
+	Animate CSITrap_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSITrap_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSITrapExamineMenuOpen
+{
+	// Scale
+	Animate CSITrapExamine_Center Size "100 100" Linear 0.0 0.0
+	Animate CSITrapExamine_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSITrapExamine_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSITrapExamine_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSITrapExamine_Center Alpha "0" Accel 0.0 0.0
+	Animate CSITrapExamine_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSITrapExamine_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSITrapExamine_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSITrapExamine_Center Position "270 190" Linear 0.0 0.0
+	Animate CSITrapExamine_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSITrapExamine_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSITrapExamine_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSITrapExamine_Center Position "270 190" Linear 0.0 0.5
+	Animate CSITrapExamine_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSITrapExamine_Examine Position "280 110" Linear 0.0 0.5
+	Animate CSITrapExamine_ExamineIcon Position "305 135" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSITrapExamine_Center Alpha "255" Accel 0.0 0.5
+	Animate CSITrapExamine_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSITrapExamine_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSITrapExamine_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSITrapExamineMenuClose
+{
+	// End Positions
+	Animate CSITrapExamine_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSITrapExamine_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSITrapExamine_Center Alpha "0" Accel 0.0 0.5
+	Animate CSITrapExamine_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSITrapExamine_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSITrapExamine_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIHeartMonitorMenuOpen
+{
+	// Scale
+	Animate CSIHeartMonitor_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIHeartMonitor_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIHeartMonitor_Disable Size "80 80" Linear 0.0 0.0
+	Animate CSIHeartMonitor_DisableIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIHeartMonitor_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIHeartMonitor_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIHeartMonitor_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIHeartMonitor_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIHeartMonitor_Disable Alpha "0" Accel 0.0 0.0
+	Animate CSIHeartMonitor_DisableIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIHeartMonitor_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIHeartMonitor_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIHeartMonitor_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIHeartMonitor_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIHeartMonitor_Disable Position "280 205" Linear 0.0 0.0
+	Animate CSIHeartMonitor_DisableIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIHeartMonitor_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIHeartMonitor_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIHeartMonitor_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIHeartMonitor_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIHeartMonitor_Disable Position "280 110" Linear 0.0 0.5
+	Animate CSIHeartMonitor_DisableIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIHeartMonitor_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIHeartMonitor_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIHeartMonitor_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIHeartMonitor_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIHeartMonitor_Disable Alpha "255" Accel 0.0 0.5
+	Animate CSIHeartMonitor_DisableIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIHeartMonitor_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIHeartMonitor_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIHeartMonitorMenuClose
+{
+	// End Positions
+	Animate CSIHeartMonitor_Disable Position "280 205" Linear 0.0 0.5
+	Animate CSIHeartMonitor_DisableIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIHeartMonitor_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIHeartMonitor_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIHeartMonitor_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIHeartMonitor_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIHeartMonitor_Disable Alpha "0" Accel 0.0 0.5
+	Animate CSIHeartMonitor_DisableIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIHeartMonitor_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIHeartMonitor_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIHeartMonitorExamineMenuOpen
+{
+	// Scale
+	Animate CSIHeartMonitorExamine_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIHeartMonitorExamine_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIHeartMonitorExamine_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIHeartMonitorExamine_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIHeartMonitorExamine_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIHeartMonitorExamine_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIHeartMonitorExamine_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIHeartMonitorExamine_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIHeartMonitorExamine_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIHeartMonitorExamine_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIHeartMonitorExamine_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIHeartMonitorExamine_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIHeartMonitorExamine_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIHeartMonitorExamine_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIHeartMonitorExamine_Examine Position "280 110" Linear 0.0 0.5
+	Animate CSIHeartMonitorExamine_ExamineIcon Position "305 135" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIHeartMonitorExamine_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIHeartMonitorExamine_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIHeartMonitorExamine_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIHeartMonitorExamine_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIHeartMonitorExamineMenuClose
+{
+	// End Positions
+	Animate CSIHeartMonitorExamine_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIHeartMonitorExamine_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIHeartMonitorExamine_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIHeartMonitorExamine_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIHeartMonitorExamine_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIHeartMonitorExamine_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIDrinkMenuOpen
+{
+	// Scale
+	Animate CSIDrink_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIDrink_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIDrink_Drink Size "80 80" Linear 0.0 0.0
+	Animate CSIDrink_DrinkIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIDrink_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIDrink_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIDrink_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIDrink_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIDrink_Drink Alpha "0" Accel 0.0 0.0
+	Animate CSIDrink_DrinkIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIDrink_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIDrink_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIDrink_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIDrink_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIDrink_Drink Position "280 205" Linear 0.0 0.0
+	Animate CSIDrink_DrinkIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIDrink_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIDrink_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIDrink_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIDrink_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIDrink_Drink Position "280 110" Linear 0.0 0.5
+	Animate CSIDrink_DrinkIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIDrink_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIDrink_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIDrink_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIDrink_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIDrink_Drink Alpha "255" Accel 0.0 0.5
+	Animate CSIDrink_DrinkIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIDrink_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIDrink_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIDrinkMenuClose
+{
+	// End Positions
+	Animate CSIDrink_Drink Position "280 205" Linear 0.0 0.5
+	Animate CSIDrink_DrinkIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIDrink_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIDrink_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIDrink_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIDrink_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIDrink_Drink Alpha "0" Accel 0.0 0.5
+	Animate CSIDrink_DrinkIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIDrink_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIDrink_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIFoodMenuOpen
+{
+	// Scale
+	Animate CSIFood_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIFood_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIFood_Food Size "80 80" Linear 0.0 0.0
+	Animate CSIFood_FoodIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIFood_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIFood_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIFood_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIFood_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIFood_Food Alpha "0" Accel 0.0 0.0
+	Animate CSIFood_FoodIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIFood_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIFood_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIFood_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIFood_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIFood_Food Position "280 205" Linear 0.0 0.0
+	Animate CSIFood_FoodIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIFood_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIFood_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIFood_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIFood_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIFood_Food Position "280 110" Linear 0.0 0.5
+	Animate CSIFood_FoodIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIFood_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIFood_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIFood_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIFood_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIFood_Food Alpha "255" Accel 0.0 0.5
+	Animate CSIFood_FoodIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIFood_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIFood_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIFoodMenuClose
+{
+	// End Positions
+	Animate CSIFood_Food Position "280 205" Linear 0.0 0.5
+	Animate CSIFood_FoodIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIFood_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIFood_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIFood_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIFood_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIFood_Food Alpha "0" Accel 0.0 0.5
+	Animate CSIFood_FoodIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIFood_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIFood_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIWashMenuOpen
+{
+	// Scale
+	Animate CSIWash_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIWash_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIWash_Wash Size "80 80" Linear 0.0 0.0
+	Animate CSIWash_WashIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIWash_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIWash_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIWash_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIWash_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIWash_Wash Alpha "0" Accel 0.0 0.0
+	Animate CSIWash_WashIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIWash_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIWash_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIWash_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIWash_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIWash_Wash Position "280 205" Linear 0.0 0.0
+	Animate CSIWash_WashIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIWash_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIWash_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIWash_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIWash_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIWash_Wash Position "280 110" Linear 0.0 0.5
+	Animate CSIWash_WashIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIWash_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIWash_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIWash_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIWash_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIWash_Wash Alpha "255" Accel 0.0 0.5
+	Animate CSIWash_WashIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIWash_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIWash_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIWashMenuClose
+{
+	// End Positions
+	Animate CSIWash_Wash Position "280 205" Linear 0.0 0.5
+	Animate CSIWash_WashIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIWash_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIWash_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIWash_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIWash_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIWash_Wash Alpha "0" Accel 0.0 0.5
+	Animate CSIWash_WashIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIWash_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIWash_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSIEntertainmentMenuOpen
+{
+	// Scale
+	Animate CSIEntertainment_Center Size "100 100" Linear 0.0 0.0
+	Animate CSIEntertainment_CenterIcon Size "40 40" Linear 0.0 0.0
+	Animate CSIEntertainment_Use Size "80 80" Linear 0.0 0.0
+	Animate CSIEntertainment_UseIcon Size "32 32" Linear 0.0 0.0
+	Animate CSIEntertainment_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSIEntertainment_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSIEntertainment_Center Alpha "0" Accel 0.0 0.0
+	Animate CSIEntertainment_CenterIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIEntertainment_Use Alpha "0" Accel 0.0 0.0
+	Animate CSIEntertainment_UseIcon Alpha "0" Accel 0.0 0.0
+	Animate CSIEntertainment_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSIEntertainment_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSIEntertainment_Center Position "270 190" Linear 0.0 0.0
+	Animate CSIEntertainment_CenterIcon Position "300 220" Linear 0.0 0.0
+	Animate CSIEntertainment_Use Position "280 205" Linear 0.0 0.0
+	Animate CSIEntertainment_UseIcon Position "305 230" Linear 0.0 0.0
+	Animate CSIEntertainment_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSIEntertainment_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSIEntertainment_Center Position "270 190" Linear 0.0 0.5
+	Animate CSIEntertainment_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSIEntertainment_Use Position "280 110" Linear 0.0 0.5
+	Animate CSIEntertainment_UseIcon Position "305 135" Linear 0.0 0.5
+	Animate CSIEntertainment_Examine Position "350 130" Linear 0.0 0.5
+	Animate CSIEntertainment_ExamineIcon Position "375 155" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIEntertainment_Center Alpha "255" Accel 0.0 0.5
+	Animate CSIEntertainment_CenterIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIEntertainment_Use Alpha "255" Accel 0.0 0.5
+	Animate CSIEntertainment_UseIcon Alpha "255" Accel 0.0 0.5
+	Animate CSIEntertainment_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSIEntertainment_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSIEntertainmentMenuClose
+{
+	// End Positions
+	Animate CSIEntertainment_Use Position "280 205" Linear 0.0 0.5
+	Animate CSIEntertainment_UseIcon Position "305 230" Linear 0.0 0.5
+	Animate CSIEntertainment_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSIEntertainment_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSIEntertainment_Center Alpha "0" Accel 0.0 0.5
+	Animate CSIEntertainment_CenterIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIEntertainment_Use Alpha "0" Accel 0.0 0.5
+	Animate CSIEntertainment_UseIcon Alpha "0" Accel 0.0 0.5
+	Animate CSIEntertainment_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSIEntertainment_ExamineIcon Alpha "0" Accel 0.0 0.5
+}
+
+event CSITalkMenuOpen
+{
+	// Scale
+	Animate CSITalk_Center Size "100 100" Linear 0.0 0.0
+	Animate CSITalk_CenterIcon Size "40 40" Linear 0.0 0.0	
+	Animate CSITalk_TalkTo Size "80 80" Linear 0.0 0.0
+	Animate CSITalk_TalkToIcon Size "32 32" Linear 0.0 0.0
+	Animate CSITalk_Push Size "80 80" Linear 0.0 0.0
+	Animate CSITalk_PushIcon Size "32 32" Linear 0.0 0.0
+	Animate CSITalk_Examine Size "80 80" Linear 0.0 0.0
+	Animate CSITalk_ExamineIcon Size "32 32" Linear 0.0 0.0
+	
+	// Start Alpha
+	Animate CSITalk_Center Alpha "0" Accel 0.0 0.0
+	Animate CSITalk_CenterIcon Alpha "0" Accel 0.0 0.0	
+	Animate CSITalk_TalkTo Alpha "0" Accel 0.0 0.0
+	Animate CSITalk_TalkToIcon Alpha "0" Accel 0.0 0.0
+	Animate CSITalk_Push Alpha "0" Accel 0.0 0.0
+	Animate CSITalk_PushIcon Alpha "0" Accel 0.0 0.0
+	Animate CSITalk_Examine Alpha "0" Accel 0.0 0.0
+	Animate CSITalk_ExamineIcon Alpha "0" Accel 0.0 0.0
+
+	// Start Positions
+	Animate CSITalk_Center Position "270 190" Linear 0.0 0.0
+	Animate CSITalk_CenterIcon Position "300 220" Linear 0.0 0.0	
+	Animate CSITalk_TalkTo Position "280 205" Linear 0.0 0.0
+	Animate CSITalk_TalkToIcon Position "305 230" Linear 0.0 0.0
+	Animate CSITalk_Push Position "280 205" Linear 0.0 0.0
+	Animate CSITalk_PushIcon Position "305 230" Linear 0.0 0.0
+	Animate CSITalk_Examine Position "280 205" Linear 0.0 0.0
+	Animate CSITalk_ExamineIcon Position "305 230" Linear 0.0 0.0
+
+	// Animate to End Positions
+	Animate CSITalk_Center Position "270 190" Linear 0.0 0.5
+	Animate CSITalk_CenterIcon Position "300 220" Linear 0.0 0.5
+	Animate CSITalk_TalkTo Position "280 110" Linear 0.0 0.5
+	Animate CSITalk_TalkToIcon Position "305 135" Linear 0.0 0.5
+	Animate CSITalk_Push Position "350 130" Linear 0.0 0.5
+	Animate CSITalk_PushIcon Position "375 155" Linear 0.0 0.5
+	Animate CSITalk_Examine Position "370 200" Linear 0.0 0.5
+	Animate CSITalk_ExamineIcon Position "395 225" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSITalk_Center Alpha "255" Accel 0.0 0.5
+	Animate CSITalk_CenterIcon Alpha "255" Accel 0.0 0.5	
+	Animate CSITalk_TalkTo Alpha "255" Accel 0.0 0.5
+	Animate CSITalk_TalkToIcon Alpha "255" Accel 0.0 0.5
+	Animate CSITalk_Push Alpha "255" Accel 0.0 0.5
+	Animate CSITalk_PushIcon Alpha "255" Accel 0.0 0.5
+	Animate CSITalk_Examine Alpha "255" Accel 0.0 0.5
+	Animate CSITalk_ExamineIcon Alpha "255" Accel 0.0 0.5
+}
+
+event CSITalkMenuClose
+{
+	// End Positions	
+	Animate CSITalk_TalkTo Position "280 205" Linear 0.0 0.5
+	Animate CSITalk_TalkToIcon Position "305 230" Linear 0.0 0.5
+	Animate CSITalk_Push Position "280 205" Linear 0.0 0.5
+	Animate CSITalk_PushIcon Position "305 230" Linear 0.0 0.5
+	Animate CSITalk_Examine Position "280 205" Linear 0.0 0.5
+	Animate CSITalk_ExamineIcon Position "305 230" Linear 0.0 0.5
+
+	// End Alpha
+	Animate CSITalk_Center Alpha "0" Accel 0.0 0.5
+	Animate CSITalk_CenterIcon Alpha "0" Accel 0.0 0.5	
+	Animate CSITalk_TalkTo Alpha "0" Accel 0.0 0.5
+	Animate CSITalk_TalkToIcon Alpha "0" Accel 0.0 0.5
+	Animate CSITalk_Push Alpha "0" Accel 0.0 0.5
+	Animate CSITalk_PushIcon Alpha "0" Accel 0.0 0.5
+	Animate CSITalk_Examine Alpha "0" Accel 0.0 0.5
+	Animate CSITalk_ExamineIcon Alpha "0" Accel 0.0 0.5
+}

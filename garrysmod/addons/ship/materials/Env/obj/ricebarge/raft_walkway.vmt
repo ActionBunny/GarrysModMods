@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/obj/ricebarge/raft_walkway"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$bumpMap"				"env/obj/ricebarge/raft_walkway_normal"
+	"$nocull"			1
+}

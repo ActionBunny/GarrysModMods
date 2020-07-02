@@ -1,0 +1,643 @@
+
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+
+
+//Attacks
+
+
+"Officer.BludgeonA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.BludgeonB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.Push"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.Slash"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.Stab"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.Syringe"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.ThrowA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.ThrowB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+//Pain
+
+
+"Officer.FlinchBack"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_FlinchBack1.wav"
+		"wave"	"voiceover/officer/Officer_FlinchBack2.wav"
+		"wave"	"voiceover/officer/Officer_FlinchBack3.wav"
+	}
+}
+
+
+"Officer.FlinchForward"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_FlinchForward1.wav"
+		"wave"	"voiceover/officer/Officer_FlinchForward2.wav"
+	}
+}
+
+
+
+"Officer.OnFire"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+"Officer.Stunned"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+"Officer.Vomit"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+//Needs
+
+"Officer.Depressed"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.NeedDrink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.NeedEntertainment"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.NeedFood"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.NeedPee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.NeedPoo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.NeedSleep"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.NeedSocial"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.Pee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.PeeSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.PooSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.PooRelief"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.PooStrain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Officer.Shower"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+
+
+//Idles
+
+"Officer.IdleCigar"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.9"
+	"wave"		"voiceover/officer/Officer_IdleCigar.wav"
+}
+
+
+"Officer.IdleWatch"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.9"	
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_IdleWatch1.wav"
+		"wave"	"voiceover/officer/Officer_IdleWatch2.wav"
+	}
+}
+
+
+"Officer.IdlePickNose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.9"
+	"wave"		"voiceover/officer/Officer_IdlePickNose.wav"
+}
+
+
+
+//Officer specifc
+
+
+"Officer.IdleTwiddle"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.9"	
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_IdleTwiddle1.wav"
+		"wave"	"voiceover/officer/Officer_IdleTwiddle2.wav"
+		"wave"	"voiceover/officer/Officer_IdleTwiddle3.wav"
+		"wave"	"voiceover/officer/Officer_IdleTwiddle4.wav"
+	}
+}
+
+
+
+//Talk
+
+"Officer.TalkDontCare"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_TalkDontCare1.wav"
+		"wave"	"voiceover/officer/Officer_TalkDontCare2.wav"
+		"wave"	"voiceover/officer/Officer_TalkDontCare3.wav"
+		"wave"	"voiceover/officer/Officer_TalkDontCare4.wav"
+	}
+}
+
+
+
+"Officer.TalkExplain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_TalkExplain1.wav"
+		"wave"	"voiceover/officer/Officer_TalkExplain2.wav"
+		"wave"	"voiceover/officer/Officer_TalkExplain3.wav"
+		"wave"	"voiceover/officer/Officer_TalkExplain4.wav"
+	}
+}
+
+
+
+"Officer.TalkNo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_TalkNo1.wav"
+		"wave"	"voiceover/officer/Officer_TalkNo2.wav"
+		"wave"	"voiceover/officer/Officer_TalkNo3.wav"
+		"wave"	"voiceover/officer/Officer_TalkNo4.wav"
+	}
+}
+
+
+"Officer.TalkThink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_TalkThink1.wav"
+		"wave"	"voiceover/officer/Officer_TalkThink2.wav"
+		"wave"	"voiceover/officer/Officer_TalkThink3.wav"
+		"wave"	"voiceover/officer/Officer_TalkThink4.wav"
+	}
+}
+
+
+"Officer.TalkWell"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_TalkWell1.wav"
+		"wave"	"voiceover/officer/Officer_TalkWell2.wav"
+		"wave"	"voiceover/officer/Officer_TalkWell3.wav"
+		"wave"	"voiceover/officer/Officer_TalkWell4.wav"
+	}
+}
+
+
+"Officer.TalkYes"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_TalkYes1.wav"
+		"wave"	"voiceover/officer/Officer_TalkYes2.wav"
+		"wave"	"voiceover/officer/Officer_TalkYes3.wav"
+		"wave"	"voiceover/officer/Officer_TalkYes4.wav"
+	}
+}
+
+
+
+
+//Other
+
+"Officer.Arrested"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.Pickup"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.PickupHigh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Officer.Point"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+// Sounds not played but precached
+"Officer.IdleNails"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Officer.IdleScratch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Officer.IdleSneeze"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Officer.IdleSuspicious"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+//NPC specifics
+
+"Officer.ShockA"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_ShockA1.wav"
+		"wave"	"voiceover/officer/Officer_ShockA2.wav"
+	}
+}
+
+
+"Officer.ShockB"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_ShockB1.wav"
+		"wave"	"voiceover/officer/Officer_ShockB2.wav"
+	}
+}
+
+
+"Officer.ShockC"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_ShockC1.wav"
+		"wave"	"voiceover/officer/Officer_ShockC2.wav"
+	}
+}
+
+
+"Officer.ShockD"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/officer/Officer_ShockD1.wav"
+		"wave"	"voiceover/officer/Officer_ShockD2.wav"
+	}
+}
+
+

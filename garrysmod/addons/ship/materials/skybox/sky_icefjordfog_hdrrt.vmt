@@ -1,0 +1,6 @@
+"sky"
+{
+    "$hdrbaseTexture" "skybox/sky_icefjord_hdrrt"
+    "$ignorez" "1"
+    "$basetexture" "skybox/sky_icefjordrt"
+}

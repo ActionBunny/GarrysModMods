@@ -1,0 +1,12 @@
+
+"LightMappedGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/floors/floor_rice_walkway"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$bumpMap"				"env/brush/floors/floor_deckDull_normal"
+	"$surfaceprop" "Wood_Deck"
+}

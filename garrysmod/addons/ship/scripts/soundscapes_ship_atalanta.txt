@@ -1,0 +1,1419 @@
+// Atalanta (Naronic) specific soundscapes
+"HMSN.Base"
+{
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInside_Loop.wav" 
+        }
+}
+"HMSN.BaseWash"
+{
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+}
+"HMSN.ToiletBig"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.6"
+	"playlooping" 
+	{ 
+        	"volume"	"0.1" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/common/AirCon_Loop.wav" 
+        }
+	"playsoundscape"
+	{
+		"name" 		"HMSN.Base"
+		"volume" 	"1.0"
+	}
+}
+"HMSN.MaleToiletsA"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletBig"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+}
+"HMSN.FemaleToiletsA"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletBig"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+}
+"HMSN.MaleToiletsB"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletBig"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.FemaleToiletsB"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletBig"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.BaseSmallRoom"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.2"
+	"playsoundscape"
+	{
+		"name" 		"HMSN.Base"
+		"volume" 	"1.0"
+	}
+}
+"HMSN.BaseSmallRoomWash"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.2"
+	"playsoundscape"
+	{
+		"name" 		"HMSN.BaseWash"
+		"volume" 	"1.0"
+	}
+}
+"HMSN.Corridor"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.25"
+	"playsoundscape"
+	{
+		"name" 		"HMSN.Base"
+		"volume" 	"1.0"
+	}
+}
+"HMSN.CorridorWash"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.25"
+	"playsoundscape"
+	{
+		"name" 		"HMSN.BaseWash"
+		"volume" 	"1.0"
+	}
+}
+"HMSN.Deck"
+{
+        "playlooping" 
+        { 
+               "volume"       "0.35" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaOutside_Loop.wav" 
+        }
+        "playrandom" 
+	{ 
+		"time" "6, 15" 
+		"volume" "0.08,0.14" 
+		"pitch" "90, 110" 
+		"position"  	"random" 
+		"attenuation" 	"0.7" 
+		"rndwave" 
+		{ 
+			"wave" "ambience/atlanta/Loon1.wav"
+			"wave" "ambience/atlanta/Loon2.wav"
+			"wave" "ambience/atlanta/Loon3.wav"
+			"wave" "ambience/atlanta/Loon4.wav"
+			"wave" "ambience/atlanta/Loon5.wav"
+		}
+	}  
+}
+"HMSN.Cabin1"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoomWash"
+		"volume" "1.0"
+	}
+	"playlooping" 
+	{ 
+        	"volume"	"0.1" 
+        	"pitch"		"100"
+		//"position"  	"1"  
+        	"wave"		"ambience/common/FanCeiling_Loop.wav" 
+        }
+}
+"HMSN.Ensuite1"
+{
+	"dsp"		"11"
+	"dsp_volume" 	"0.8"
+	"playsoundscape"
+	{
+		"name" "HMSN.Base"
+		"volume" "1.0"
+	}
+	"playlooping" 
+	{ 
+        	"volume"	"0.1" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/common/AirCon_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.08" 
+        	"pitch"		"100" 
+		//"position"  	"1" 
+        	"wave"		"ambience/common/FanCeiling_Loop.wav" 
+        }
+}
+"HMSN.Cabin2"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoomWash"
+		"volume" "1.0"
+	}
+	"playlooping" 
+	{ 
+        	"volume"	"0.1" 
+        	"pitch"		"100" 
+		//"position"  	"1" 
+        	"wave"		"ambience/common/FanCeiling_Loop.wav" 
+        }
+}
+"HMSN.Ensuite2"
+{
+	"dsp"		"11"
+	"dsp_volume" 	"0.8"
+	"playsoundscape"
+	{
+		"name" "HMSN.Base"
+		"volume" "1.0"
+	}
+	"playlooping" 
+	{ 
+        	"volume"	"0.1" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/common/AirCon_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.08" 
+        	"pitch"		"100" 
+		//"position"  	"1"
+        	"wave"		"ambience/common/FanCeiling_Loop.wav" 
+        }
+}
+"HMSN.Cabin3"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoomWash"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.6" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.Cabin4"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoomWash"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.Cabin5"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoomWash"
+		"volume" "1.0"
+	}
+}
+"HMSN.Cabin6"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoomWash"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+}
+"HMSN.Cabin7"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoomWash"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.7" 
+               "pitch"        "100" 
+               "music"  "1"
+		//"position" 	"0"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+}
+"HMSN.Cabin8"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoomWash"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+}
+"HMSN.C1"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.CorridorWash"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "0.14"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.C2"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.C3"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.3" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.C13"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.015" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.C14"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.C15"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.25"
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.C16"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.C17"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.CorridorWash"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.C4"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.CorridorWash"
+		"volume" "1.0"
+	}
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "0.14"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+}
+"HMSN.C5"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.25"
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.01" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+}
+"HMSN.C6"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+}
+"HMSN.C7"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.3" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.C8"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.C9"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.C10"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/BedtimeZoo2_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.C11"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.C12"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Corridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/DoesTheGirl1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.Security Office"
+{
+	"dsp"		"11"
+	"dsp_volume" 	"0.8"
+	"playlooping" 
+	{ 
+        	"volume"	"0.2" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/common/InsideBase_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.3" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/common/RoomToneComputer_Loop.wav" 
+        }
+}
+"HMSN.OutsideOrion"
+{
+	"playsoundscape"
+	{
+		"name" 	"HMSN.Deck"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+}
+"HMSN.Orion"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.6"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.6" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+}
+"HMSN.CorridorB1"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.4"
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "0.05"
+	}
+}
+"HMSN.CorridorB2"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.4"
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "0.14"
+	}
+}
+"HMSN.StairwellB"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.CorridorWash"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+}
+"HMSN.SickbayReception"
+{
+	"dsp"		"11"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/sickbay/HospitalHeartMon_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.02" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Extase2_Loop.wav" 
+        }
+}
+"HMSN.SickbayWard"
+{
+	"dsp"		"11"
+	"dsp_volume" 	"0.5"
+	"playlooping" 
+        { 
+               "volume"       "0.12" 
+               "pitch"        "100" 
+               "wave"         "ambience/sickbay/HospitalHeartMon_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+}
+"HMSN.Doctors"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoom"
+		"volume" "1.0"
+	}
+}
+"HMSN.Psychiatrist"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.4" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Extase2_Loop.wav" 
+        }
+        "playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+}
+"HMSN.PourVous"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.3" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+}
+"HMSN.Bank"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BaseSmallRoom"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.3" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+}
+"HMSN.B1"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+       "playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+}
+"HMSN.B2"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+       "playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+}
+"HMSN.B3"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.3" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+}
+"HMSN.B4"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.45" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/sickbay/HospitalHeartMon_Loop.wav" 
+        }
+}
+"HMSN.B5"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.45" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Extase2_Loop.wav" 
+        }
+}
+"HMSN.B6"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.45" 
+               "pitch"        "100"
+		//"position" 	"2" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+}
+"HMSN.B7"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+}
+"HMSN.B8"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+}
+"HMSN.B9"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.05" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/CordAndTassel4_Loop.wav" 
+        }
+}
+"HMSN.B10"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BrightCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.13" 
+               "pitch"        "100" 
+               "wave"         "ambience/sickbay/HospitalHeartMon_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Extase2_Loop.wav" 
+        }
+}
+"HMSN.B11"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.BrightCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.13" 
+               "pitch"        "100" 
+               "wave"         "ambience/sickbay/HospitalHeartMon_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/Extase2_Loop.wav" 
+        }
+}
+"HMSN.OutsideBridge"
+{
+	"playsoundscape"
+	{
+		"name" 	"HMSN.Deck"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "wave"         "ambience/bridge/BoatSonar_Loop.wav" 
+		//"position" 	"0"
+	}
+	"playrandom" 
+	{ 
+		"time" 		"6,15" 
+		"volume" 	"0.04" 
+		"pitch" 	"100" 
+		//"position" 	"1" 
+		"rndwave" 
+		{ 
+			"wave" "ambience/bridge/MorseCode.wav"
+		}
+	}
+}
+"HMSN.Bridge"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.3"
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+		//"position" 	"2" 
+               "wave"         "ambience/bridge/BoatSonar_Loop.wav" 
+	}
+	"playrandom" 
+	{ 
+		"time" 		"6,15" 
+		"volume" 	"0.08" 
+		"pitch" 	"100"  
+		//"position" 	"3"
+		"rndwave" 
+		{ 
+			"wave" "ambience/bridge/MorseCode.wav"
+		}
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.6" 
+               "pitch"        "100" 
+		//"position" 	"4" 
+               "wave"         "ambience/bridge/RadioTuning_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/bridge/Engineering_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.45" 
+               "pitch"        "100" 
+               "wave"         "ambience/bridge/Engine_Loop.wav" 
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+}
+"HMSN.Toilet"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.ToiletSmall"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+}
+"HMSN.BackDeckA"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.2" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+}
+"HMSN.BackDeckB"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.Deck"
+		"volume" "1.0"
+	}
+        "playlooping" 
+        { 
+               "volume"       "0.35" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/Paddle_Loop.wav" 
+        } 
+}
+"HMSN.Elevator"
+{
+	"playsoundscape"
+	{
+		"name" "HMS.Elevator"
+		"volume" "1.0"
+	}
+}
+"HMSN.BrigCorridor"
+{
+	"dsp"		"18"
+	"dsp_volume" 	"0.7"
+	"playlooping" 
+	{ 
+        	"volume"	"0.25" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/brig/BrigLight_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInside_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.04" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.Brig2"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BrigCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.08" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.Brig2"
+{
+	"playsoundscape"
+	{
+		"name" "HMSN.BrigCorridor"
+		"volume" "1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.14" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.BrigShower"
+{
+	"dsp"		"18"
+	"dsp_volume" 	"0.7"
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInside_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.25" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/brig/BrigLight_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+        	"volume"	"0.18" 
+        	"pitch"		"100" 
+        	"wave"		"ambience/brig/BrigShowerDrip_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.03" 
+               "pitch"        "100" 
+               "music"  "1"
+               "wave"         "ambience/music/TheCrushedTragedian1_Loop.wav" 
+        }
+}
+"HMSN.Cell"
+{
+	"dsp"		"18"
+	"dsp_volume" 	"0.7"
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInside_Loop.wav" 
+        }
+	"playlooping" 
+	{ 
+       	 	"volume"	"0.25" 
+        	"pitch"		"100" 
+       		"wave"		"ambience/brig/BrigLight_Loop.wav" 
+        }
+	"playsoundscape"
+	{
+		"name" "HMS.BrigDrip"
+		"volume" "1.0"
+	}
+}
+"HMSN.Courtroom"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.2"
+	"playlooping" 
+        { 
+               "volume"       "0.06" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInside_Loop.wav" 
+        }
+	"playlooping" 
+        { 
+               "volume"       "0.1" 
+               "pitch"        "100" 
+               "wave"         "ambience/courtroom/CourtClock_Loop.wav" 
+	}
+	"playrandom" 
+	{ 
+		"time" 		"5,5.5" 
+		"volume" 	"0.06" 
+		"pitch" 	"95,105"  
+		"rndwave" 
+		{ 
+			"wave" "ambience/courtroom/PaperRustle1.wav"
+			"wave" "ambience/courtroom/PaperRustle2.wav"
+			"wave" "ambience/courtroom/PaperRustle3.wav"
+			"wave" "ambience/courtroom/PaperRustle4.wav"
+		}
+	}
+	"playrandom" 
+	{ 
+		"time" 		"2,2.3" 
+		"volume" 	"0.07" 
+		"pitch" 	"95,105"  
+		"rndwave" 
+		{ 
+			"wave" "ambience/courtroom/TypeWriter1.wav"
+			"wave" "ambience/courtroom/TypeWriter2.wav"
+			"wave" "ambience/courtroom/TypeWriter3.wav"
+			"wave" "ambience/courtroom/TypeWriter4.wav"
+			"wave" "ambience/courtroom/TypeWriter5.wav"
+			"wave" "ambience/courtroom/TypeWriter6.wav"
+		}
+	}
+}
+"HMSN.StairwellA1"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.2"
+	"playsoundscape"
+	{
+		"name" 		"HMSN.CorridorWash"
+		"volume" 	"1.0"
+	}
+	"playlooping" 
+        { 
+               "volume"       "0.15" 
+               "pitch"        "100" 
+               "wave"         "ambience/atlanta/AtlantaInsideWash_Loop.wav" 
+        }
+}
+"HMSN.StairwellA2"
+{
+	"dsp"		"1"
+	"dsp_volume" 	"0.2"
+	"playsoundscape"
+	{
+		"name" 		"HMSN.CorridorWash"
+		"volume" 	"1.0"
+	}
+}

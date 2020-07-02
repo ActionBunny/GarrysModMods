@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\syndod\v_models\Garand/v_garand"
+	"$bumpmap"     "models\weapons\syndod\v_models\Garand/v_garand_normal"
+}

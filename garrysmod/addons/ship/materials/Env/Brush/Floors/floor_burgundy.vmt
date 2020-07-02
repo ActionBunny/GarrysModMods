@@ -1,0 +1,18 @@
+
+"LightMappedGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/floors/floor_burgundy"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	//"$envMap"				"env_cubemap"
+	//"$envMapTint"				"[1 1 1]"
+	//"$envMapSphere"				0
+	//"$envMapCameraSpace"			0
+	//"$baseAlphaEnvMapMask"			1
+	//"$normalMapAlphaEnvMapMask"			0
+	//"$bumpMap"				"env/brush/floors/floor_"
+	"$surfaceprop" "carpet"
+}

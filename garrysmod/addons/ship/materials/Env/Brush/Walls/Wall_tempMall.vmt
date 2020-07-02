@@ -1,0 +1,16 @@
+
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"Env/Brush/Walls/Wall_tempMall"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$envMap"				"env_cubemap"
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"			0
+	"$normalMapAlphaEnvMapMask"			1
+	"$bumpMap"				"Env/Brush/Walls/wall_tempMall_normal"
+	"$surfaceprop" "plaster"
+}

@@ -1,0 +1,619 @@
+
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+
+
+//Attacks
+
+
+"Psychiatrist.BludgeonA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.BludgeonB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.Push"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.Slash"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.Stab"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.Syringe"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.ThrowA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.ThrowB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+//Pain
+
+
+"Psychiatrist.FlinchBack"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/psychiatrist/Psychiatrist_FlinchBack1.wav"
+		"wave"	"voiceover/psychiatrist/Psychiatrist_FlinchBack2.wav"
+	}
+}
+
+
+"Psychiatrist.FlinchForward"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/psychiatrist/Psychiatrist_FlinchForward1.wav"
+		"wave"	"voiceover/psychiatrist/Psychiatrist_FlinchForward2.wav"
+	}
+}
+
+
+
+"Psychiatrist.OnFire"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+"Psychiatrist.Stunned"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+"Psychiatrist.Vomit"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+//Needs
+
+"Psychiatrist.Depressed"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.NeedDrink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.NeedEntertainment"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.NeedFood"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.NeedPee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.NeedPoo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.NeedSleep"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.NeedSocial"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.Pee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.PeeSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.PooSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.PooRelief"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.PooStrain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Psychiatrist.Shower"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+
+
+//Idles
+
+"Psychiatrist.IdleCigar"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.IdleWatch"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"	
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.IdlePickNose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+//Talk
+
+"Psychiatrist.TalkDontCare"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+"Psychiatrist.TalkExplain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+"Psychiatrist.TalkNo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.TalkThink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.TalkWell"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.TalkYes"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+//Other
+
+"Psychiatrist.Arrested"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.Pickup"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.PickupHigh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Psychiatrist.Point"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+// Sounds not played but precached
+"Psychiatrist.IdleNails"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Psychiatrist.IdleScratch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Psychiatrist.IdleSneeze"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Psychiatrist.IdleSuspicious"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+//NPC specifics
+
+"Psychiatrist.ShockA"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/psychiatrist/Psychiatrist_ShockA1.wav"
+		"wave"	"voiceover/psychiatrist/Psychiatrist_ShockA2.wav"
+	}
+}
+
+
+"Psychiatrist.ShockB"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/psychiatrist/Psychiatrist_ShockB1.wav"
+		"wave"	"voiceover/psychiatrist/Psychiatrist_ShockB2.wav"
+	}
+}
+
+
+"Psychiatrist.ShockC"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/psychiatrist/Psychiatrist_ShockC1.wav"
+		"wave"	"voiceover/psychiatrist/Psychiatrist_ShockC2.wav"
+	}
+}
+
+
+"Psychiatrist.ShockD"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/psychiatrist/Psychiatrist_ShockD1.wav"
+		"wave"	"voiceover/psychiatrist/Psychiatrist_ShockD2.wav"
+	}
+}
+
+
+
+//Psychiatrist specifc
+
+
+"Psychiatrist.TellMe"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_110dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/psychiatrist/Psychiatrist_TellMe1.wav"
+		"wave"	"voiceover/psychiatrist/Psychiatrist_TellMe2.wav"
+		"wave"	"voiceover/psychiatrist/Psychiatrist_TellMe3.wav"
+		"wave"	"voiceover/psychiatrist/Psychiatrist_TellMe4.wav"
+	}
+}
+
+
+
+"Psychiatrist.Listen"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"0.8"	
+	"rndwave"
+	{
+		"wave"	"voiceover/Psychiatrist/Psychiatrist_Talk1.wav"
+		"wave"	"voiceover/Psychiatrist/Psychiatrist_Talk2.wav"
+		"wave"	"voiceover/Psychiatrist/Psychiatrist_Talk3.wav"
+		"wave"	"voiceover/Psychiatrist/Psychiatrist_Talk4.wav"
+	}
+}
+
+
+

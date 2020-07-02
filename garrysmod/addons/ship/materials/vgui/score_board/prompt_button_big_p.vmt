@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/score_board/prompt_button_big_p"
+	"$vertexcolor" 1
+	"$vertexalpha" 0
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+}

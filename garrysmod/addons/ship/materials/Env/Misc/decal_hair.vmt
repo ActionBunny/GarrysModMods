@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "env/misc/decal_hair"
+    "$decal" 1
+    "$alpha"				1
+    "$decalscale" 0.2
+    "$translucent" 1
+}

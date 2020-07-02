@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "Env/Brush/Floors/Floor_tiles_purple"
+	"$alpha"					1
+	"$normalMapAlphaEnvMapMask"	1
+	"$bumpMap"		"env/brush/floors/floor_tiles_purple_normal"
+	"$surfaceprop" "tile"
+}

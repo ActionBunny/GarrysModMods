@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$baseTexture"			"env/misc/decal_jailshowerfloor"
+	"decal"				1
+	"$translucent"			1
+	"$alpha"				1
+	"$decalscale"			0.25
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "env/misc/decal_steam"
+    "$decal" 1
+    "$alpha"				1
+    "$decalscale" 0.08
+    "$translucent" 1
+}

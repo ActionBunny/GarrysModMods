@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "sprites/items/inv_truncheon"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/obj/ricebarge/catfish"
+	"$envmap"			"env_cubemap"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$envmapcontrast"		1
+	"$alphatest"				1
+	"$bumpMap"				"env/obj/ricebarge/catfish_normal"
+	"$normalMapAlphaEnvMapMask"		1
+	"$nocull"				1
+}

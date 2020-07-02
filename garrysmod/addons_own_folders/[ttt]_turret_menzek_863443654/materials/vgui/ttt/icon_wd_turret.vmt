@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+ "$basetexture" "vgui/ttt/icon_wd_turret"
+ "$vertexcolor" 1
+ "$vertexalpha" 1
+ "$translucent" 1
+}

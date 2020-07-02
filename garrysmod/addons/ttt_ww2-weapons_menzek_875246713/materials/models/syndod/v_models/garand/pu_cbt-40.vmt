@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\syndod\v_models\Garand\PU_CBT-40"
+	"$bumpmap"     "models\weapons\syndod\v_models\garand/PU_CBT-40_normal"
+	"$alpha" "models\weapons\syndod\v_models\Garand\PU_CBT-40"	
+ $alphatest 1
+	"$nocull" "1"
+        "$phong" "1"
+        "$phongexponent" "85"
+        "$phongboost" "1"
+        "$phongfresnelranges" "[1 4 8]"
+}

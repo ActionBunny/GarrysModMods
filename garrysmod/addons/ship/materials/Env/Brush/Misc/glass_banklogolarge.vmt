@@ -1,0 +1,17 @@
+
+"LightMappedGeneric"
+{
+	
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/misc/glass_banklogolarge"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$alpha"				1
+	"$envMap"				"env_cubemap"
+	"$envMapTint"				"[0.5 0.5 0.5]"
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"			0
+	"$normalMapAlphaEnvMapMask"			0
+	"$surfaceprop" "glass"
+}

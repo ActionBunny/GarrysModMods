@@ -1,0 +1,542 @@
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//Attacks
+"Shopkeeper.BludgeonA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.BludgeonB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.Push"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.Slash"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.Stab"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.Syringe"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.ThrowA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.ThrowB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+//Pain
+"Shopkeeper.FlinchBack"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_FlinchBack1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_FlinchBack2.wav"
+	}
+}
+"Shopkeeper.FlinchForward"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_FlinchForward1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_FlinchForward2.wav"
+	}
+}
+"Shopkeeper.OnFire"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.Stunned"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.Vomit"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+//Needs
+"Shopkeeper.Depressed"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.NeedDrink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.NeedEntertainment"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.NeedFood"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.NeedPee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.NeedPoo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.NeedSleep"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.NeedSocial"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.Pee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.PeeSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.PooSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.PooRelief"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.PooStrain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Shopkeeper.Shower"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+//Idles
+"Shopkeeper.IdleNails"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleNails1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleNails2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleNails3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleNails4.wav"
+	}
+}
+"Shopkeeper.IdleScratch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleScratch1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleScratch2.wav"
+	}
+}
+"Shopkeeper.IdleSneeze"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.7"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleSneeze1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleSneeze2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleSneeze3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleSneeze4.wav"
+	}
+}
+"Shopkeeper.IdleSuspicious"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleSuspicious1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_IdleSuspicious2.wav"
+	}
+}
+//Talk
+"Shopkeeper.TalkDontCare"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkDontCare1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkDontCare2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkDontCare3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkDontCare4.wav"
+	}
+}
+"Shopkeeper.TalkExplain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkExplain1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkExplain2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkExplain3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkExplain4.wav"
+	}
+}
+"Shopkeeper.TalkNo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkNo1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkNo2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkNo3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkNo4.wav"
+	}
+}
+"Shopkeeper.TalkThink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkThink1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkThink2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkThink3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkThink4.wav"
+	}
+}
+"Shopkeeper.TalkWell"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkWell1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkWell2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkWell3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkWell4.wav"
+	}
+}
+"Shopkeeper.TalkYes"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkYes1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkYes2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkYes3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_TalkYes4.wav"
+	}
+}
+//Other
+"Shopkeeper.Arrested"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.Pickup"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.PickupHigh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.Point"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+// Sounds not played but precached
+"Shopkeeper.IdleCigar"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.IdleWatch"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"	
+	"wave"		"common/null.wav"
+}
+"Shopkeeper.Picknose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+//NPC specifics
+"Shopkeeper.ShockA"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_ShockA1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_ShockA2.wav"
+	}
+}
+"Shopkeeper.ShockB"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_ShockB1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_ShockB2.wav"
+	}
+}
+"Shopkeeper.ShockC"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_ShockC1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_ShockC2.wav"
+	}
+}
+"Shopkeeper.ShockD"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_ShockD1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_ShockD2.wav"
+	}
+}
+"Shopkeeper.Help"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_CanHelp1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_CanHelp2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_CanHelp3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_CanHelp4.wav"
+	}
+}
+"Shopkeeper.CashReg"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"rndwave"
+	{
+		"wave"	"voiceover/shopkeeper/ShopKeep_CashReg1.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_CashReg2.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_CashReg3.wav"
+		"wave"	"voiceover/shopkeeper/ShopKeep_CashReg4.wav"
+	}
+}

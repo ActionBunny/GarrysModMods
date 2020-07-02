@@ -1,0 +1,9 @@
+"eyes"
+{
+	"$basetexture" "char/eyeball_orange_l"
+	"$iris" "char/pupil_slit_l"
+	"$halflambert" 1
+	"$nodecal" "1"
+	"$alpha"		1
+	"$selfillum"	1
+}

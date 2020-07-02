@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/csi/entertain/entertain_pool"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

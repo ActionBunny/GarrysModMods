@@ -1,0 +1,13 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/obj/ricebarge/smiling_buddha"
+	"$envMap"				"env_cubemap"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$bumpMap"				"env/obj/ricebarge/smiling_buddha_normal"
+	"$normalMapAlphaEnvMapMask"		1
+}

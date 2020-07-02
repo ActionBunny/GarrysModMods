@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/csi/drink/drink_coffee"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

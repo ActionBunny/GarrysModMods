@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$basetexture"	"vgui/ttt/tttofb_icon"
+    "$translucent" "1"
+    "$vertexcolor" "1"
+    "$vertexalpha" "1"
+} 

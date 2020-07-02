@@ -1,0 +1,507 @@
+// Decal definitions, format is 
+//   decalname weight
+//   where weight is used to randomly selected a decal to apply from within the group
+
+// This is just an entry to map material types to "impact.xxx"
+"TranslationData_Bullet"
+{
+	"-"			""  // don't decal this surface
+
+	"C"			"Impact.Concrete"
+	// T: Tiles - make new
+	"T"			"Impact.Concrete"
+	"M"			"Impact.Metal"
+	"W"			"Impact.Wood"
+	// Y: Glass/porcelain
+	"Y"			"Impact.Glass"
+	"N"			"Impact.Sand"
+	// D: Dirt - make new
+	"D"			"Impact.Concrete"
+	"V"			"Impact.Metal"
+	// G: Metal Grate
+	"G"			"Impact.Metal"
+	// Water doesn't work - we don't want water decals - just impacts
+	// If it's real water this should not matter
+	// We'll get concrete decals if 
+	// S: Water
+	"S"			"Impact.Water"
+	// X: Wade-able water - knee-high
+	"X"			"Impact.Water"	// don't decal
+	// L: Plastic barrel/box
+	"L"			"Impact.Wood"
+	// O: foliage
+	"O"			"Impact.Wood"	// nothing yet
+	// Q: soft furniture
+	"Q"			"Impact.Bed"
+}
+
+// This is just an entry to map material types to "impact.xxx"
+"TranslationData_Bludgeon"
+{
+	"-"			""  // don't decal this surface
+
+	"C"			"Impact.DentConcrete"
+	// T: Tiles - make new
+	"T"			"Impact.DentConcrete"
+	"M"			"Impact.DentMetal"
+	"W"			"Impact.DentWood"
+	// Y: Glass/porcelain
+	"Y"			"Impact.Glass"
+	"N"			"Impact.Sand"
+	// D: Dirt - make new
+	"D"			"Impact.DentConcrete"
+	"V"			"Impact.DentMetal"
+	// G: Metal Grate
+	"G"			"Impact.DentMetal"
+	// Water doesn't work - we don't want water decals - just impacts
+	// If it's real water this should not matter
+	// We'll get concrete decals if 
+	// S: Water
+	"S"			"Impact.Water"
+	// X: Wade-able water - knee-high
+	"X"			"Impact.Water"	// don't decal
+	// L: Plastic barrel/box
+	"L"			"Impact.DentWood"
+	// O: foliage
+	"O"			"Impact.DentWood"	// nothing yet
+	// Q: soft furniture
+	"Q"			"Impact.DentBed"
+}
+
+// This is just an entry to map material types to "impact.xxx"
+"TranslationData_Slash"
+{
+	"-"			""  // don't decal this surface
+
+	"C"			"Impact.SlashConcrete"
+	// T: Tiles - make new
+	"T"			"Impact.SlashConcrete"
+	"M"			"Impact.SlashMetal"
+	"W"			"Impact.SlashWood"
+	// Y: Glass/porcelain
+	"Y"			"Impact.Glass"
+	"N"			"Impact.Sand"
+	// D: Dirt - make new
+	"D"			"Impact.SlashConcrete"
+	"V"			"Impact.SlashMetal"
+	// G: Metal Grate
+	"G"			"Impact.SlashMetal"
+	// Water doesn't work - we don't want water decals - just impacts
+	// If it's real water this should not matter
+	// We'll get concrete decals if 
+	// S: Water
+	"S"			"Impact.Water"
+	// X: Wade-able water - knee-high
+	"X"			"Impact.Water"	// don't decal
+	// L: Plastic barrel/box
+	"L"			"Impact.SlashWood"
+	// O: foliage
+	"O"			"Impact.SlashWood"	// nothing yet
+	// Q: soft furniture
+	"Q"			"Impact.SlashBed"
+}
+
+"Impact.Concrete"
+{
+	"decals/concrete/shot1_subrect" "1"
+	"decals/concrete/shot2_subrect" "1"
+	"decals/concrete/shot3_subrect" "1"
+	"decals/concrete/shot4_subrect" "1"
+	"decals/concrete/shot5_subrect" "1"
+}
+
+"Impact.DentConcrete"
+{
+	"shipVFX/decals/concretedent1_subrect" "1"
+	"shipVFX/decals/concretedent2_subrect" "1"
+	"shipVFX/decals/concretedent3_subrect" "1"
+	"shipVFX/decals/concretedent4_subrect" "1"
+}
+
+"Impact.SlashConcrete"
+{
+	"shipVFX/decals/concreteslash1_subrect" "1"
+	"shipVFX/decals/concreteslash2_subrect" "1"
+	"shipVFX/decals/concreteslash3_subrect" "1"
+	"shipVFX/decals/concreteslash4_subrect" "1"
+}
+
+"Impact.Metal"
+{
+	"decals/metal/shot1_subrect" "1"
+	"decals/metal/shot2_subrect" "1"
+	"decals/metal/shot3_subrect" "1"
+	"decals/metal/shot4_subrect" "1"
+	"decals/metal/shot5_subrect" "1"
+}
+
+"Impact.DentMetal"
+{
+	"shipVFX/decals/metaldent1_subrect" "1"
+	"shipVFX/decals/metaldent2_subrect" "1"
+	"shipVFX/decals/metaldent3_subrect" "1"
+	"shipVFX/decals/metaldent4_subrect" "1"
+}
+
+"Impact.SlashMetal"
+{
+	"shipVFX/decals/metalslash1_subrect" "1"
+	"shipVFX/decals/metalslash2_subrect" "1"
+	"shipVFX/decals/metalslash3_subrect" "1"
+	"shipVFX/decals/metalslash4_subrect" "1"
+}
+
+"Impact.Wood"
+{
+	"decals/wood/shot1_subrect" "1"
+	"decals/wood/shot2_subrect" "1"
+	"decals/wood/shot3_subrect" "1"
+	"decals/wood/shot4_subrect" "1"
+	"decals/wood/shot5_subrect" "1"
+}
+
+"Impact.DentWood"
+{
+	"shipVFX/decals/wooddent1_subrect" "1"
+	"shipVFX/decals/wooddent2_subrect" "1"
+	"shipVFX/decals/wooddent3_subrect" "1"
+	"shipVFX/decals/wooddent4_subrect" "1"
+}
+
+"Impact.SlashWood"
+{
+	"shipVFX/decals/woodslash1_subrect" "1"
+	"shipVFX/decals/woodslash2_subrect" "1"
+	"shipVFX/decals/woodslash3_subrect" "1"
+	"shipVFX/decals/woodslash4_subrect" "1"
+	"shipVFX/decals/woodslash5_subrect" "1"
+}
+
+"Impact.Glass"
+{
+	"decals/glass/shot1_subrect" "1"
+	"decals/glass/shot2_subrect" "1"
+	"decals/glass/shot3_subrect" "1"
+	"decals/glass/shot4_subrect" "1"
+	"decals/glass/shot5_subrect" "1"
+}
+
+
+// Sand does not have model versions of the decals.
+"Impact.Sand"
+{
+	"decals/sand/shot1_subrect" "1"
+	"decals/sand/shot2_subrect" "1"
+	"decals/sand/shot3_subrect" "1"
+	"decals/sand/shot4_subrect" "1"
+}
+
+// doesn't work
+"Impact.Water"
+{
+	"decals/splash1_subrect" "1"
+	"decals/splash2_subrect" "1"
+	"decals/splash3_subrect" "1"
+}
+
+"Impact.Bed"
+{
+	"shipVFX/decals/pillowshot1_subrect" "1"
+	"shipVFX/decals/pillowshot2_subrect" "1"
+}
+
+"Impact.DentBed"
+{
+	"shipVFX/decals/pillowdent1_subrect" "1"
+	"shipVFX/decals/pillowdent2_subrect" "1"
+	"shipVFX/decals/pillowdent3_subrect" "1"
+	"shipVFX/decals/pillowdent4_subrect" "1"
+}
+
+"Impact.SlashBed"
+{
+	"shipVFX/decals/pillowslash1_subrect" "1"
+	"shipVFX/decals/pillowslash2_subrect" "1"
+	"shipVFX/decals/pillowslash3_subrect" "1"
+	"shipVFX/decals/pillowslash4_subrect" "1"
+	"shipVFX/decals/pillowslash5_subrect" "1"
+}
+
+"Scorch"
+{
+	"decals/scorch1_subrect" "1"
+	"decals/scorch2_subrect" "1"
+}
+
+"GlassBreak"
+{
+	"decals/break1_subrect" "1"
+	"decals/break2_subrect" "1"
+	"decals/break3_subrect" "1"
+}
+
+"BigShot"
+{
+	"decals/bigshot1_subrect" "1"
+	"decals/bigshot2_subrect" "1"
+	"decals/bigshot3_subrect" "1"
+	"decals/bigshot4_subrect" "1"
+	"decals/bigshot5_subrect" "1"
+}
+
+"BulletProof"
+{
+	"decals/bproof1_subrect" "1"
+}
+
+"SmallScorch"
+{
+	"decals/smscorch1_subrect" "1"
+	"decals/smscorch2_subrect" "1"
+	"decals/smscorch3_subrect" "1"
+}
+
+"FadingScorch"
+{
+	"decals/scorchfade_subrect" "1"
+}
+
+"BeerSplash"
+{
+	"decals/beersplash_subrect" "1"
+}
+
+
+"RedGlowFade"
+{	
+	"decals/redglowfade" "1"
+}
+
+"Splash"
+{ 
+	"decals/decalsplash" "1"
+}
+
+"ExplosiveGunshot"
+{
+	"decals/concrete/shot1_subrect" "1"
+}
+
+"Fire"
+{
+	"sprites/fire_floor" "1"
+}
+
+"Extinguish"
+{
+	"decals/extinguish1_subrect" "1"
+	"decals/extinguish2_subrect" "1"
+}
+
+// Currently a model version of these decals don't exist.
+"Splash.Large"
+{
+	"decals/splash1_subrect" "1"
+	"decals/splash2_subrect" "1"
+	"decals/splash3_subrect" "1"
+}
+
+// Currently a model version of these decals don't exist.
+"Splash.Small"
+{
+	"decals/splash1_subrect" "1"
+	"decals/splash1_subrect" "1"
+	"decals/splash1_subrect" "1"
+}
+
+// Currently a model version of this decal doesn't exit.
+"Rollermine.Crater"
+{
+	"decals/rollermine_crater_subrect" "1"
+}
+
+"BirdPoop"
+{
+	"decals/decal_birdpoop001_subrect" "1"
+	"decals/decal_birdpoop002_subrect" "1"
+	"decals/decal_birdpoop003_subrect" "1"
+	"decals/decal_birdpoop004_subrect" "1"
+}
+
+"PaintSplatBlue"
+{
+	"decals/decal_paintsplatterblue001_subrect" "1"
+}
+
+"PaintSplatGreen"
+{
+	"decals/decal_paintsplattergreen001_subrect" "1"
+}
+
+"PaintSplatPink"
+{
+	"decals/decal_paintsplatterpink001_subrect" "1"
+}
+
+"Models"
+{
+	// World Model specific decal precache.
+	"decals/concrete/shot1" "1"
+	"decals/concrete/shot2" "1"
+	"decals/concrete/shot3" "1"
+	"decals/concrete/shot4" "1"
+	"decals/concrete/shot5" "1"
+	"decals/metal/shot1" "1"
+	"decals/metal/shot2" "1"
+	"decals/metal/shot3" "1"
+	"decals/metal/shot4" "1"
+	"decals/metal/shot5" "1"
+	"decals/wood/shot1" "1"
+	"decals/wood/shot2" "1"
+	"decals/wood/shot3" "1"
+	"decals/wood/shot4" "1"
+	"decals/wood/shot5" "1"
+	"decals/glass/shot1" "1"
+	"decals/glass/shot2" "1"
+	"decals/glass/shot3" "1"
+	"decals/glass/shot4" "1"
+	"decals/glass/shot5" "1"
+	"decals/scorch1" "1"
+	"decals/scorch2" "1"
+	"decals/blood1" "1"
+	"decals/blood2" "1"
+	"decals/blood3" "1"
+	"decals/blood4" "1"
+	"decals/blood5" "1"
+	"decals/blood6" "1"
+	"decals/blood7" "1"
+	"decals/blood8" "1"
+	"decals/break1" "1"
+	"decals/break2" "1"
+	"decals/break3" "1"
+	"decals/bigshot1" "1"
+	"decals/bigshot2" "1"
+	"decals/bigshot3" "1"
+	"decals/bigshot4" "1"
+	"decals/bigshot5" "1"
+	"decals/bproof1" "1"
+	"decals/smscorch1" "1"
+	"decals/smscorch2" "1"
+	"decals/smscorch3" "1"
+	"decals/scorchfade" "1"
+	"decals/beersplash" "1"
+	"decals/extinguish1" "1"
+	"decals/extinguish2" "1"
+	"decals/splash1" "1"
+	"decals/splash2" "1"
+	"decals/splash3" "1"
+	"decals/rollermine_crater" "1"
+	"decals/decal_birdpoop001" "1"
+	"decals/decal_birdpoop002" "1"
+	"decals/decal_birdpoop003" "1"
+	"decals/decal_birdpoop004" "1"
+	"decals/decal_paintsplatterblue001" "1"
+	"decals/decal_paintsplattergreen001" "1"
+	"decals/decal_paintsplatterpink001" "1"
+	"decals/decal_paintsplatterblue_model" "1"
+	"decals/decal_paintsplattergreen_model" "1"
+	"decals/decal_paintsplatterpink_model" "1"
+
+	// Model specific decal precache.
+	"decals/beersplashmodel" "1"
+	"decals/bigshot1model" "1"
+	"decals/bigshot2model" "1"
+	"decals/bigshot3model" "1"
+	"decals/bigshot4model" "1"
+	"decals/bigshot5model" "1"
+	"decals/bproof1model" "1"
+	"decals/break1model" "1"
+	"decals/break2model" "1"
+	"decals/break3model" "1"
+	"decals/decal_paintsplatterblue_model" "1"
+	"decals/decal_paintsplattergreen_model" "1"
+	"decals/decal_paintsplatterpink_model" "1"
+	"decals/extinguish1model" "1"
+	"decals/extinguish2model" "1"
+	"decals/scorch1model" "1"
+	"decals/scorch2model" "1"
+	"decals/scorchfademodel" "1"
+	"decals/smscorch1model" "1"
+	"decals/smscorch2model" "1"
+	"decals/smscorch3model" "1"
+
+	// OL Ship additional
+	"shipVFX/decals/concretedent1_subrect" "1"
+	"shipVFX/decals/concretedent2_subrect" "1"
+	"shipVFX/decals/concretedent3_subrect" "1"
+	"shipVFX/decals/concretedent4_subrect" "1"
+	"shipVFX/decals/concreteslash1_subrect" "1"
+	"shipVFX/decals/concreteslash2_subrect" "1"
+	"shipVFX/decals/concreteslash3_subrect" "1"
+	"shipVFX/decals/concreteslash4_subrect" "1"
+	"shipVFX/decals/metaldent1_subrect" "1"
+	"shipVFX/decals/metaldent2_subrect" "1"
+	"shipVFX/decals/metaldent3_subrect" "1"
+	"shipVFX/decals/metaldent4_subrect" "1"
+	"shipVFX/decals/metalslash1_subrect" "1"
+	"shipVFX/decals/metalslash2_subrect" "1"
+	"shipVFX/decals/metalslash3_subrect" "1"
+	"shipVFX/decals/metalslash4_subrect" "1"
+	"shipVFX/decals/wooddent1_subrect" "1"
+	"shipVFX/decals/wooddent2_subrect" "1"
+	"shipVFX/decals/wooddent3_subrect" "1"
+	"shipVFX/decals/wooddent4_subrect" "1"
+	"shipVFX/decals/woodslash1_subrect" "1"
+	"shipVFX/decals/woodslash2_subrect" "1"
+	"shipVFX/decals/woodslash3_subrect" "1"
+	"shipVFX/decals/woodslash4_subrect" "1"
+	"shipVFX/decals/woodslash5_subrect" "1"
+	"shipVFX/decals/pillowshot1_subrect" "1"
+	"shipVFX/decals/pillowshot2_subrect" "1"
+	"shipVFX/decals/pillowdent1_subrect" "1"
+	"shipVFX/decals/pillowdent2_subrect" "1"
+	"shipVFX/decals/pillowdent3_subrect" "1"
+	"shipVFX/decals/pillowdent4_subrect" "1"
+	"shipVFX/decals/pillowslash1_subrect" "1"
+	"shipVFX/decals/pillowslash2_subrect" "1"
+	"shipVFX/decals/pillowslash3_subrect" "1"
+	"shipVFX/decals/pillowslash4_subrect" "1"
+	"shipVFX/decals/pillowslash5_subrect" "1"
+
+	"shipVFX/decals/concretedent1" "1"
+	"shipVFX/decals/concretedent2" "1"
+	"shipVFX/decals/concretedent3" "1"
+	"shipVFX/decals/concretedent4" "1"
+	"shipVFX/decals/concreteslash1" "1"
+	"shipVFX/decals/concreteslash2" "1"
+	"shipVFX/decals/concreteslash3" "1"
+	"shipVFX/decals/concreteslash4" "1"
+	"shipVFX/decals/metaldent1" "1"
+	"shipVFX/decals/metaldent2" "1"
+	"shipVFX/decals/metaldent3" "1"
+	"shipVFX/decals/metaldent4" "1"
+	"shipVFX/decals/metalslash1" "1"
+	"shipVFX/decals/metalslash2" "1"
+	"shipVFX/decals/metalslash3" "1"
+	"shipVFX/decals/metalslash4" "1"
+	"shipVFX/decals/wooddent1" "1"
+	"shipVFX/decals/wooddent2" "1"
+	"shipVFX/decals/wooddent3" "1"
+	"shipVFX/decals/wooddent4" "1"
+	"shipVFX/decals/woodslash1" "1"
+	"shipVFX/decals/woodslash2" "1"
+	"shipVFX/decals/woodslash3" "1"
+	"shipVFX/decals/woodslash4" "1"
+	"shipVFX/decals/woodslash5" "1"	
+	"shipVFX/decals/pillowshot1" "1"
+	"shipVFX/decals/pillowshot2" "1"
+	"shipVFX/decals/pillowdent1" "1"
+	"shipVFX/decals/pillowdent2" "1"
+	"shipVFX/decals/pillowdent3" "1"
+	"shipVFX/decals/pillowdent4" "1"
+	"shipVFX/decals/pillowslash1" "1"
+	"shipVFX/decals/pillowslash2" "1"
+	"shipVFX/decals/pillowslash3" "1"
+	"shipVFX/decals/pillowslash4" "1"
+	"shipVFX/decals/pillowslash5" "1"
+}

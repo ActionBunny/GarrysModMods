@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "HUD\Needs\piechart/piechart_010"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$ignorez" "1"
+}

@@ -1,0 +1,12 @@
+--Forces the client to download the materials for the server.
+resource.AddFile( "materials/models/weapons/v_models/enron_winchester/shell.vmt" )
+resource.AddFile( "materials/models/weapons/v_models/enron_winchester/shell.vtf" )
+resource.AddFile( "materials/models/weapons/v_models/enron_winchester/shell_ref.vtf" )
+resource.AddFile( "materials/models/weapons/v_models/enron_winchester/winchester.vmt" )
+resource.AddFile( "materials/models/weapons/v_models/enron_winchester/winchester.vtf" )
+resource.AddFile( "materials/models/weapons/v_models/enron_winchester/winchester_normal.vtf" )
+resource.AddFile( "materials/models/weapons/w_models/enron_winchester/winchester.vmt" )
+resource.AddFile( "sound/weapons/winchester73/w73-1.wav" )
+resource.AddFile( "sound/weapons/winchester73/w73hammer.wav" )
+resource.AddFile( "sound/weapons/winchester73/w73insertshell.wav" )
+resource.AddFile( "sound/weapons/winchester73/w73pump.wav" )

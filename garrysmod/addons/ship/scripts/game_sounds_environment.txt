@@ -1,0 +1,1038 @@
+//generic Ship null sound
+"Ship.Null"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		"common/null.wav" 
+}
+"General.BurningFlesh"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_65dB"
+	"volume"	"0.45"
+	"pitch"		"PITCH_NORM"
+	"wave"		"effects/BurningFlesh_Loop.wav" 
+}
+"General.BurningObject"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		 "ambient/fire/fire_small_loop2.wav" 
+}
+"General.StopBurning"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		"common/null.wav" 
+}
+"FX_RicochetSound.Ricochet"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5, 0.6"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"90, 110"
+	"rndwave"
+	{
+		"wave"	"weapons/fx/rics/ric1.wav"
+		"wave"	"weapons/fx/rics/ric2.wav"
+		"wave"	"weapons/fx/rics/ric3.wav"
+		"wave"	"weapons/fx/rics/ric4.wav"
+		"wave"	"weapons/fx/rics/ric5.wav"
+	}
+}
+"BaseExplosionEffect.Sound"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_145dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+			"wave"	"^weapons/Explosion1.wav"
+			"wave"	"^weapons/Explosion2.wav"
+			"wave"	"^weapons/Explosion3.wav"
+	}
+}
+"Splash.SplashSound"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.75"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"90, 100"
+	"rndwave"
+	{
+		"wave"	"ambient/water/water_spray1.wav"
+		"wave"	"ambient/water/water_spray2.wav"
+		"wave"	"ambient/water/water_spray3.wav"
+	}
+}
+"PropaneTank.Burst"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"pitch"		"95,105"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		"ambient/fire/gascan_ignite1.wav"
+}
+"Alarm.Intruder"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_50dB"
+	"volume"	"0.3"
+	"pitch"		"PITCH_NORM"
+	"wave"		"common/null.wav" 
+}
+"Alarm.IntruderBigRoom"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"	"0.3"
+	"pitch"		"PITCH_NORM"
+	"wave"		"common/null.wav" 
+}
+"SecurityCamera.Alert"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"	"0.3"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/SecurityCamera_Loop.wav" 
+}
+"SecurityCamera.Turn"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"	"0.35"
+	"pitch"		"95,105"
+	"wave"		"environment/SecurityCamera_Turn.wav" 
+}
+"SecurityCamera.Focus"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"	"0.35"
+	"pitch"		"95,105"
+	"wave"		"environment/SecurityCamera_Focus.wav" 
+}
+"SecurityCamera.Picture"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"	"0.5"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/SecurityCamera_Picture.wav" 
+}
+"Clock.Tick"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_55dB"
+	"volume"	"0.15"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/ClockCaridge_Loop.wav" 
+}
+"VendingMachine.Hum"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_65dB"
+	"volume"	"0.2"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^environment/VendMachineHum_Loop.wav" 
+}
+"VendingMachine.Move"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"	"0.6"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^environment/VendingMachineMove.wav" 
+}
+"Cargo.Ark"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_55db"
+	"volume"	"0.8"
+	"pitch"		"PITCH_NORM"
+	"wave"		"ambience/cargo/Ark_Loop.wav" 
+}
+"Steam.Escape"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_55db"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^environment/SteamEscape_Loop.wav" 
+}
+"Fountain.Lap"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"	"0.6"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/Fountain_Loop.wav" 
+}
+"Waterfall.Loop"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"	"0.85"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/Waterfall_Loop.wav" 
+}
+"Ricebarge.Loop"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_85dB"
+	"volume"	"0.3"
+	"pitch"		"PITCH_NORM"
+	"wave"		"ambience/ricebarge/RiceEngineOutside_Loop.wav" 
+}
+"Ricebarge.BarMusic"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"	"0.6"
+	"pitch"		"PITCH_NORM"
+	"wave"		"ambience/music/OneTwoThreeFour3_Loop.wav" 
+}
+"Ricebarge.RestaurantMusic"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"	"0.8"
+	"pitch"		"PITCH_NORM"
+	"wave"		"ambience/music/ListenToThis2_Loop.wav" 
+}
+"Ricebarge.CabinMusic"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"0.8"
+	"pitch"		"PITCH_NORM"
+	"wave"		"ambience/music/Googy-oo1_Loop.wav" 
+}
+"Switch.Press"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/SwitchPress.wav" 
+}
+"Button.Press"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/ButtonPress.wav" 
+}
+"Lever.PullDown"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/LeverPullDown.wav" 
+}
+"Lever.LiftUp"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/LeverLiftUp.wav" 
+}
+"LifeBoat.Drop"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_130db"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/LifeBoatDrop.wav" 
+}
+"Elevator.DoorOpen"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.7"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/ElevatorDoorOpen.wav" 
+}
+"Elevator.DoorClose"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.7"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/ElevatorDoorClose.wav" 
+}
+"Elevator.ButtonPress"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_80db"
+	"volume"	"0.8"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/ElevatorButtonPress.wav" 
+}
+"Elevator.ArrivePing"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_80db"
+	"volume"	"0.5"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/ElevatorArrivePing_Loop.wav" 
+}
+"Elevator.Timer"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_80db"
+	"volume"	"0.7"
+	"pitch"		"PITCH_NORM"
+	"wave"		"environment/ElevatorTimer_Loop.wav" 
+}
+"DeskFan.On"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_50db"
+	"volume"	"0.8"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^environment/FanPortableLoop.wav" 
+}
+"BridgeRadio.On"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_40db"
+	"volume"	"0.5"
+	"pitch"		"PITCH_NORM"
+	"wave"		"common/null.wav" 
+}
+"Wheel.Spin"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.5,"
+	"pitch"		"95, 105"
+	"wave"		"environment/WheelSpin.wav" 
+}
+"JailDoor.Move"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"100"
+	"wave"		"environment/DoorJail.wav" 
+}
+"DoSpark"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_75db"
+	"volume"		"0.8"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"	"effects/Spark1.wav"
+		"wave"	"effects/Spark2.wav"
+	}
+}
+//doors old
+"DoorSound.Null"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_75db"
+	"wave"		"common/null.wav" 
+}
+"RotDoorSound.DefaultMove"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.2"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		"common/null.wav" 
+}
+"RotDoorSound.DefaultArrive"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.2"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		"common/null.wav" 
+}
+"RotDoorSound.DefaultLocked"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.2"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		"common/null.wav" 
+}
+//doors NEW!
+"DoorWood.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.55,"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodMoving.wav" 
+}
+"DoorWood.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.55"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodOpen.wav" 
+}
+"DoorWood.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.55"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodClose.wav" 
+}
+"DoorWood.Locked"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.5"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodLocked.wav" 
+}
+"DoorWood.UnLocked"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"1.0"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodUnlock.wav" 
+}
+"DoorWoodGlass.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.6,"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodGlassMove.wav" 
+}
+"DoorWoodGlass.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.9"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodGlassOpen.wav" 
+}
+"DoorWoodGlass.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.9"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodGlassClose.wav" 
+}
+"DoorWoodPush.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.6,"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodPushMoving.wav" 
+}
+"DoorWoodPush.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodPushOpen.wav" 
+}
+"DoorWoodPush.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_60db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodPushClose.wav" 
+}
+"DoorShower.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorWoodGlassMove.wav" 
+}
+"DoorShower.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorShowerOpen.wav" 
+}
+"DoorShower.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorShowerClose.wav" 
+}
+"DoorSwing.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"95, 105"
+	"wave"		"environment/DoorSwingMoving.wav" 
+}
+"DoorSwing.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorWoodOpen.wav" 
+}
+"DoorSwing.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"environment/DoorSwingClose.wav" 
+}
+"DoorFridge.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"99, 101"
+	"wave"		"environment/DoorFridgeMoving.wav" 
+}
+"DoorFridge.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorFridgeClose.wav" 
+}
+"DoorFridge.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorFridgeOpen.wav" 
+}
+"DoorGlass.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.6"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorBankMoving.wav" 
+}
+"DoorGlass.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorBankClose.wav" 
+}
+"DoorGlass.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.8"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorBankOpen.wav" 
+}
+"DoorWoodSmall.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.7"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorSmallWoodMoving.wav" 
+}
+"DoorWoodSmall.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.9"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorSmallWoodClose.wav" 
+}
+"DoorWoodSmall.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.9"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorSmallWoodOpen.wav" 
+}
+"DoorCargoSecret.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.7"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorCargoSecretMove.wav" 
+}
+"DoorCargoSecret.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.7"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorCargoSecretClose.wav" 
+}
+"DoorCargoSecret.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"1.0"
+	"pitch"		"96, 104"
+	"wave"		"environment/DoorCargoSecretOpen.wav" 
+}
+"DoorWheeled.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.7"
+	"pitch"		"95, 105"
+	"wave"		"environment/DoorCargoSecretMove.wav" 
+}
+"DoorWheeled.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.7"
+	"pitch"		"95, 105"
+	"wave"		"environment/DoorCargoSecretClose.wav" 
+}
+"DoorWheeled.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"1.0"
+	"pitch"		"95, 105"
+	"wave"		"environment/DoorCargoSecretOpen.wav" 
+}
+"DoorCell.Moving"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.7"
+	"pitch"		"95, 105"
+	"wave"		"environment/DoorCellMoving.wav" 
+}
+"DoorCell.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"0.7"
+	"pitch"		"95, 105"
+	"wave"		"environment/DoorCellClose.wav" 
+}
+"DoorCell.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75db"
+	"volume"	"1.0"
+	"pitch"		"95, 105"
+	"wave"		"environment/DoorCellOpen.wav" 
+}
+//containers
+"ContainerDefault.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/WardrobePullOpen.wav" 
+}
+"ContainerDefault.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/WardrobePullClose.wav" 
+}
+"ContainerWardrobePull.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/WardrobePullOpen.wav" 
+}
+"ContainerWardrobePull.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/WardrobePullClose.wav" 
+}
+"ContainerWardrobeSlide.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/WardrobeSlideOpen.wav" 
+}
+"ContainerWardrobeSlide.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/WardrobeSlideClose.wav" 
+}
+"ContainerDrawer.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/DrawerOpen.wav" 
+}
+"ContainerDrawer.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/DrawerClose.wav" 
+}
+"ContainerCabinet.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/FlareCabinetOpen.wav" 
+}
+"ContainerCabinet.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/FlareCabinetClose.wav" 
+}
+"ContainerBook.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/BookTakeOut.wav" 
+}
+"ContainerBook.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/BookPutBack.wav" 
+}
+"ContainerCardboardBox.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/BoxCardboardOpen.wav" 
+}
+"ContainerCardboardBox.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/BoxCardboardClose.wav" 
+}
+"ContainerCarBoot.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"1.0"
+	"pitch"		"94, 106"
+	"wave"		"containers/CarBootOpen.wav" 
+}
+"ContainerCarBoot.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"1.0"
+	"pitch"		"94, 106"
+	"wave"		"containers/CarBootClose.wav" 
+}
+"ContainerDoctorsBag.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/DoctorsBagOpen.wav" 
+}
+"ContainerDoctorsBag.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/DoctorsBagClose.wav" 
+}
+"ContainerMagRack.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.4"
+	"pitch"		"94, 106"
+	"wave"		"^containers/MagazineTakeOut.wav" 
+}
+"ContainerMagRack.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.4"
+	"pitch"		"94, 106"
+	"wave"		"containers/MagazinePutBack.wav" 
+}
+"ContainerRationPack.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/RationPackOpen.wav" 
+}
+"ContainerRationPack.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/RationPackClose.wav" 
+}
+"ContainerCashMachine.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/CashMachineOpen.wav" 
+}
+"ContainerCashMachine.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/CashMachineClose.wav" 
+}
+"ContainerVendingMachine.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/VendingOpen.wav" 
+}
+"ContainerVendingMachine.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/VendingClose.wav" 
+}
+"ContainerLocker.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.85"
+	"pitch"		"94, 106"
+	"wave"		"containers/LockerOpen.wav" 
+}
+"ContainerLocker.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.9"
+	"pitch"		"94, 106"
+	"wave"		"containers/LockerClose.wav" 
+}
+"ContainerToolbox.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.9"
+	"pitch"		"94, 106"
+	"wave"		"containers/ToolboxOpen.wav" 
+}
+"ContainerToolbox.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.9"
+	"pitch"		"94, 106"
+	"wave"		"containers/ToolboxClose.wav" 
+}
+"ContainerAxeHolder.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/AxeHolderOpen.wav" 
+}
+"ContainerAxeHolder.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.6"
+	"pitch"		"94, 106"
+	"wave"		"containers/AxeHolderClose.wav" 
+}
+"ContainerPan.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.9"
+	"pitch"		"94, 106"
+	"wave"		"containers/PanOpen.wav" 
+}
+"ContainerPan.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.9"
+	"pitch"		"94, 106"
+	"wave"		"containers/PanClose.wav" 
+}
+"ContainerSuitcase.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/SuitcaseOpen.wav" 
+}
+"ContainerSuitcase.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/SuitcaseClose.wav" 
+}
+"ContainerKnifeBlock.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/KnifeBlockOpen.wav" 
+}
+"ContainerKnifeBlock.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/KnifeBlockClose.wav" 
+}
+"ContainerFileCabinet.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/FileCabinetOpen.wav" 
+}
+"ContainerFileCabinet.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/FileCabinetClose.wav" 
+}
+"ContainerSwingBin.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/SwingBinOpen.wav" 
+}
+"ContainerSwingBin.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/SwingBinClose.wav" 
+}
+"ContainerPills.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/PillsOpen.wav" 
+}
+"ContainerPills.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/PillsClose.wav" 
+}
+"ContainerPedalBin.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/PedalBinOpen.wav" 
+}
+"ContainerPedalBin.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.8"
+	"pitch"		"94, 106"
+	"wave"		"containers/PedalBinClose.wav" 
+}
+"ContainerStocking.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.2"
+	"pitch"		"94, 106"
+	"wave"		"containers/StockingOpen.wav" 
+}
+"ContainerStocking.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_65db"
+	"volume"	"0.2"
+	"pitch"		"94, 106"
+	"wave"		"containers/StockingClose.wav" 
+}

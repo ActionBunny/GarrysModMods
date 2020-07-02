@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"Env/Brush/Floors/Floor_blue_triangle"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$envMap"				"env_cubemap"
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"			1
+	"$surfaceprop" "tile"
+}

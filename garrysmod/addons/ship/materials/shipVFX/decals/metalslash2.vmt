@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "shipVFX/decals/metalslash2"
+	"$decalscale" 0.20
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "env/misc/decal_panelB"
+    "$decal" 1
+    "$alpha"				1
+    "$decalscale" 0.1
+    "$translucent" 1
+}

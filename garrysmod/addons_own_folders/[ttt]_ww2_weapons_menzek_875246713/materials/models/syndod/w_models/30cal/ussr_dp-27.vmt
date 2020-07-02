@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\syndod\w_models\30cal/ussr_DP-27"
+"$nocull" "1" 
+}

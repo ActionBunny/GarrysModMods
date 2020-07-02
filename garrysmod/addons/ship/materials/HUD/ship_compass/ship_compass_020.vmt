@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "HUD\ship_compass/ship_compass_020"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$ignorez" "1"
+}

@@ -1,0 +1,707 @@
+"Player.FallDamage"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.65"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_75dB"
+	"rndwave"
+	{
+		"wave"		"player/pl_fallpain1.wav"
+		"wave"		"player/pl_fallpain3.wav"
+	}
+}
+"Player.Swim"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.55. 0.6"
+	"pitch"		"95,105"
+	"soundlevel"	"SNDLVL_75dB"
+	"rndwave"
+	{
+		"wave"		"player/swim/Swim1.wav"
+		"wave"		"player/swim/Swim2.wav"
+		"wave"		"player/swim/Swim3.wav"
+		"wave"		"player/swim/Swim4.wav"
+		"wave"		"player/swim/Swim5.wav"
+		"wave"		"player/swim/Swim6.wav"
+	}
+}
+"Player.Wade"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.55, 0.6"
+	"pitch"		"95,105"
+	"soundlevel"  	"SNDLVL_75dB"
+	"rndwave"
+	{
+		"wave"		"player/swim/Swim1.wav"
+		"wave"		"player/swim/Swim2.wav"
+		"wave"		"player/swim/Swim3.wav"
+		"wave"		"player/swim/Swim4.wav"
+		"wave"		"player/swim/Swim5.wav"
+		"wave"		"player/swim/Swim6.wav"
+	}
+}
+"Player.AmbientUnderWater"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.4"
+	"soundlevel"  	"SNDLVL_60dB"
+	"wave"		"player/swim/Underwater_Loop.wav"
+}
+"Player.JumpInPool"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"pitch"		"95,105"
+	"soundlevel"  	"SNDLVL_60dB"
+	"rndwave"
+	{
+		"wave"	"player/swim/JumpPool1.wav"
+		"wave"	"player/swim/JumpPool2.wav"
+	}
+}
+"Player.GetOutPool"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"pitch"		"95,105"
+	"soundlevel"  	"SNDLVL_60dB"
+	"rndwave"
+	{
+		"wave"	"player/swim/OutPool1.wav"
+		"wave"	"player/swim/OutPool2.wav"
+	}
+}
+"Player.FallGib"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.75"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_75dB"
+	"rndwave"
+	{
+		"wave"		"physics/body/body_medium_break2.wav"
+	}
+}
+"Player.Death"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.6"
+	"wave"		"player/PlayerDeath.wav"
+}
+"Player.PlasmaDamage"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"common/null.wav"
+}
+"Player.SonicDamage"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+	"wave"		"common/null.wav"
+}
+"Player.DrownStart"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.9"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"96,102"
+	"rndwave"
+	{
+		"wave"	"player/swim/Splutter1.wav"
+		"wave"	"player/swim/Splutter2.wav"
+	}
+}
+"Player.DrownContinue"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.9"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"96,102"
+	"rndwave"
+	{
+		"wave"	"player/swim/Splutter1.wav"
+		"wave"	"player/swim/Splutter2.wav"
+	}
+}
+"BaseCombatCharacter.CorpseGib"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+	"rndwave"
+	{
+		"wave"	"physics/flesh/flesh_squishy_impact_hard2.wav"
+	}
+}
+"Player.PickupWeapon"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+"Player.piranha_bites_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.300000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"#ambient/creatures/piranha_bites_loop1.wav"
+}
+
+"Player.piranha_water_churn_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.150000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"#ambient/creatures/piranha_water_churn_loop2.wav"
+}
+"SprayCan.Paint"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"common/null.wav"
+}
+"BaseCombatCharacter.StopWeaponSounds"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"common/null.wav"
+}
+"BaseCombatCharacter.AmmoPickup"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"common/null.wav"
+}
+"AI_BaseNPC.SwishSound"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"common/null.wav"
+}
+"AI_BaseNPC.BodyDrop_Heavy"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"90"
+	"wave"		"common/null.wav"
+}
+"AI_BaseNPC.BodyDrop_Light"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.9"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"105"
+	"wave"		"common/null.wav"
+}
+"AI_BaseNPC.SentenceStop"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_60dB"
+	"wave"		"common/null.wav"
+}
+"ShipMate.FootstepLeft"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_40dB"
+	"wave"		"common/null.wav"
+}
+"ShipMate.FootstepRight"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_40dB"
+	"wave"		"common/null.wav"
+}
+"ShipMate.RunFootstepLeft"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_40dB"
+	"wave"		"common/null.wav"
+}
+"ShipMate.RunFootstepRight"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_40dB"
+	"wave"		"common/null.wav"
+}
+"ShipMate.Die"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_60dB"
+	"wave"		"common/null.wav"
+}
+//NEEDS
+"Needs.WashHands_Loop"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"needs/WashHands_Loop.wav"
+}
+"Needs.WashHands_LoopEnd"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"needs/WashHands_LoopEnd.wav"
+}
+"Needs.Shower_Loop"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"needs/Shower_Loop.wav"
+}
+"Needs.Shower_LoopEnd"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"needs/Shower_LoopEnd.wav"
+}
+"Needs.Bath_Loop"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"needs/Bath_Loop.wav"
+}
+"Needs.Bath_End"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.85"
+	"pitch"			"PITCH_NORM"
+	"wave"			"needs/BathDrain.wav"
+}
+"Needs.Snore"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.4, 0.45"
+	"pitch"			"96, 104"
+	"rndwave"
+	{
+		"wave"	"needs/Snore1.wav"
+		"wave"	"needs/Snore2.wav"
+		"wave"	"needs/Snore3.wav"
+	}
+}
+"Needs.PooFart"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.25"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/PooFart1.wav"
+		"wave"	"needs/PooFart2.wav"
+		"wave"	"needs/PooFart3.wav"
+		"wave"	"needs/PooFart4.wav"
+		"wave"	"needs/PooFart5.wav"
+		"wave"	"needs/PooFart6.wav"
+		"wave"	"needs/PooFart7.wav"
+		"wave"	"needs/PooFart8.wav"
+		"wave"	"needs/PooFart9.wav"
+		"wave"	"needs/PooFart10.wav"
+	}
+}
+"Needs.Poo"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.3"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/Poo1.wav"
+		"wave"	"needs/Poo2.wav"
+		"wave"	"needs/Poo3.wav"
+		"wave"	"needs/Poo4.wav"
+		"wave"	"needs/Poo5.wav"
+		"wave"	"needs/Poo6.wav"
+	}
+}
+"Needs.PeeMaleBig"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.3"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/PeeMaleLong1.wav"
+		"wave"	"needs/PeeMaleLong2.wav"
+		"wave"	"needs/PeeMaleLong3.wav"	
+	}
+}
+"Needs.PeeMaleSmall"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.3"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/PeeMaleShort1.wav"
+		"wave"	"needs/PeeMaleShort2.wav"
+		"wave"	"needs/PeeMaleShort3.wav"
+	}
+}
+"Needs.PeeMaleDrip"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.4"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/PeeMaleDrip1.wav"
+		"wave"	"needs/PeeMaleDrip2.wav"
+		"wave"	"needs/PeeMaleDrip3.wav"
+		"wave"	"needs/PeeMaleDrip4.wav"
+		"wave"	"needs/PeeMaleDrip5.wav"
+	}
+}
+"Needs.PeeLady"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.3"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/PeeLady1.wav"
+		"wave"	"needs/PeeLady2.wav"		
+	}
+}
+"Needs.PeeLadyDrip"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.5"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/PeeLadyDrip1.wav"
+		"wave"	"needs/PeeLadyDrip2.wav"
+		"wave"	"needs/PeeLadyDrip3.wav"
+		"wave"	"needs/PeeLadyDrip4.wav"
+		"wave"	"needs/PeeLadyDrip5.wav"		
+	}
+}
+"Needs.ToiletFlush"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.8"
+	"pitch"			"96, 104"
+	"wave"			"needs/ToiletFlush.wav"
+}
+"Needs.Eating"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"common/null.wav"
+}
+"Needs.Drinking"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.45, 0.5"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/Drink1.wav"
+		"wave"	"needs/Drink2.wav"
+		"wave"	"needs/Drink3.wav"
+	}
+}
+"Needs.DrinkingFountain_Loop"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.6"
+	"pitch"			"95, 105"
+	"wave"			"needs/DrinkingFountain_Loop.wav"
+}
+"Needs.DrinkingFountain_End"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.6"
+	"pitch"			"95, 105"
+	"wave"			"needs/DrinkingFountain_End.wav"
+}
+"Needs.GlassPickup"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.1"
+	"pitch"			"96,104"
+	"wave"			"needs/GlassPickup.wav"
+}
+"Needs.GlassDown"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"needs/GlassDown.wav"
+}
+"Needs.CrispsEat"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.45, 0.5"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/CrispsEat1.wav"
+		"wave"	"needs/CrispsEat2.wav"
+		"wave"	"needs/CrispsEat3.wav"	
+	}
+}
+"Needs.CrispsTake"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.45, 0.5"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/CrispsBag1.wav"
+		"wave"	"needs/CrispsBag2.wav"	
+	}
+}
+"Needs.SitEating"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.3, 0.35"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/EatSitting1.wav"
+		"wave"	"needs/EatSitting2.wav"	
+		"wave"	"needs/EatSitting3.wav"	
+	}
+}
+"Needs.SitSlicing"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.3, 0.35"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/SilceFood1.wav"
+		"wave"	"needs/SilceFood2.wav"	
+		"wave"	"needs/SilceFood3.wav"	
+	}
+}
+"Needs.ChocEat"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.45, 0.5"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"needs/ChocEat1.wav"
+		"wave"	"needs/ChocEat2.wav"	
+		"wave"	"needs/ChocEat3.wav"	
+	}
+}
+//IDLES
+"Idle.LadyScratch"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+	"wave"			"player/idle/LadyScratch.wav"
+}
+"Idle.ManScratch"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.45, 0.5"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+		"wave"	"player/idle/ManScratch1.wav"
+		"wave"	"player/idle/ManScratch2.wav"	
+		"wave"	"player/idle/ManScratch3.wav"	
+	}
+}
+"Idle.LadySneezeBreath"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"common/null.wav"
+}
+"Idle.LadySneeze"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"common/null.wav"
+}
+"Idle.LadySneezeSniff"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"wave"			"common/null.wav"
+}
+"Idle.GuardBaton"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.6,0.65"
+	"pitch"			"80,95"
+	"wave"			"player/idle/GuardBaton1.wav"
+}
+"Idle.BarmanGlass"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_50dB"
+	"volume"		"0.4"
+	"pitch"			"97,103"
+	"wave"			"player/idle/BarmanGlass.wav"
+}
+//Player takes damage
+"Player.TakeDamage"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.8"
+	"pitch"			"PITCH_NORM"
+	"wave"			"player/PlayerDamaged.wav"
+}
+//Needs effects
+// Played continuously
+"Effects.FlySwarm"
+{
+	"channel"	"CHAN_BODY"
+	"soundlevel"	"SNDLVL_60db"
+	"volume"	"0.6"
+	"pitch"		"100"
+	"wave"		"effects/FlyBuzz_Loop.wav" 
+}
+// Played when a fly gets near the middle
+"Effects.FlyBuzz"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_60db"
+	"volume"	"0.8, 0.9"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"effects/FlyBuzz_Past1.wav"
+		"wave"	"effects/FlyBuzz_Past2.wav"
+		"wave"	"effects/FlyBuzz_Past3.wav"
+		"wave"	"effects/FlyBuzz_Past4.wav"
+		"wave"	"effects/FlyBuzz_Past5.wav"
+	}
+}
+//puke cannot be CHAN_BODY as footsteps interrupt
+"Effects.PukeSplash"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_60dB"
+	"volume"		"0.5"
+	"pitch"			"96,104"
+	"wave"			"effects/PukeSplash.wav"
+}
+"Effects.DepressedRain"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_70db"
+	"volume"	"0.3"
+	"pitch"		"100"
+	"wave"		"effects/Depressed_RainLoop.wav" 
+}
+"Effects.DepressedLightning"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_70db"
+	"volume"	"0.4"
+	"pitch"		"110,120"
+	"wave"		"effects/Depressed_Lightning.wav" 
+}
+"Effects.DepressedThunder"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_70db"
+	"volume"	"0.5, 0.55"
+	"pitch"		"95,110"
+	"rndwave"
+	{
+		"wave"	"effects/Depressed_Thunder1.wav"
+		"wave"	"effects/Depressed_Thunder2.wav"
+		"wave"	"effects/Depressed_Thunder3.wav"
+	}
+}
+"Effects.PeeFloor"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.6"
+	"pitch"			"96,104"
+	"wave"			"effects/PeeCarpet.wav"
+}
+"Effects.CombustDeath"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.8"
+	"pitch"			"100"
+	"wave"			"effects/CombustDeath.wav"
+}
+"Effects.CombustDeathNoBones"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.8"
+	"pitch"			"100"
+	"wave"			"effects/CombustDeathNoBones.wav"
+}
+

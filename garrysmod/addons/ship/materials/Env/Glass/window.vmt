@@ -1,0 +1,14 @@
+//.vmt 
+"LightmappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"Env/Glass/window"
+	"$selfIllum"			0
+        "$translucent"			1
+	"$alpha"				1
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"			0
+	"$normalMapEnvMapMask"			0
+	"$surfaceprop" 			"glass"
+}

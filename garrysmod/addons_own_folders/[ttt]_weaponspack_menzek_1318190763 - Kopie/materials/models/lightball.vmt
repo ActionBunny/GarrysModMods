@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "lights/fluorescentwhite001a"
+	"$surfaceprop" "glass"
+	"$selfillum" "1"
+}
+
+

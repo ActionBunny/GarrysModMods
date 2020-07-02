@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\syndod\v_models\Trench\wood_dark"
+	"$bumpmap" "models\weapons\syndod\v_models\Trench\wood_dark_normal"
+
+}

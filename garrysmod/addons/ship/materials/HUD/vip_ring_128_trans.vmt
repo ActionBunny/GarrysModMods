@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "HUD/vip_ring_128_trans"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

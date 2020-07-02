@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	// Original shader: basetimesvertexcolor
+	"$basetexture" "shipVFX/effects/flintflash"
+//	"$model"       1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+//	"$znearer" 0
+	"$alpha" 1
+}

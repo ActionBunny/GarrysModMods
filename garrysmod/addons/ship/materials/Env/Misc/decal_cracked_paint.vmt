@@ -1,0 +1,9 @@
+
+"LightMappedGeneric"
+{
+	"$baseTexture"			"env/misc/decal_cracked_paint"
+	"$decal"			0
+	"$translucent"			1
+	"$alpha"				1
+	"$decalscale"			0.12
+}

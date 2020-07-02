@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"char/npc_engineer_accessories"
+	"$envmap"			"env_cubemap"
+	"$envmapmask" 			"char/npc_engineer_accessories_spec"
+	"$envmaptint"			"[.4 .4 .4]"
+	"$envmapcontrast" 			.1
+	"$halflambert"		1
+	"$nodecal" "1"
+
+	
+
+}

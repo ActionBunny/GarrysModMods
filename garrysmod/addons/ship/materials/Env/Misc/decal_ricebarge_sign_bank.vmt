@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "env/misc/decal_ricebarge_sign_bank"
+    "$decal" 1
+    "$decalscale" 0.075
+    "$translucent" 1
+}

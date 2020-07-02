@@ -1,0 +1,80 @@
+game_sounds_manifest
+{
+	// reference file
+	"precache_file"		"scripts/game_sounds.txt"
+
+	//physic sounds, i.e. footsteps, impacts
+	"precache_file"		"scripts/game_sounds_physics.txt"
+
+	// specific to player sounds (and competing AI, passangers and crew), i.e. needs sfx
+	"precache_file"		"scripts/game_sounds_player.txt"
+	
+	// World
+	"precache_file"		"scripts/game_sounds_environment.txt"
+	
+	// NPC Sounds
+	"precache_file"		"scripts/game_sounds_npc.txt"
+
+	// Client UI sounds
+	"precache_file"		"scripts/game_sounds_UI.txt"
+
+	// weapon sounds
+	"precache_file"		"scripts/game_sounds_weapons.txt"
+
+	// global game events (notifications)
+	"precache_file"		"scripts/game_sounds_gameevents.txt"
+
+	// female1 V.O set
+	"precache_file"		"scripts/game_sounds_vo_female1.txt"
+	
+	// female2 V.O set
+	"precache_file"		"scripts/game_sounds_vo_female2.txt"
+
+	// female3 V.O set
+	"precache_file"		"scripts/game_sounds_vo_female3.txt"
+
+	// male1 V.O set
+	"precache_file"		"scripts/game_sounds_vo_male1.txt"
+	
+	// male2 V.O set
+	"precache_file"		"scripts/game_sounds_vo_male2.txt"
+
+	// male3 v.o set
+	"precache_file"		"scripts/game_sounds_vo_male3.txt"
+
+	// Barman v.o set
+	"precache_file"		"scripts/game_sounds_vo_barman.txt"
+
+	// Bellboy v.o set
+	"precache_file"		"scripts/game_sounds_vo_bellboy.txt"
+	
+	// Doctor v.o set
+	"precache_file"		"scripts/game_sounds_vo_doctor.txt"
+
+	// Engineer v.o set
+	"precache_file"		"scripts/game_sounds_vo_engineer.txt"
+
+	// Guard v.o set
+	"precache_file"		"scripts/game_sounds_vo_guard.txt"
+
+	// Judge v.o set
+	"precache_file"		"scripts/game_sounds_vo_judge.txt"
+
+	// Nurse v.o set
+	"precache_file"		"scripts/game_sounds_vo_nurse.txt"
+
+	// Officer v.o set
+	"precache_file"		"scripts/game_sounds_vo_officer.txt"
+
+	// Psychiatrist v.o set
+	"precache_file"		"scripts/game_sounds_vo_psychiatrist.txt"
+
+	// Shopkeeper v.o set
+	"precache_file"		"scripts/game_sounds_vo_shopkeeper.txt"
+
+	// single player vo
+	"precache_file"		"scripts/game_sounds_single_player.txt"
+
+	// tutorial vo
+	"precache_file"		"scripts/game_sounds_vo_tutorial.txt"
+}

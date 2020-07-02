@@ -1,0 +1,11 @@
+
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/floors/floor_stone_tile"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$bumpMap"				"env/brush/floors/floor_stone_tile_normal"
+	"$surfaceprop" "tile"
+}

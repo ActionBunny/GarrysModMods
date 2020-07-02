@@ -1,0 +1,6 @@
+# Prop Hunt Tauntpack Loader - Blacklisted Taunts
+#
+# Format:
+# <Path to the file>;<Optional Description>
+
+#taunts/props/31.mp3;No Bad Boys here!

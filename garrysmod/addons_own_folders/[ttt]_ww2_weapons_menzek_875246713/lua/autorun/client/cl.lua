@@ -1,0 +1,1 @@
+CreateClientConVar( "ww2_crosshair", "1", true, false )

@@ -1,0 +1,604 @@
+
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+
+
+//Attacks
+
+
+"Judge.BludgeonA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.BludgeonB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.Push"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.Slash"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.Stab"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.Syringe"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.ThrowA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.ThrowB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+//Pain
+
+
+"Judge.FlinchBack"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.FlinchForward"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+"Judge.OnFire"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+"Judge.Stunned"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+"Judge.Vomit"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+//Needs
+
+"Judge.Depressed"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.NeedDrink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.NeedEntertainment"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.NeedFood"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.NeedPee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.NeedPoo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.NeedSleep"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.NeedSocial"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.Pee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.PeeSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.PooSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.PooRelief"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.PooStrain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Judge.Shower"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+
+
+//Idles
+
+"Judge.IdleCigar"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+"Judge.IdleWatch"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"	
+	"wave"		"common/null.wav"
+}
+
+
+
+"Judge.IdlePickNose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+//Talk
+
+"Judge.TalkDontCare"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+"Judge.TalkExplain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+"Judge.TalkNo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.TalkThink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.TalkWell"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.TalkYes"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+//Other
+
+"Judge.Arrested"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.Pickup"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.PickupHigh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.Point"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+// Sounds not played but precached
+"Judge.IdleNails"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Judge.IdleScratch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Judge.IdleSneeze"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Judge.IdleSuspicious"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+//NPC specifics
+
+"Judge.ShockA"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.ShockB"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.ShockC"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Judge.ShockD"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+
+// Judge specific
+
+
+
+"Judge.IdleListen"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"1.0"	
+	"rndwave"
+	{
+		"wave"	"voiceover/Judge/Judge_Listen1.wav"
+		"wave"	"voiceover/Judge/Judge_Listen2.wav"
+		"wave"	"voiceover/Judge/Judge_Listen3.wav"
+		"wave"	"voiceover/Judge/Judge_Listen4.wav"
+	}
+}
+
+
+"Judge.Gavel"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_90dB"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"	"voiceover/Judge/Judge_Order1.wav"
+		"wave"	"voiceover/Judge/Judge_Order2.wav"
+		"wave"	"voiceover/Judge/Judge_Order3.wav"
+		"wave"	"voiceover/Judge/Judge_Order4.wav"
+		"wave"	"voiceover/Judge/Judge_Order5.wav"
+	}
+}

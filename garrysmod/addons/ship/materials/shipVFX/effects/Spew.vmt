@@ -1,0 +1,22 @@
+"UnlitGeneric"
+{
+	// Original shader: basetimesvertexcolor
+	"$basetexture" "shipVFX/effects/Spew"
+	"$model"       1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+//	"$znearer" 0
+	"$alpha" 1
+	"$nocull" 1
+	
+"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	4
+			"texturescrollangle" 	270.00
+		}
+	}
+}
+ 

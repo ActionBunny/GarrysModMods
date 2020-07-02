@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Env/Brush/blend/floor_snow_broken_a"
+	"$basetexture2" "Env/Brush/blend/floor_snow_broken_b"
+		
+	"$surfaceprop" "stone"
+	"$surfaceprop2" "dirt"
+	"%keywords" "snow"
+	
+	"$bumpmap" "Env/Brush/blend/floor_snow_broken_a_normal"
+	"$bumpmap2" "Env/Brush/blend/floor_snow_broken_b_normal"
+//	"$envmap"  "Env/Misc/cube_winter"
+//	"$envmap2"  "char/test2"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$normalmapalphaenvmapmask2" 1
+}

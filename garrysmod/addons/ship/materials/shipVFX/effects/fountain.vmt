@@ -1,0 +1,29 @@
+
+"UnlitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"shipVFX\effects/fountain"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$nocull"			1
+	"$alpha"				1
+	//"$envMap"				"env_cubemap"
+	//"$envmapcontrast"			1
+	//"$envMapTint"				"[0.4000000238 0.4000000238 0.4000000238]"
+	//"$envMapSphere"				0
+	//"$envMapCameraSpace"			0
+	"$baseAlphaEnvMapMask"			0
+	"$normalMapAlphaEnvMapMask"			0
+	//"$bumpMap"				"env/fx/fx_water_b_normal"
+	
+"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	3
+			"texturescrollangle" 	270.00
+		}
+	}
+}

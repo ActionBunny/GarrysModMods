@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/vampiresplatter"
+	"$translucent" 0
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$additive" 1
+}

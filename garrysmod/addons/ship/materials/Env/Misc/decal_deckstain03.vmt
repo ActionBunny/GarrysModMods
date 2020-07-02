@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "env/misc/decal_deckstain03"
+    "$decal" 1
+    "$alpha"				1
+    "$decalscale" 0.4
+    "$translucent" 1
+}

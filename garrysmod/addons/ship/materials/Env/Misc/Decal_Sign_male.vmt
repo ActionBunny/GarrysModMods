@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "env/misc/Decal_Sign_male"
+	"$decal" 1
+	"$decalscale" 0.1
+	//"$translucent" 1
+	"$alpha"				1
+	//"$envMap"				"env_cubemap"
+	//"$baseAlphaEnvMapMask"		1
+	//"$bumpmap"				""
+}

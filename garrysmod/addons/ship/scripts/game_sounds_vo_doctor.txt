@@ -1,0 +1,624 @@
+
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+
+
+//Attacks
+
+
+"Doctor.BludgeonA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.BludgeonB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.Push"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.Slash"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.Stab"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.Syringe"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.ThrowA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.ThrowB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+//Pain
+
+
+"Doctor.FlinchBack"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_FlinchBack1.wav"
+		"wave"	"voiceover/doctor/Doctor_FlinchBack2.wav"
+	}
+}
+
+
+"Doctor.FlinchForward"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_FlinchForward1.wav"
+		"wave"	"voiceover/doctor/Doctor_FlinchForward2.wav"
+	}
+}
+
+
+
+"Doctor.OnFire"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+"Doctor.Stunned"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+"Doctor.Vomit"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+//Needs
+
+"Doctor.Depressed"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.NeedDrink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.NeedEntertainment"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.NeedFood"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.NeedPee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.NeedPoo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.NeedSleep"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.NeedSocial"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.Pee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.PeeSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.PooSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.PooRelief"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.PooStrain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Doctor.Shower"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+
+
+//Idles
+
+"Doctor.IdleCigar"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_40dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.IdleWatch"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_40dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+// NPC specifics
+
+
+"Doctor.IdlePickNose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_40dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+
+//Talk
+
+"Doctor.TalkDontCare"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_TalkDontCare1.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkDontCare2.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkDontCare3.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkDontCare4.wav"
+	}
+}
+
+
+
+"Doctor.TalkExplain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_TalkExplain1.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkExplain2.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkExplain3.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkExplain4.wav"
+	}
+}
+
+
+
+"Doctor.TalkNo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_TalkNo1.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkNo2.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkNo3.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkNo4.wav"
+	}
+}
+
+
+"Doctor.TalkThink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_TalkThink1.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkThink2.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkThink3.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkThink4.wav"
+	}
+}
+
+
+"Doctor.TalkWell"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_TalkWell1.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkWell2.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkWell3.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkWell4.wav"
+	}
+}
+
+
+"Doctor.TalkYes"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_TalkYes1.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkYes2.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkYes3.wav"
+		"wave"	"voiceover/doctor/Doctor_TalkYes4.wav"
+	}
+}
+
+
+
+
+//Other
+
+"Doctor.Arrested"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.Pickup"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.PickupHigh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Doctor.Point"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+// Sounds not played but precached
+"Doctor.IdleNails"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_60dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Doctor.IdleScratch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Doctor.IdleSneeze"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Doctor.IdleSuspicious"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+//NPC specifics
+
+"Doctor.ShockA"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_ShockA1.wav"
+		"wave"	"voiceover/doctor/Doctor_ShockA2.wav"
+	}
+}
+
+
+"Doctor.ShockB"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_ShockB1.wav"
+		"wave"	"voiceover/doctor/Doctor_ShockB2.wav"
+	}
+}
+
+
+"Doctor.ShockC"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_ShockC1.wav"
+		"wave"	"voiceover/doctor/Doctor_ShockC2.wav"
+	}
+}
+
+
+"Doctor.ShockD"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/doctor/Doctor_ShockD1.wav"
+		"wave"	"voiceover/doctor/Doctor_ShockD2.wav"
+	}
+}
+
+

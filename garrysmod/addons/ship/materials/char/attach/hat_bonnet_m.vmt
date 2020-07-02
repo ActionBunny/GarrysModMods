@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"char/attach/hat_bonnet_m"
+	"$nodecal" 	1
+	"$halflambert"	1
+	"$nocull"		1
+}

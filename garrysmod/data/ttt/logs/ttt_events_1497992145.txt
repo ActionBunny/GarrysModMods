@@ -1,0 +1,14 @@
+Trouble in Terrorist Town - Round Events Log
+--------------------------------------------------
+ TIME | TYPE                      | WHAT HAPPENED
+--------------------------------------------------
+00:00 | Game                      | The round started
+00:38 | Suicide                   | Menzek | DLRH was fried by something
+00:40 | Suicide                   | Gutsche|Der_SalzbluTTTprinz was fried by something
+00:49 | Traitor killed innocent   | SniperGose was shot by TTTom using a AR-15
+01:12 | Body discovered           | Thomas Gefreiter Hoffmann found the corpse of SniperGose
+01:19 | Body discovered           | Thomas Gefreiter Hoffmann found the corpse of Gutsche|Der_SalzbluTTTprinz
+01:20 | Traitor killed innocent   | Thomas Gefreiter Hoffmann was exploded by MaTTThäjs | Frenzelino <3
+01:54 | Traitor killed innocent   | Hannibal was shot by TTTom using a Deagle
+01:54 | Suicide                   | MaTTThäjs | Frenzelino <3 fell to their death
+01:55 | Traitors won              | The dastardly traitors won the round!

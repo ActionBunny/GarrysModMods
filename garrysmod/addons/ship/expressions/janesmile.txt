@@ -1,0 +1,4 @@
+$keys right_inner_raiser left_inner_raiser smile
+$hasweighting
+"smile" "_" 0.000 0.000 0.000 0.000 0.640 1.000 "smile"
+"frown" "_" 0.830 1.000 0.830 1.000 0.830 1.000 "frown"

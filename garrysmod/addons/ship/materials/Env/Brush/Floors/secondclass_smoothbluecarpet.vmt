@@ -1,0 +1,11 @@
+//
+"LightmappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"Env/Brush/Floors/secondclass_smoothbluecarpet"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+        "$bumpMap"				"Env/Brush/Floors/secondclass_smoothbluecarpet_normal"
+        "$surfaceprop" "carpet"
+}

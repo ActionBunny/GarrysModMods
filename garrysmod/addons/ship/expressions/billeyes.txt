@@ -1,0 +1,8 @@
+$keys right_lid_raiser left_lid_raiser right_lid_tightener left_lid_tightener right_lid_droop left_lid_droop blink
+"b_blink" "_" 0.000 0.000 0.000 0.000 0.000 0.000 1.000 "b"
+"wide" "_" 1.000 1.000 0.000 0.000 0.000 0.000 0.000 "w"
+"slight dw" "_" 0.000 0.000 0.000 0.000 0.250 0.250 0.000 "s"
+"more dw" "_" 0.000 0.000 0.000 0.000 0.650 0.650 0.000 "m"
+"squint" "_" 0.000 0.000 1.000 1.000 0.000 0.000 0.350 "s"
+"low up" "_" 0.000 0.000 0.800 0.800 0.000 0.000 0.000 "u"
+"neutral" "_" 0.000 0.000 0.000 0.000 0.000 0.000 0.000 "n"

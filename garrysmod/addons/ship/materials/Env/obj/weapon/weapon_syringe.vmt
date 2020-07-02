@@ -1,0 +1,10 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$baseTexture"			"env/obj/weapon/weapon_syringe"
+	"$translucent"			1
+	"$alpha"				1
+	"$envMap"				"env_cubemap"
+	"$envMapTint"				"[0.100000003 0.100000003 0.100000003]"
+}

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Env/weapons/push_hands/rhands_asian"
+	"$bumpmap" "env/Weapons/push_hands/rhandNormals"
+                "$envMap" "env_CubeMap"
+                "$normalmapalphaenvmapmask"	1
+	"alpha"	1
+	"$envmaptint" "[ .2 .2 .2]"
+
+}

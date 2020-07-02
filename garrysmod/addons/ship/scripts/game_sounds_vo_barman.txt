@@ -1,0 +1,534 @@
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//Attacks
+"Barman.BludgeonA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.BludgeonB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.Push"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.Slash"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.Stab"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.Syringe"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.ThrowA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.ThrowB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+//Pain
+"Barman.FlinchBack"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_FlinchBack1.wav"
+		"wave"	"voiceover/barman/Barman_FlinchBack2.wav"
+	}
+}
+"Barman.FlinchForward"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_FlinchForward1.wav"
+		"wave"	"voiceover/barman/Barman_FlinchForward2.wav"
+	}
+}
+"Barman.OnFire"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.Stunned"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.Vomit"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+//Needs
+"Barman.Depressed"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.NeedDrink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.NeedEntertainment"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.NeedFood"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.NeedPee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.NeedPoo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.NeedSleep"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.NeedSocial"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.Pee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.PeeSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.PooSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.PooRelief"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.PooStrain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+"Barman.Shower"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+//Idles
+"Barman.IdleCigar"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"voiceover/barman/Barman_IdleCigar.wav"
+}
+"Barman.IdleWatch"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"	
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_IdleWatch1.wav"
+		"wave"	"voiceover/barman/Barman_IdleWatch2.wav"
+	}
+}
+"Barman.IdlePickNose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{	
+		"wave"	"voiceover/barman/Barman_IdlePickNose1.wav"
+		"wave"	"voiceover/barman/Barman_IdlePickNose2.wav"
+	}
+}
+//Barman specifc
+"Barman.IdleClean"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_65dB"
+	"volume"	"1.0"	
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_IdleClean1.wav"
+		"wave"	"voiceover/barman/Barman_IdleClean2.wav"
+		"wave"	"voiceover/barman/Barman_IdleClean3.wav"
+		"wave"	"voiceover/barman/Barman_IdleClean4.wav"
+	}
+}
+//Talk
+"Barman.TalkDontCare"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_TalkDontCare1.wav"
+		"wave"	"voiceover/barman/Barman_TalkDontCare2.wav"
+		"wave"	"voiceover/barman/Barman_TalkDontCare3.wav"
+		"wave"	"voiceover/barman/Barman_TalkDontCare4.wav"
+	}
+}
+"Barman.TalkExplain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_TalkExplain1.wav"
+		"wave"	"voiceover/barman/Barman_TalkExplain2.wav"
+		"wave"	"voiceover/barman/Barman_TalkExplain3.wav"
+		"wave"	"voiceover/barman/Barman_TalkExplain4.wav"
+	}
+}
+"Barman.TalkNo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_TalkNo1.wav"
+		"wave"	"voiceover/barman/Barman_TalkNo2.wav"
+		"wave"	"voiceover/barman/Barman_TalkNo3.wav"
+		"wave"	"voiceover/barman/Barman_TalkNo4.wav"
+	}
+}
+"Barman.TalkThink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_TalkThink1.wav"
+		"wave"	"voiceover/barman/Barman_TalkThink2.wav"
+		"wave"	"voiceover/barman/Barman_TalkThink3.wav"
+		"wave"	"voiceover/barman/Barman_TalkThink4.wav"
+	}
+}
+"Barman.TalkWell"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_TalkWell1.wav"
+		"wave"	"voiceover/barman/Barman_TalkWell2.wav"
+		"wave"	"voiceover/barman/Barman_TalkWell3.wav"
+		"wave"	"voiceover/barman/Barman_TalkWell4.wav"
+	}
+}
+"Barman.TalkYes"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_75dB"
+	"volume"	"0.9"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_TalkYes1.wav"
+		"wave"	"voiceover/barman/Barman_TalkYes2.wav"
+		"wave"	"voiceover/barman/Barman_TalkYes3.wav"
+		"wave"	"voiceover/barman/Barman_TalkYes4.wav"
+	}
+}
+//Other
+"Barman.Arrested"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+"Barman.Pickup"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+"Barman.PickupHigh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+"Barman.Point"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+// Sounds not played but precached
+"Barman.IdleNails"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+"Barman.IdleScratch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+"Barman.IdleSneeze"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+"Barman.IdleSuspicious"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+//NPC specifics
+"Barman.ShockA"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_ShockA1.wav"
+		"wave"	"voiceover/barman/Barman_ShockA2.wav"
+	}
+}
+"Barman.ShockB"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_ShockB1.wav"
+		"wave"	"voiceover/barman/Barman_ShockB2.wav"
+	}
+}
+"Barman.ShockC"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_ShockC1.wav"
+		"wave"	"voiceover/barman/Barman_ShockC2.wav"
+	}
+}
+"Barman.ShockD"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_ShockD1.wav"
+		"wave"	"voiceover/barman/Barman_ShockD2.wav"
+	}
+}
+"Barman.Help"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.9"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/barman/Barman_WhatCan1.wav"
+		"wave"	"voiceover/barman/Barman_WhatCan2.wav"
+		"wave"	"voiceover/barman/Barman_WhatCan3.wav"
+		"wave"	"voiceover/barman/Barman_WhatCan4.wav"
+		"wave"	"voiceover/barman/Barman_WhatCan5.wav"
+		"wave"	"voiceover/barman/Barman_WhatCan6.wav"
+	}
+}

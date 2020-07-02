@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "env/misc/decal_broken_drain"
+    "$decal" 1
+    "$decalscale" 0.1
+    "$translucent" 1
+}

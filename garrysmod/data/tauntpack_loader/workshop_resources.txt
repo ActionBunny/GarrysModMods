@@ -1,0 +1,6 @@
+# Prop Hunt Tauntpack Loader - Workshop Resources
+#
+# Format:
+# <Workshop ID>;<Description>
+
+#123456789;My example Workshop content

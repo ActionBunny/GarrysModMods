@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\v_models\Request CSO\Frame Holy Water Front D"
+"$bumpmap" "models\weapons\v_models\Request CSO\Frame Holy Water Front N"
+"$phong" "1"
+"$phongboost" "1"
+"$phongfresnelranges" "[0.03 0.03 0.03]"
+"$phongalbedotint" "1"
+"$halflambert" "1"
+}

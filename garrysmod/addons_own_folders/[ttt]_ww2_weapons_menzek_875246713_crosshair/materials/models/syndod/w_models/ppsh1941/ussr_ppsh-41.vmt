@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\syndod\w_models\ppsh1941/ussr_ppsh-41"
+	"$bumpmap" "models\weapons\syndod\w_models\ppsh1941/ussr_ppsh-41_n"	
+	"$nocull" "1" 
+}

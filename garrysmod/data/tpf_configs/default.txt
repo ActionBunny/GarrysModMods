@@ -1,0 +1,2 @@
+!!!DO NOT MODIFY THIS FILE!!!
+{"fov":60,"color":{"r":255,"b":255,"a":255,"g":255},"maxs_farz":"2000","farz":750,"mat":"effects/flashlight001","maxs_brig":"1000","maxs_fov":"90","shadows":1,"bright":255,"aptype":"nnn"}

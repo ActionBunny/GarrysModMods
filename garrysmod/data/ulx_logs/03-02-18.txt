@@ -1,0 +1,8 @@
+[11:03:49] New map: gm_construct
+[11:04:46] Menzek<STEAM_0:0:0> spawned model models/freeman/holyhandgrenade.mdl
+[11:05:09] Menzek<STEAM_0:0:0> spawned effect models/weapons/v_eq_fraggrenad2.mdl
+[11:05:13] Menzek<STEAM_0:0:0> spawned model models/weapons/w_eq_fraggrenad2.mdl
+[11:05:15] Menzek<STEAM_0:0:0> spawned model models/weapons/w_eq_fraggrenade_throw2.mdl
+[11:05:17] Menzek<STEAM_0:0:0> spawned effect models/weapons/v_eq_fraggrenad2.mdl
+[11:05:23] Menzek<STEAM_0:0:0> spawned model models/freeman/holyhandgrenade.mdl
+[11:06:32] Server is shutting down/changing levels.

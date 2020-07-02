@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "char/attach/hair_afro_m"
+	"$translucent" 1
+}

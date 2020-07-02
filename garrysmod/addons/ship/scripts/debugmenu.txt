@@ -1,0 +1,276 @@
+DebugMenu
+{
+	Performance
+	{
+		SubMenu
+		{
+			r_speeds
+			{
+				"command"	"togglecvar r_speeds"
+			}
+
+			host_speeds
+			{
+				"command"	"togglecvar host_speeds"
+			}
+
+			"FPS"
+			{
+				"command"	"togglecvar cl_showfps"
+			}
+
+			"Position"
+			{
+				"command"	"togglecvar cl_showpos"
+			}
+		}
+	}
+
+	Draw
+	{
+		SubMenu
+		{
+			SkyBox
+			{
+				"command"	"togglecvar r_drawskybox"
+			}
+			VGUI
+			{
+				"command"	"togglecvar r_drawvgui"
+			}
+			World
+			{
+				"command"	"togglecvar r_drawworld"
+			}
+			Displacements
+			{
+				"command"	"togglecvar r_drawdisp"
+			}
+			Entities
+			{
+				"command"	"togglecvar r_drawentities"
+			}
+			"View Model"
+			{
+				"command"	"togglecvar r_drawviewmodel"
+			}
+			"Static Props"
+			{
+				"command"	"togglecvar r_drawstaticprops"
+			}
+			"Detail Props"
+			{
+				"command"	"togglecvar r_drawdetailprops"
+			}
+			Decals
+			{
+				"command"	"togglecvar r_drawdecals"
+			}
+			"Brush Models"
+			{
+				"command"	"togglecvar r_drawbrushmodels"
+			}
+			Lights
+			{
+				"command"	"togglecvar r_drawlights"
+			}
+			Portals
+			{
+				"command"	"togglecvar r_drawportals"
+			}
+			Beams
+			{
+				"command"	"togglecvar r_drawbeams"
+			}
+			Ropes
+			{
+				"command"	"togglecvar r_drawropes"
+			}
+			Sprites
+			{
+				"command"	"togglecvar r_drawsprites"
+			}
+			Particles
+			{
+				"command"	"togglecvar r_drawparticles"
+			}
+			"Vphysics"
+			{
+				"command"	"togglecvar vcollide_wireframe"
+			}
+			"Vphysics axes"
+			{
+				"command"	"togglecvar vcollide_axes"
+			}
+			"Water Surface"
+			{
+				"command"	"togglecvar r_drawwatersurface"
+			}
+		}
+	}
+
+	AI
+	{
+		SubMenu
+		{
+			Disable
+			{
+				"command"	"ai_disable"
+			}
+			Resume
+			{
+				"command"	"ai_resume"
+			}
+			Step
+			{
+				"command"	"ai_step"
+			}
+			"Noclip"
+			{
+				"command"	"noclip"
+			}
+			"God"
+			{
+				"command"	"god"
+			}
+			"No Target"
+			{
+				"command"	"notarget"
+			}
+
+			NPC
+			{
+				SubMenu
+				{
+					Enemies
+					{
+						"command"		"npc_enemies"
+					}
+					Go
+					{
+						"command"		"npc_go"
+					}
+					"Go Random"
+					{
+						"command"		"npc_go_random"
+					}
+					Route
+					{
+						"command"		"npc_route"
+					}
+					Select
+					{
+						"command"		"npc_select"
+					}
+					Bipass
+					{
+						"command"		"npc_destroy"
+					}
+					Destroy
+					{
+						"command"		"npc_destroy"
+					}
+					Visibility
+					{
+						"command"		"npc_visibility"
+					}
+					Tasks
+					{
+						"command"		"npc_tasks"
+					}
+					Combat
+					{
+						"command"		"npc_combat"
+					}
+					Focus
+					{
+						"command"		"npc_focus"
+					}
+				}
+			}
+
+			Entity
+			{	
+				SubMenu
+				{
+					Picker
+					{
+						"command"		"ent_picker"
+					}
+
+					Text
+					{
+						"command"		"ent_text"
+					}										
+
+					"Name"
+					{
+						"command"		"ent_name"
+					}
+
+					BBox
+					{
+						"command"		"ent_bbox"
+					}										
+
+					Messages
+					{
+						"command"		"ent_messages"
+					}
+
+					Pause
+					{
+						"command"		"ent_pause"
+					}										
+
+					Pivot
+					{
+						"command"		"ent_pivot"
+					}
+				}
+			}
+
+			Graph
+			{
+				Submenu
+				{
+					Nodes
+					{
+						"command"		"ai_nodes"
+					}
+					"Next Hull"
+					{
+						"command"		"ai_next_hull"
+					}
+					"Show Hull"
+					{
+						"command"		"ai_show_hull"
+					}
+					"Show Connect"
+					{
+						"command"		"ai_show_connect"
+					}
+					"Show Visibility"
+					{
+						"command"		"ai_show_visibility"
+					}
+					"Show Graph Connect"
+					{
+						"command"		"ai_show_graph_connect"
+					}
+				}
+			}
+		}
+	}
+
+	Engine
+	{
+		SubMenu
+		{
+			Exit
+			{
+				"command" "quit"
+			}
+		}
+	}
+}

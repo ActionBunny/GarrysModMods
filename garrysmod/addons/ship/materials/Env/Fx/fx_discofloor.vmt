@@ -1,0 +1,19 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$additive" 				"1"
+	"$baseTexture"			"env/fx/fx_discofloor"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$alpha"				1
+"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	.15
+			"texturescrollangle" 	0.00
+		}
+	}
+}

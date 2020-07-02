@@ -1,0 +1,10 @@
+ 
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/misc/wood_toiletframe"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$surfaceprop" "Wood_Panel"
+}

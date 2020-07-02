@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "HUD\Quarry\hud_anon"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

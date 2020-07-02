@@ -1,0 +1,9 @@
+// Valve Game Info file
+//  These are key/value pairs.  Certain mods will use different settings.
+//
+game 		"The Ship"
+startmap 	"test\testroom_standards"
+trainingmap 	"test\testroom_standards"
+hlversion 	"1000"
+mpentity 	"info_player_deathmatch"
+gamedll 	"dlls\server.dll"

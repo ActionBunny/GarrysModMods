@@ -1,0 +1,8 @@
+"Subrect"
+{
+	"$Material"	"decals/decals_lit"
+	"$Pos"		"256 896"
+	"$Size"		"128 128"
+	"$decalscale" 	0.2
+	"$modelmaterial" "shipVFX/decals/woodslash5"
+}

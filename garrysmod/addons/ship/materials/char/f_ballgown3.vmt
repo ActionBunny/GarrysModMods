@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$model"			1
+	"$basetexture" 		"char/f_ballgown3"
+	"$halflambert"		0
+	"$alpha"			1
+	"$envmap"		"env_cubemap"
+	"$normalmapalphaenvmapmask"	1
+	"$bumpmap" 		"char/f_ballgown_normal"
+	"$envmaptint"		"[.5 .15 .1]"
+}

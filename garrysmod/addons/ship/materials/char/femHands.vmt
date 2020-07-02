@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "env/Weapons/push_hands/hands"
+	"$bumpmap" "env/Weapons/push_hands/handNormals"
+                "$envMap" "env_CubeMap"
+                "$normalmapalphaenvmapmask"	1
+	"alpha"	1
+	"$envmaptint" "[ .2 .2 .2]"
+	"$halflambert"		1
+	"$nodecal" "1"
+	
+}

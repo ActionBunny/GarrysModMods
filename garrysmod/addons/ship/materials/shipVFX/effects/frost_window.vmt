@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	// Original shader: basetimesvertexcolor
+	"$basetexture" "shipVFX/effects/frost_window"
+	"$model"       1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+//	"$znearer" 0
+	"$alpha" 1
+	"$translucent" 1
+	"$nocull" 1
+}

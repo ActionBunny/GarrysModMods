@@ -1,0 +1,23 @@
+"UnlitGeneric"
+{
+	// Original shader: basetimesvertexcolor
+	"$basetexture" 	"shipVFX/effects/fountring2"
+	"$model"       	1
+	"$vertexcolor" 	1
+	"$vertexalpha" 	1
+//	"$znearer" 	0
+	"$alpha" 	1
+	"$nocull"	1
+	
+	"Proxies"
+	{
+		"TextureTransform"
+		{
+			"rotateVar" 	90
+			"translateVar" 	0
+			"resultVar" 	"$basetexturetransform"
+		}
+	}
+}
+
+

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"char/judge_wig"
+	"$bumpmap" 	"char/judge_wig_normal"
+	"$halflambert"		1
+	"$nodecal" "1"
+}

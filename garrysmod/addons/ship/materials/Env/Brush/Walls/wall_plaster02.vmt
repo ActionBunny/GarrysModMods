@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "Env/Brush/Walls/wall_plaster02"
+	"$surfaceprop" "plaster"
+	"$bumpMap" "Env/Brush/Walls/wall_plaster02_normal"
+}

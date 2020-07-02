@@ -1,0 +1,12 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/plant/plant_bronzeleaf"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$bumpMap"				"env/plant/plant_appleleaf_normal"
+	"$nocull"			1
+}

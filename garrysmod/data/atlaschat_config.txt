@@ -1,0 +1,1 @@
+~'size_width":n600;'rank_icons":b1'font":'atlaschat.theme.oss"'tidarkrp":b0'timestamp":b1'theme":'default"'fadetime":n12;'snow":n0;'chat_y":n517.5;'fadein":b1'filter_jndc":b0'rank_title":b1'chat_sound":b1'max_history":n25;'small_avatar":b0'extra_shadow":b0'wyozite_tags":b1'avatars":b1'avatars_local":b1'chat_x":n30;'size_height":n337.5;

@@ -1,0 +1,639 @@
+
+//	CHAN_VOICE		= 2,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+
+
+//Attacks
+
+
+"Engineer.BludgeonA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.BludgeonB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.Push"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.Slash"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.Stab"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.Syringe"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.ThrowA"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.ThrowB"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+//Pain
+
+
+"Engineer.FlinchBack"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"1.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_FlinchBack1.wav"
+		"wave"	"voiceover/engineer/Engineer_FlinchBack2.wav"
+	}
+}
+
+
+"Engineer.FlinchForward"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"1.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_FlinchForward1.wav"
+		"wave"	"voiceover/engineer/Engineer_FlinchForward2.wav"
+	}
+}
+
+
+
+"Engineer.OnFire"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+"Engineer.Stunned"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+"Engineer.Vomit"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+//Needs
+
+"Engineer.Depressed"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.NeedDrink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.NeedEntertainment"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.NeedFood"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.NeedPee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.NeedPoo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.NeedSleep"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.NeedSocial"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.Pee"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.PeeSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.PooSelf"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.PooRelief"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.PooStrain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+"Engineer.Shower"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"rndwave"
+	{
+		"wave"	"common/null.wav"
+		"wave"	"common/null.wav"
+	}
+}
+
+
+
+
+
+
+//Idles
+
+"Engineer.IdleCigar"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.IdleWatch"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"	
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.IdlePickNose"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+
+
+//Engineer specifc
+
+
+"Engineer.IdleHammer"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"0.8"	
+	"rndwave"
+	{
+		"wave"	"voiceover/Engineer/Engineer_IdleHammer1.wav"
+		"wave"	"voiceover/Engineer/Engineer_IdleHammer2.wav"
+		"wave"	"voiceover/Engineer/Engineer_IdleHammer3.wav"
+		"wave"	"voiceover/Engineer/Engineer_IdleHammer4.wav"
+	}
+}
+
+
+
+//Talk
+
+"Engineer.TalkDontCare"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_TalkDontCare1.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkDontCare2.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkDontCare3.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkDontCare4.wav"
+	}
+}
+
+
+
+"Engineer.TalkExplain"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_TalkExplain1.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkExplain2.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkExplain3.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkExplain4.wav"
+	}
+}
+
+
+
+"Engineer.TalkNo"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_TalkNo1.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkNo2.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkNo3.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkNo4.wav"
+	}
+}
+
+
+"Engineer.TalkThink"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_TalkThink1.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkThink2.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkThink3.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkThink4.wav"
+	}
+}
+
+
+"Engineer.TalkWell"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_TalkWell1.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkWell2.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkWell3.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkWell4.wav"
+	}
+}
+
+
+"Engineer.TalkYes"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_80dB"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_TalkYes1.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkYes2.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkYes3.wav"
+		"wave"	"voiceover/engineer/Engineer_TalkYes4.wav"
+	}
+}
+
+
+
+
+//Other
+
+"Engineer.Arrested"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.Pickup"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.PickupHigh"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+"Engineer.Point"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_60dB"
+	"volume"	"0.8"
+	"wave"		"common/null.wav"
+}
+
+
+// Sounds not played but precached
+"Engineer.IdleNails"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Engineer.IdleScratch"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Engineer.IdleSneeze"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+"Engineer.IdleSuspicious"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"		"common/null.wav"
+}
+
+
+//NPC specifics
+
+"Engineer.ShockA"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_ShockA1.wav"
+		"wave"	"voiceover/engineer/Engineer_ShockA2.wav"
+	}
+}
+
+
+"Engineer.ShockB"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_ShockB1.wav"
+		"wave"	"voiceover/engineer/Engineer_ShockB2.wav"
+	}
+}
+
+
+"Engineer.ShockC"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_ShockC1.wav"
+		"wave"	"voiceover/engineer/Engineer_ShockC2.wav"
+	}
+}
+
+
+"Engineer.ShockD"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	"voiceover/engineer/Engineer_ShockD1.wav"
+		"wave"	"voiceover/engineer/Engineer_ShockD2.wav"
+	}
+}
+
+

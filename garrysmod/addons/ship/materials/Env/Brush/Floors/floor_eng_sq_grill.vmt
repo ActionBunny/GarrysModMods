@@ -1,0 +1,17 @@
+
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/floors/floor_eng_sq_grill"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$alphatest"				1
+	"$envMap"				"env_cubemap"
+	"$nocull"				1
+	"$envMapTint"				"[0.3000000119 0.3000000119 0.3000000119]"
+	"$envmapcontrast"			1
+	"$envMapSphere"				0
+	"$envMapCameraSpace"			0
+	"$alpha"				1
+	"$surfaceprop" "metalgrate"
+}

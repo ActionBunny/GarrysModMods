@@ -1,0 +1,22 @@
+"UnlitGeneric"
+{
+	"$model"			1
+	"$color"			"[1 1 1]"
+	"$baseTexture"			"shipVFX\sprites/explosion_streak"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$nocull"			1
+	"$alpha"			1
+	"$baseAlphaEnvMapMask"		0
+	"$normalMapAlphaEnvMapMask"	0
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 30
+		}
+	}	
+}

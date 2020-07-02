@@ -1,0 +1,11 @@
+
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/walls/wall_green_dingy"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$bumpMap"				"env/brush/walls/wall_red_dingy_normal"
+	"$surfaceprop" "plaster"
+}

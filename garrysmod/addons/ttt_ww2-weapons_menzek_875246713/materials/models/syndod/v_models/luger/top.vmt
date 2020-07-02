@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\syndod\v_models\luger\top"
+   	"$bumpmap" "models\weapons\syndod\v_models\luger\top_normal"
+}

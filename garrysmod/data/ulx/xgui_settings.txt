@@ -1,0 +1,32 @@
+// This file stores clientside settings for XGUI.
+"animIntype"	1
+"animOuttype"	1
+"animTime"	0.22
+"xguipos"	
+{
+	"pos"	3
+	"xoff"	0
+	"yoff"	0
+}
+"showLoadMsgs"	true
+"skin"	"Default"
+"infoColor"	
+{
+	"r"	100
+	"b"	255
+	"a"	128
+	"g"	255
+}
+"moduleOrder"	
+{
+	"Cmds"
+	"Groups"
+	"Maps"
+	"Settings"
+	"Bans"
+}
+"settingOrder"	
+{
+	"Server"
+	"Client"
+}

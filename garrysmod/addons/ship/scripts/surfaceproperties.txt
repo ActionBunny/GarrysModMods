@@ -1,0 +1,934 @@
+// "surface group" 
+// { 
+// "property" 	"value"
+// ...
+// }
+//
+// thickness: If this value is present, the material is not volumetrically solid
+// it means that the volume should be computed as the surface area times this
+// thickness (for automatic mass).  The inside space beneath the thickness value is air.
+//
+// physics parameters are:
+// density: this is the material density in kg / m^3 (water is 1000)
+// elasticity: This is the collision elasticity (0 - 1.0, 0.01 is soft, 1.0 is hard)
+// friction: this is the physical friction (0 - 1.0, 0.01 is slick, 1.0 is totally rough)
+// dampening: this is the physical drag on an object when in contact with this surface (0 - x, 0 none to x a lot)
+//
+// !!! Do not edit the physics properties (especially density) without the proper references !!!
+//
+// Sounds
+// 
+// stepleft: footstep sound for left foot
+// stepright: footstep sound for right foot
+// impactsoft: Physical impact sound when hitting soft surfaces
+// impacthard: Physical impact sound when hitting hard surfaces
+// scrapesmooth: Looping physics friction sound (when scraping smooth surfaces)
+// scraperough: Looping physics friction sound (when scraping rough surfaces)
+// bulletimpact: bullet impact sound
+// gamematerial: game material index (can be a single letter or a number)
+// 
+
+// NOTE: The properties of "default" will get copied into EVERY material who does not
+// 	 override them!!!
+//
+// "base" means to use the parameters from that material as a base.
+// "base" must appear as the first key in a material
+//
+
+// -----------------------------
+// world materials
+// -----------------------------
+
+// NOTE: "default" properties are assigned to ALL other materials unless overriden!!!
+"default"
+{
+	"density"	"2000"
+	"elasticity"	"0.25"
+	"friction"	"0.8"
+	"dampening"	"0.0"
+
+	"stepleft"	"Default.StepLeft"
+	"stepright"	"Default.StepRight"
+	"bulletimpact"	"Default.BulletImpact"
+	"scraperough"	"Default.ScrapeRough"
+	"scrapesmooth"	"Default.ScrapeSmooth"
+	"impacthard"	"Default.ImpactHard"
+	"impactsoft"	"Default.ImpactSoft"
+
+	"audioreflectivity" "0.66"
+	"audiohardnessfactor" "1.0"
+	"audioroughnessfactor" "1.0"
+
+	"scrapeRoughThreshold" "0.5"
+	"impactHardThreshold" "0.5"
+
+	"gamematerial"	"C"
+	"jumpfactor" "1.0"
+	"maxspeedfactor" "1.0"
+	"climbable"	"0"
+}
+
+// HL2 NOTE: Almost nothing is solid metal - so "metal" is sheet metal
+// Ship NOTE: Solid metal for bow of deck metal metal objects - like anchor, mast
+
+"solidmetal"
+{
+	"density"	"2700"
+	"elasticity"	"0.1"
+	"audioreflectivity" "0.83"
+	"friction"	"0.8"
+
+	"stepleft"	"SolidMetal.StepLeft"
+	"stepright"	"SolidMetal.StepRight"
+
+	"impacthard"	"SolidMetal.ImpactHard"
+	"impactsoft"	"SolidMetal.ImpactSoft"
+
+	"scraperough"	"SolidMetal.ScrapeRough"
+	"scrapesmooth"	"SolidMetal.ScrapeSmooth"
+
+	"bulletimpact"	"SolidMetal.BulletImpact"
+
+	"gamematerial"	"M"
+}
+
+// HL2 Note: Assume that everything we are building is large enough to be constructed out of a thin sheet of metal
+// HL2 Note: only flag a few things as "solidmetal" (I-Beams, anvils, etc)
+// Ship Note: Assume all metals solid, other then specified beyond "metal"
+
+"metal"
+{
+	"base"		"solidmetal"
+	"elasticity"	"0.25"
+	"thickness"	"0.1"
+}
+
+
+// Ship Note: Made specifically as base for metel panel, metal box, and metal vent, to replace "metal" from their base, 
+// as "metal" is now solid - LOOK AT SCRAPES & IMPACTS
+
+"Sheetmetal"
+{
+	"thickness"	"0.1"
+	"density"	"2700"
+	"elasticity"	"0.2"
+	"friction"	"0.8"
+
+	"stepleft"	"Metal_Sheet.StepLeft"
+	"stepright"	"Metal_Sheet.StepLeft"
+
+	"bulletimpact"	"Metal_Box.BulletImpact" 
+
+	"impacthard"	"Metal_Box.ImpactHard"
+	"impactsoft"	"Metal_Box.ImpactSoft"
+
+	"scraperough"	"Metal_Box.ScrapeRough"
+	"scrapesmooth"	"Metal_Box.ScrapeSmooth"
+
+	"audioreflectivity" "0.83"
+	"audioroughnessfactor" "0.1"
+
+	"gamematerial"	"M"
+}
+
+
+// HL2 Note: thick solid steel panel - used for solid wall, floor, machine construction
+// Ship note: Sheet metal, for machine contruction.
+
+"metalpanel"
+{
+	"base"		"Sheetmetal"
+	"thickness"	"0.1"
+	"density"	"2700"
+	"elasticity"	"0.2"
+	"friction"	"0.8"
+
+	"audioreflectivity" "0.33"
+	"audioroughnessfactor" "0.1"
+
+	"gamematerial"	"M"
+}
+
+
+// HL2 Note: ~1mm thick metal
+// Ship Note: For vents 
+
+"metalvent"
+{
+	"base"		"Sheetmetal"
+	"thickness"	"0.04"
+	"density"	"2700"
+	"elasticity"	"0.1"
+	"friction"	"0.8"
+
+	"impacthard"	"MetalVent.ImpactHard"
+	
+	"audioreflectivity" "0.33"
+	"audioroughnessfactor" "0.1"
+
+	"gamematerial"	"V"
+}
+
+
+// HL2 Note: metal box - smaller metal box (< 2' width/height/depth)
+// Ship Note: nothing of this description in game at present
+
+"Metal_Box"
+{
+	"base"		"metalvent"
+	"thickness"	"0.1"
+
+	"stepleft"	"Metal_Box.StepLeft"
+	"stepright"	"Metal_Box.StepRight"
+
+	"bulletimpact"	"Metal_Box.BulletImpact"
+	"scraperough"	"Metal_Box.ScrapeRough"
+	"scrapesmooth"	"Metal_Box.ScrapeSmooth"
+	"impacthard"	"Metal_Box.ImpactHard"
+	"impactsoft"	"Metal_Box.ImpactSoft"
+
+	"break"		"Metal_Box.Break"
+}
+
+
+// HL2 Note: metal grating, used for decking
+// Ship Note: Is there hollow decking grating?!
+
+"metalgrate"
+{
+	"thickness"	"0.5"
+	"density"	"1600"
+	"elasticity"	"0.25"
+	"friction"	"0.8"
+
+	"stepleft"	"MetalGrate.StepLeft"
+	"stepright"	"MetalGrate.StepRight"
+	"impacthard"	"MetalGrate.ImpactHard"
+	"impactsoft"	"MetalGrate.ImpactSoft"
+	"scraperough"	"MetalGrate.ScrapeRough"
+	"scrapeSmooth"	"MetalGrate.ScrapeSmooth"
+	"bulletimpact"	"MetalGrate.BulletImpact"
+
+	"audioreflectivity" "0.83"
+
+	"gamematerial"	"G"
+}
+
+// <<<<<<<< METAL END >>>>>>>>>
+
+
+
+// <<<<<<<< START WOOD >>>>>>>>
+
+// HL2 Note: generic wood (NOTE: materials should use wood_box, wood_crate, wood_plank, wood_panel etc)
+// Ship Note: Wood base
+
+"Wood"	
+{
+	"density"	"700"
+	"elasticity"	"0.1"
+	"friction"	"0.8"
+
+	"stepleft"	"Wood.StepLeft"
+	"stepright"	"Wood.StepRight"
+
+	"bulletimpact"	"Wood.BulletImpact"
+
+	"scraperough"	"Wood.ScrapeRough"
+	"scrapesmooth"	"Wood.ScrapeSmooth"
+
+	"impacthard"	"Wood.ImpactHard"
+	"impactsoft"	"Wood.ImpactSoft"
+
+	"break"		"Wood.Break"
+
+	"audioreflectivity" "0.33"
+	"audiohardnessfactor" "0.25"
+
+	"gamematerial"	"W"
+}
+
+
+"Wood_lowdensity"
+{
+	"base"		"wood"
+	"density"	"300"
+}
+
+
+
+// HL2 Note: wood board, floorboard, plank
+// Ship Note: used on all indoor wood flooring
+
+"Wood_Plank"
+{
+	"base"	"Wood"
+
+	"bulletimpact"	"Wood_Plank.BulletImpact"
+	"scraperough"	"Wood_Plank.ScrapeRough"
+	"scrapesmooth"	"Wood_Plank.ScrapeSmooth"
+
+	"impacthard"	"Wood_Plank.ImpactHard"
+	"impactsoft"	"Wood_Plank.ImpactSoft"
+
+	"break"		"Wood_Plank.Break"
+}
+
+
+//Ship Note: new property for ship - for variation of footsteps between floor boards and deck
+
+"Wood_Deck"
+{
+	"base"	"Wood"
+
+	"stepleft"	"Wood_Deck.StepLeft"
+	"stepright"	"Wood_Deck.StepRight"
+
+	"bulletimpact"	"Wood_Plank.BulletImpact"
+	"scraperough"	"Wood_Plank.ScrapeRough"
+	"scrapesmooth"	"Wood_Plank.ScrapeSmooth"
+
+	"impacthard"	"Wood_Plank.ImpactHard"
+	"impactsoft"	"Wood_Plank.ImpactSoft"
+
+	"break"		"Wood_Plank.Break"
+}
+
+
+// HL2 Note: wood panel - plywood panel, wood door panel
+// Ship Note: used on skirting - taken out spefic footsteps
+
+"Wood_Panel"
+{
+	"base"		"Wood_Crate"
+	"thickness"	"1.0"
+
+	"stepleft"	"Wood.StepLeft"
+	"stepright"	"Wood.StepRight"
+
+	"bulletimpact"	"Wood_Panel.BulletImpact"
+	"scraperough"	"Wood_Panel.ScrapeRough"
+	"scrapesmooth"	"Wood_Panel.ScrapeSmooth"
+	"impacthard"	"Wood_Panel.ImpactHard"
+	"impactsoft"	"Wood_Panel.ImpactSoft"
+
+	"break"		"Wood_Panel.Break"
+
+}
+
+
+// HL2 Note: solid 6x6 or greater block, post or tree
+// Ship Note: Not sure where suitable...
+
+"Wood_Solid"
+{
+	"base"	"Wood"
+
+	"bulletimpact"	"Wood_Solid.BulletImpact"
+	"scraperough"	"Wood_Solid.ScrapeRough"
+	"scrapesmooth"	"Wood_Solid.ScrapeSmooth"
+	"impacthard"	"Wood_Solid.ImpactHard"
+	"impactsoft"	"Wood_Solid.ImpactSoft"
+
+	"break"		"Wood_Solid.Break"
+
+}
+
+
+// HL2 Note: small wood furniture - chairs, small tables
+// Ship note: ditto 
+
+"Wood_Furniture"
+{
+	"base"	"Wood_Box"
+
+	"impactsoft"	"Wood_Furniture.ImpactSoft"
+
+	"break"		"Wood_Furniture.Break"
+
+}
+
+
+// HL2 Note: small crate
+// Ship Note: maybe bew footsteps if used more often..
+
+"Wood_Box"
+{
+	"base"	"Wood"
+
+	"stepleft"	"Wood_Box.StepLeft"
+	"stepright"	"Wood_Box.StepRight"
+
+	"bulletimpact"	"Wood_Box.BulletImpact" 
+	"scraperough"	"Wood_Box.ScrapeRough"
+	"scrapesmooth"	"Wood_Box.ScrapeSmooth"
+	"impacthard"	"Wood_Box.ImpactHard"
+	"impactsoft"	"Wood_Box.ImpactSoft"
+
+	"break"		"Wood_Box.Break"
+
+}
+
+
+// HL2 Notes: large crate, large wood furniture (bookcases, tables)
+// Ship Notes: taken out footsteps as unlikely to sound different
+
+"Wood_Crate"
+{
+	"base"	"Wood"
+
+	"stepleft"	"Wood_Box.StepLeft"
+	"stepright"	"Wood_Box.StepRight"
+
+	"scraperough"	"Wood_Crate.ScrapeRough"
+	"scrapesmooth"	"Wood_Crate.ScrapeSmooth"
+	"impacthard"	"Wood_Crate.ImpactHard"
+	"impactsoft"	"Wood_Crate.ImpactSoft"
+
+	"break"		"Wood_Crate.Break"
+
+}
+//Ship Note: for bamboo rafts on ricebarge
+"Wood_Bamboo"
+{
+	"base"	"Wood"
+
+	"stepleft"	"Wood_Bamboo.StepLeft"
+	"stepright"	"Wood_Bamboo.StepRight"
+
+	"scraperough"	"Wood_Crate.ScrapeRough"
+	"scrapesmooth"	"Wood_Crate.ScrapeSmooth"
+	"impacthard"	"Wood_Crate.ImpactHard"
+	"impactsoft"	"Wood_Crate.ImpactSoft"
+
+	"break"		"Wood_Crate.Break"
+}
+
+// <<<<<<<<<<<<< END WOOD >>>>>>>>>>>>>>>>>>
+
+
+"dirt"
+{
+	"density"	"1600"
+	"elasticity"	"0.01"
+	"friction"	"0.8"
+
+	"stepleft"	"Dirt.StepLeft"
+	"stepright"	"Dirt.StepRight"
+	"impacthard"	"Dirt.Impact"
+	"scraperough"	"Dirt.Scrape"
+	"bulletimpact"	"Dirt.BulletImpact"
+
+	"audioreflectivity" "0.03"
+	"audiohardnessfactor" "0.25"
+
+	"gamematerial"	"D"
+}
+"snow"
+{
+	"density"	"1600"
+	"elasticity"	"0.01"
+	"friction"	"0.8"
+
+	"stepleft"	"Snow.StepLeft"
+	"stepright"	"Snow.StepRight"
+	"impacthard"	"Dirt.Impact"
+	"scraperough"	"Dirt.Scrape"
+	"bulletimpact"	"Dirt.BulletImpact"
+
+	"audioreflectivity" "0.03"
+	"audiohardnessfactor" "0.25"
+
+	"gamematerial"	"D"
+}
+
+"tile"
+{
+	"thickness"	"0.5"
+	"density"	"2700"
+	"elasticity"	"0.3"
+	"friction"	"0.8"
+
+	"stepleft"	"Tile.StepLeft"
+	"stepright"	"Tile.StepRight"
+
+	"audioreflectivity" "0.99"
+	"audioroughnessfactor" "0.1"
+
+	"bulletimpact"	"Tile.BulletImpact"
+	"gamematerial"	"T"
+}
+
+
+"lino"
+{
+	"thickness"	"0.5"
+	"density"	"2700"
+	"elasticity"	"0.3"
+	"friction"	"0.8"
+
+	"stepleft"	"Lino.StepLeft"
+	"stepright"	"Lino.StepRight"
+
+	"audioreflectivity" "0.99"
+	"audioroughnessfactor" "0.1"
+
+	"bulletimpact"	"Tile.BulletImpact"
+	"gamematerial"	"T"
+}
+
+
+
+"water"
+{
+	"density"	"1000"
+	"elasticity"	"0.1"
+	"friction"	"0.8"
+
+	"stepleft"	"Water.StepLeft"
+	"stepright"	"Water.StepRight"
+	"bulletimpact"	"Water.BulletImpact"
+
+	"audioreflectivity" "0.33"
+	"audioroughnessfactor" "0.1"
+	"audiohardnessfactor" "0.0"
+
+	"gamematerial"	"S"
+}
+
+// wade is a water material for walking in/on water at knee height
+"wade"
+{
+	"base"		"water"
+	"stepleft"	"Wade.StepLeft"
+	"stepright"	"Wade.StepRight"
+
+	"audioreflectivity" "0.33"
+
+	"gamematerial" "X"
+}
+
+// ladder is a fake material for walking on ladders
+"ladder"
+{
+	"base"		"metal"
+	"climbable"	"1.0"
+	"stepleft"	"Ladder.StepLeft"
+	"stepright"	"Ladder.StepRight"
+
+	"audioreflectivity" "0.33"
+
+	"gamematerial" "X"
+}
+
+// pane of glass, computer screen, window, glass door
+
+"glass"
+{
+	"thickness"	"0.5"
+	"density"	"2700"
+	"elasticity"	"0.2"
+	"friction"	"0.5"
+
+	"stepleft"		"Glass.StepLeft"
+	"stepright"		"Glass.StepRight"
+	"scraperough"	"Glass.ScrapeRough"
+	"scrapesmooth"	"Glass.ScrapeSmooth"
+	"impacthard"	"Glass.ImpactHard"
+	"impactsoft"	"Glass.ImpactSoft"
+		
+	"bulletimpact"	"Glass.BulletImpact"
+	
+	"break"			"Glass.Break"
+
+	"audioreflectivity" "0.66"
+	"audiohardnessfactor" "1.0"
+
+	"audioroughnessfactor" "0.0"
+	"gamematerial"	"Y"
+}
+
+"concrete"
+{
+	"density"	"2400"
+	"elasticity"	"0.2"
+	"friction"	"0.8"
+
+	"stepleft"		"Concrete.StepLeft"
+	"stepright"		"Concrete.StepRight"
+	"scraperough"	"Concrete.ScrapeRough"
+	"scrapesmooth"	"Concrete.ScrapeSmooth"
+	"impacthard"	"Concrete.ImpactHard"
+	"impactsoft"	"Concrete.ImpactSoft"
+	"bulletimpact"	"Concrete.BulletImpact"
+
+	"audioreflectivity" "0.66"
+
+	"gamematerial"	"C"
+}
+
+// Solid rock (small sounds)
+"rock"
+{
+	"base"		"concrete"
+	"impacthard"	"Rock.ImpactHard"
+	"impactsoft"	"Rock.ImpactSoft"
+	"scraperough"	"Rock.ImpactHard"
+	"scrapesmooth"	"Rock.ImpactSoft"
+
+}
+
+
+"brick"
+{
+	"base"		"rock"
+}
+
+// medium sized body
+
+"flesh"
+{
+	"density"	"900"
+
+	"stepleft"	"Flesh.StepLeft"
+	"stepright"	"Flesh.StepRight"
+	"bulletimpact"	"Flesh.BulletImpact"
+	"impacthard"	"Flesh.ImpactHard"
+	"impactsoft"	"Flesh.ImpactSoft"
+	"scraperough"	"Flesh.ScrapeRough"
+	"scrapesmooth"	"Flesh.ScrapeSmooth"
+
+	"break"			"Flesh.Break"
+
+	"audiohardnessfactor" "0.25"
+	"audioHardMinVelocity" "500"
+	"audioroughnessfactor" "0.1"
+
+	"gamematerial"	"F"
+}
+
+// gibs
+
+"bloodyflesh"
+{
+	"base"			"flesh"
+
+	"impacthard"	"Flesh_Bloody.ImpactHard"
+
+	"gamematerial"	"B"
+}
+
+
+// REWORKED
+"carpet"
+{
+	"density"	"500"
+	"thickness"	"0.1"
+	"elasticity"	"0.01"
+	"friction"	"0.8"
+	"audioreflectivity" "0.03"
+	"audiohardnessfactor" "0.25"
+	"audioroughnessfactor" "0.1"	
+	"impacthard"	"Carpet.Impact"
+	"impactsoft"	"Carpet.Impact"
+	"bulletimpact"	"Carpet.BulletImpact"
+	"scraperough"	"Carpet.Scrape"
+
+	"stepleft"	"Carpet.StepLeft"
+	"stepright"	"Carpet.StepRight"
+}
+
+
+
+// drywall, office wall material, sheetrock
+
+"plaster"
+{
+	"base"		"dirt"
+	"audiohardnessfactor" "0.5"
+	"audioroughnessfactor" "0.1"
+
+	"stepleft"		"drywall.StepLeft"
+	"stepright"		"drywall.StepRight"
+	"bulletimpact"	"drywall.ImpactHard"
+	"scraperough"	"ceiling_tile.ScrapeRough"
+	"scrapesmooth"	"ceiling_tile.ScrapeSmooth"
+	"impacthard"	"drywall.ImpactHard"
+	"impactsoft"	"drywall.ImpactSoft"
+
+	"break"			"Cardboard.Break"
+
+}
+
+// carboard box
+
+"cardboard"
+{
+	"base"		"dirt"
+	"density"	"500"
+	"thickness"	"0.25"
+
+	"audiohardnessfactor" "0.25"
+	"audioroughnessfactor" "0.25"
+
+	"stepleft"		"Cardboard.StepLeft"
+	"stepright"		"Cardboard.StepRight"
+	"bulletimpact"	"Cardboard.BulletImpact"
+	"scraperough"	"Cardboard.ScrapeRough"
+	"scrapesmooth"	"Cardboard.ScrapeSmooth"
+	"impacthard"	"Cardboard.ImpactHard"
+	"impactsoft"	"Cardboard.ImpactSoft"
+
+	"break"			"Cardboard.Break"
+
+}
+
+// larger plastic barrel, hollow, soft plastic
+
+"plastic_barrel"
+{
+	"density"	"500"
+	"thickness"	"0.25"
+	"elasticity"	"0.01"
+	"friction"	"0.8"
+
+	"audiohardnessfactor" "0.25"
+	"audioroughnessfactor" "0.25"
+
+	"stepleft"		"Plastic_Barrel.StepLeft"
+	"stepright"		"Plastic_Barrel.StepRight"
+	"bulletimpact"	"Plastic_Barrel.BulletImpact"
+	"scraperough"	"Plastic_Barrel.ScrapeRough"
+	"scrapesmooth"	"Plastic_Barrel.ScrapeSmooth"
+	"impacthard"	"Plastic_Barrel.ImpactHard"
+	"impactsoft"	"Plastic_Barrel.ImpactSoft"
+
+	"break"			"Plastic_Barrel.Break"
+
+	"gamematerial"	"L"
+}
+
+// small - medium plastic box, hard plastic
+
+"Plastic_Box"
+{
+	"density"	"500"
+	"elasticity"	"0.01"
+	"friction"	"0.8"
+	"thickness"	"0.25"
+
+	"audiohardnessfactor" "0.25"
+	"audioroughnessfactor" "0.25"
+
+	"stepleft"	"Plastic_Box.StepLeft"
+	"stepright"	"Plastic_Box.StepRight"
+	"bulletimpact"	"Plastic_Box.BulletImpact"
+	"scraperough"	"Plastic_Box.ScrapeRough"
+	"scrapesmooth"	"Plastic_Box.ScrapeSmooth"
+	"impacthard"	"Plastic_Box.ImpactHard"
+	"impactsoft"	"Plastic_Box.ImpactSoft"
+
+	"break"			"Plastic_Box.Break"
+
+	"gamematerial"	"L"
+}
+
+"inflatable"
+{
+	"base"		"Plastic_Box"
+}
+
+// smaller generic hard plastic
+
+"plastic"
+{
+ 	"base"		"Plastic_Box"
+	"audioroughnessfactor" "0.1"
+
+	"bulletimpact"	"Plastic_Box.ImpactHard"
+}
+
+// weapon models - sounds for when weapons drop
+// Maybe we'll want specific materials for each weapon?
+"weapon"
+{
+	"base"		"metal"
+	"stepleft"		"weapon.StepLeft"
+	"stepright"		"weapon.StepRight"
+	"bulletimpact"	"weapon.BulletImpact"
+	"scraperough"	"weapon.ScrapeRough"
+	"scrapesmooth"	"weapon.ScrapeSmooth"
+	"impacthard"	"weapon.ImpactHard"
+	"impactsoft"	"weapon.ImpactSoft"
+}
+
+// for invisible collision materials (like sky)
+"default_silent"
+{
+// JJF: Used to be "X", but this results in concrete impacts.
+// Using "-" instead
+	"gamematerial"	"-"
+}
+
+// special materials for player controller
+"player"
+{
+	"density"	"1000"
+	"friction"	"0.5"
+	"elasticity"	"0.001"
+
+	// player is soft & smooth for sound selection
+	"audiohardnessfactor" "0.0"
+	"audioroughnessfactor" "0.0"
+}
+
+"player_control_clip"
+{
+	"gamematerial"	"I"
+}
+
+"no_decal"
+{
+	"density"	"900"
+	"gamematerial" "-"
+}
+
+"foliage"
+{
+	"base"		"Wood_Solid"
+
+	"density"	"700"
+	"elasticity"	"0.1"
+	"friction"	"0.8"
+
+	"gamematerial"	"O"
+} 
+
+
+
+// soft furniture - chairs, sofas (no difference bewteen hard and soft impacts for now)
+
+"furnishing"
+{
+	"density"	"700"
+	"elasticity"	"0.1"
+	"friction"	"0.8"
+	
+	"stepleft"	"Carpet.StepLeft"
+	"stepright"	"Carpet.StepRight"
+	
+	"impacthard"	"furnishing.ImpactSoft"
+	"impactsoft"	"furnishing.ImpactHard"
+	
+	"bulletimpact"	"Carpet.BulletImpact"
+	"scraperough"	"Carpet.Scrape"
+	"scrapesmooth"	"Carpet.Scrape"
+
+	"break"		"Wood_Furniture.Break"
+
+	"audioreflectivity" "0.33"
+	"audiohardnessfactor" "0.25"
+
+	"gamematerial"	"Q"
+}
+
+
+"bed"
+{
+	"density"	"700"
+	"elasticity"	"0.1"
+	"friction"	"0.8"
+	
+	"stepleft"	"Bed.StepLeft"
+	"stepright"	"Bed.StepRight"
+		
+	"impacthard"	"bed.ImpactSoft"
+	"impactsoft"	"bed.ImpactHard"
+	
+//should be "bulletimpact"	"Carpet.BulletImpact" for bullet but code is using for all impacts at the mo
+	"bulletimpact"	"bed.ImpactSoft"
+	"scraperough"	"Carpet.Scrape"
+	"scrapesmooth"	"Carpet.Scrape"
+
+	"break"		"Wood_Furniture.Break"
+
+	"audioreflectivity" "0.33"
+	"audiohardnessfactor" "0.25"
+
+	"gamematerial"	"Q"
+}
+
+
+"leather_furniture"
+{
+	"density"	"700"
+	"elasticity"	"0.1"
+	"friction"	"0.8"
+
+	"stepleft"	"leather.StepLeft"
+	"stepright"	"leather.StepRight"
+
+	"bulletimpact"	"Carpet.BulletImpact"
+	"scraperough"	"Carpet.Scrape"
+	"scrapesmooth"	"Carpet.Scrape"
+
+	"impacthard"	"furnishing.ImpactHard"
+	"impactsoft"	"furnishing.ImpactSoft"
+
+	"break"		"Wood_Furniture.Break"
+
+	"audioreflectivity" "0.33"
+	"audiohardnessfactor" "0.25"
+
+	"gamematerial"	"Q"
+}
+
+// porcelain - sinks, shower base, bath tubs, urinals - properties taken from "glass"
+
+"porcelain"
+{
+	"thickness"	"0.5"
+	"density"	"2700"
+	"elasticity"	"0.2"
+	"friction"	"0.5"
+
+	"stepleft"	"Porcelain.StepLeft"
+	"stepright"	"Porcelain.StepRight"
+
+	"scraperough"	"Glass.ScrapeRough"
+	"scrapesmooth"	"Glass.ScrapeSmooth"
+
+	"impacthard"	"Porcelain.ImpactHard"
+	"impactsoft"	"Porcelain.ImpactSoft"
+		
+	"bulletimpact"	"Glass.BulletImpact"
+
+	"audioreflectivity" "0.66"
+	"audiohardnessfactor" "1.0"
+
+	"audioroughnessfactor" "0.0"
+	"gamematerial"	"Y"
+}
+
+// bodily excretion
+
+"Poo"
+{
+	"density"	"900"
+
+	"stepleft"	"Flesh.StepLeft"
+	"stepright"	"Flesh.StepRight"
+	"bulletimpact"	"Flesh.BulletImpact"
+	"impacthard"	"Poo.Impact"
+	"impactsoft"	"Poo.Impact"
+	"scraperough"	"Flesh.ScrapeRough"
+	"scrapesmooth"	"Flesh.ScrapeSmooth"
+
+	"break"			"Flesh.Break"
+
+	"audiohardnessfactor" "0.25"
+	"audioHardMinVelocity" "500"
+	"audioroughnessfactor" "0.1"
+
+	"gamematerial"	"F"
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\syndod\v_models\enfield_no2\enfield"
+   	"$bumpmap" "models\weapons\syndod\v_models\enfield_no2\enfield_normal"
+}

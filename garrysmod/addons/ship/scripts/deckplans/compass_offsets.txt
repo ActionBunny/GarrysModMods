@@ -1,0 +1,17 @@
+"CompassOffsets"
+{
+	"batavier"		"-90"
+	"batavier_christmas"	"-90"
+	"andrea_doria"		"-90"
+	"atalanta"		"-90"
+	"huronian"		"-180"
+	"rubicon"		"-90"
+	"cyclops"		"0"
+	"andy_test"		"-90"
+	"cotopaxi"		"90"
+	"cotopaxi_sp"		"90"
+	"connemara"		"-90"
+	"tutorial"		"90"
+	"raifucu_maru"		"-90"
+	"krassin"		"-90"
+}

@@ -1,0 +1,7 @@
+"DecalModulate"
+{
+    "$basetexture" "env/misc/Decal_rivets_128"
+    "$decal" 1
+    "$decalscale" 0.1
+    "$translucent" 1
+}

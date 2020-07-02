@@ -1,0 +1,11 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/obj/bathroom/ensuite1_toilet_b"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	"$nocull"			1
+}

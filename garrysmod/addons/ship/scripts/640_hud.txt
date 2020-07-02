@@ -1,0 +1,910 @@
+"640_hud"
+{
+	SpriteData
+	{
+		"selection"
+		{
+			"640"
+			{
+				"file"		"640hud3"
+				"x"			"0"
+				"y"			"180"
+				"width"		"170"
+				"height"	"45"
+			}
+		}
+		"bucket"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"0"
+				"y"			"42"
+				"width"		"21"
+				"height"	"21"
+			}
+		}
+		"bucket_selection"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"21"
+				"y"			"42"
+				"width"		"21"
+				"height"	"21"
+			}
+		}
+		"bucket1"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"42"
+				"y"			"42"
+				"width"		"21"
+				"height"	"21"
+			}
+		}
+		"bucket2"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"63"
+				"y"			"42"
+				"width"		"21"
+				"height"	"21"
+			}
+		}
+		"bucket3"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"84"
+				"y"			"42"
+				"width"		"21"
+				"height"	"21"
+			}
+		}
+		"bucket4"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"106"
+				"y"			"42"
+				"width"		"21"
+				"height"	"21"
+			}
+		}
+		"bucket5"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"128"
+				"y"			"42"
+				"width"		"21"
+				"height"	"21"
+			}
+		}
+		"bucket6"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"150"
+				"y"			"42"
+				"width"		"21"
+				"height"	"21"
+			}
+		}
+
+		"dmg_bio"
+		{
+			"640"
+			{
+				"file"		"d_icons"
+				"x"			"42"
+				"y"			"38"	
+				"width"		"42"
+				"height"	"38"
+			}
+		}
+		"dmg_poison"
+		{
+			"640"
+			{
+				"file"		"640hud8"
+				"x"			"128"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"
+			}
+		}
+		"dmg_chem"
+		{
+			"640"
+			{
+				"file"		"640hud8"
+				"x"			"0"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"
+			}
+		}
+		"dmg_cold"
+		{
+			"640"
+			{
+				"file"		"640hud9"
+				"x"			"64"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"
+			}
+		}
+		"dmg_drown"
+		{
+			"640"
+			{
+				"file"		"d_icons"
+				"x"			"42"
+				"y"			"0"
+				"width"		"42"
+				"height"	"38"
+			}
+		}
+		"dmg_heat"
+		{
+			"640"
+			{
+				"file"		"d_icons"
+				"x"			"0"
+				"y"			"0"
+				"width"		"42"
+				"height"	"38"
+			}
+		}
+		"dmg_gas"
+		{
+			"640"
+			{
+				"file"		"640hud9"
+				"x"			"0"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"
+			}
+		}
+		"dmg_rad"
+		{
+			"640"
+			{
+				"file"		"d_icons"
+				"x"			"0"
+				"y"			"38"
+				"width"		"42"
+				"height"	"38"
+			}
+		}
+		"dmg_shock"
+		{
+			"640"
+			{
+				"file"		"d_icons"
+				"x"			"84"
+				"y"			"0"
+				"width"		"42"
+				"height"	"38"
+			}
+		}
+		"number_0"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"0"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_1"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"20"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_2"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"40"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_3"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"60"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_4"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"80"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_5"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"100"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_6"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"120"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_7"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"140"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_8"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"160"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_9"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"180"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_0s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"0"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_1s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"10"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_2s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"20"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_3s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"30"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_4s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"40"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_5s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"50"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_6s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"60"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_7s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"70"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_8s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"80"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_9s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"90"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_burn1"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"200"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_burn2"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"220"
+				"y"			"0"
+				"width"		"20"
+				"height"	"28"
+			}
+		}
+		"number_burn1s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"100"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"number_burn2s"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"110"
+				"y"			"28"
+				"width"		"10"
+				"height"	"14"
+			}
+		}
+		"ammo_label"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"120"
+				"y"			"28"
+				"width"		"40"
+				"height"	"14"
+			}
+		}
+		"health_label"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"160"
+				"y"			"28"
+				"width"		"50"
+				"height"	"14"
+			}
+		}
+		"battery_label"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"220"
+				"y"			"28"
+				"width"		"40"
+				"height"	"14"	
+			}
+		}
+		"train_back"
+		{
+			"640"
+			{
+				"file"		"640hud5"
+				"x"			"170"
+				"y"			"0"
+				"width"		"72"
+				"height"	"72"
+			}
+		}
+		"train_stop"
+		{
+			"640"
+			{
+				"file"		"640hud5"
+				"x"			"170"
+				"y"			"72"
+				"width"		"72"
+				"height"	"72"
+			}
+		}
+		"train_forward1"
+		{
+			"640"
+			{
+				"file"		"640hud5"
+				"x"			"170"
+				"y"			"144"
+				"width"		"72"
+				"height"	"72"
+			}
+		}
+		"train_forward2"
+		{
+			"640"
+			{
+				"file"		"640hud6"
+				"x"			"170"
+				"y"			"0"
+				"width"		"72"
+				"height"	"72"
+			}
+		}
+		"train_forward3"
+		{
+			"640"
+			{
+				"file"		"640hud6"
+				"x"			"170"
+				"y"			"72"
+				"width"		"72"
+				"height"	"72"
+			}
+		}
+		"autoaim_c"
+		{
+			"640"
+			{
+				"file"		"crosshairs"
+				"x"			"96"
+				"y"			"0"
+				"width"		"24"
+				"height"	"24"
+			}
+		}
+		"title_half"
+		{
+			"640"
+			{
+				"file"		"640hud4"
+				"x"			"0"
+				"y"			"226"
+				"width"		"256"
+				"height"	"30"
+			}
+		}
+		"title_life"
+		{
+			"640"
+			{
+				"file"		"640hud5"
+				"x"			"0"
+				"y"			"226"
+				"width"		"220"
+				"height"	"30"
+			}
+		}
+		"d_crowbar"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"0"
+				"width"		"48"
+				"height"	"16"
+			}
+		}
+		"d_9mmhandgun"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"16"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"d_357"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"32"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"d_9mmAR"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"48"
+				"width"		"48"
+				"height"	"16"
+			}
+		}
+		"d_shotgun"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"64"
+				"width"		"48"
+				"height"	"16"
+			}
+		}
+		"d_bolt"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"80"
+				"width"		"48"
+				"height"	"16"
+			}
+		}
+		"d_crossbow"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"80"
+				"width"		"48"
+				"height"	"16"
+			}
+		}
+		"d_rpg_rocket"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"96"
+				"width"		"48"
+				"height"	"16"
+			}
+		}
+		"d_gauss"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"112"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"d_egon"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"128"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"d_hornet"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"144"
+				"width"		"48"
+				"height"	"16"
+			}
+		}
+		"d_grenade"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"160"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"d_satchel"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"176"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"d_tripmine"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"192"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"d_snark"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"208"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"d_skull"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"224"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"d_tracktrain"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"192"
+				"y"			"240"
+				"width"		"32"
+				"height"	"16"
+			}
+		}
+		"microphone"
+		{
+			"640"
+			{
+				"file"		"640hud1"
+				"x"			"0"
+				"y"			"225"
+				"width"		"24"
+				"height"	"24"
+			}
+		}
+		"item_battery"
+		{
+			"640"
+			{
+				"file"		"a_icons1"
+				"x"			"34"
+				"y"			"60"
+				"width"		"21"
+				"height"	"23"
+			}
+		}
+		"item_healthkit"
+		{
+			"640"
+			{
+				"file"		"a_icons1"
+				"x"			"34"
+				"y"			"30"
+				"width"		"21"
+				"height"	"21"
+			}
+		}
+		"item_longjump"
+		{
+			"640"
+			{
+				"file"		"640hud2"
+				"x"			"176"
+				"y"			"96"
+				"width"		"44"
+				"height"	"44"
+			}
+		}
+		"grenade"
+		{
+			"640"
+			{
+				"file"		"640hud7"
+				"x"			"48"
+				"y"			"96"
+				"width"		"24"
+				"height"	"24"
+			}
+		}
+		"RadarScreen"
+		{
+			"640"
+			{
+				"file"		"640hud7"
+				"x"			"30"
+				"y"			"42"
+				"width"		"66"
+				"height"	"44"
+			}
+		}
+		"crosshair"
+		{
+			"640"
+			{
+				"file"		"qi_center"
+				"x"			"0"
+				"y"			"0"
+				"width"		"40"
+				"height"	"40"
+			}
+		}
+		"crosshair_left"
+		{
+			"640"
+			{
+				"file"		"qi_center"
+				"x"			"0"
+				"y"			"40"
+				"width"		"28"
+				"height"	"50"
+			}
+		}
+		"crosshair_right"
+		{
+			"640"
+			{
+				"file"		"qi_center"
+				"x"			"28"
+				"y"			"40"
+				"width"		"28"
+				"height"	"50"
+			}
+		}
+		"viewhair"
+		{
+			"640"
+			{
+				"file"		"hud/v_crosshair2"
+				"x"			"0"
+				"y"			"0"
+				"width"		"32"
+				"height"	"32"
+			}
+		}
+		"gunhair"
+		{
+			"640"
+			{
+				"file"		"hud/v_crosshair1"
+				"x"			"0"
+				"y"			"0"
+				"width"		"32"
+				"height"	"32"
+			}
+		}
+
+		"progress_bar"
+		{
+			"640"
+			{
+				"file"		"hud1"
+				"x"			"238"
+				"y"			"0"
+				"width"		"10"
+				"height"	"28"
+			}
+		}
+	}	
+}

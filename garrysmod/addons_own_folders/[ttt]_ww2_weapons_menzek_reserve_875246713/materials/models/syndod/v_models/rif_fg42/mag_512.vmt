@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/syndod\v_models/rif_fg42/mag_512"
+        "$bumpmap" "models/weapons/syndod\v_models/rif_fg42/mag_normal"
+}

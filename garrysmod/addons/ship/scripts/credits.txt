@@ -1,0 +1,432 @@
+"Credits"
+{
+	"#Managing Director"
+	{
+		"name" "Chris Peck"
+	}
+	
+	"#Operations Director"
+	{
+		"name" "Ailsa Bates"
+	}
+	
+	"#Technical Director" 
+	{
+		"name" "Ed Wilson"
+	}
+	
+	"#Producer"
+	{
+		"name" "Simon Hill"
+	}
+	
+	"#Lead Programmer"                  
+	{
+		"name" "Jason Kocemba"
+	}
+		
+	"#Senior Programmer"
+	{
+		"name" "Neil Davidson"
+	}
+	
+	"#Programmers"
+	{
+		"name" "Ed Wilson"
+	}
+	
+	"#Programmers"
+	{
+		"name" "Andy Heywood"
+	}
+	
+	"#Programmers"
+	{
+		"name" "David Cumming"
+	}
+	
+	"#Programmers"
+	{
+		"name" "Jock Findlay"
+	}
+
+	"#Programmers"
+	{
+		"name" "Gayle Reid"
+	}
+	
+	"#Senior Environment Artist"
+	{
+		"name" "Debbie Keys"
+	}
+	
+	"#Environment Artist"
+	{
+		"name" "Mike Morton"
+	}
+			
+	"#Character Artist"
+	{
+		"name" "Nick Sawyer"
+	}
+	
+	"#Animator"
+	{
+		"name" "Mark Holmes"
+	}
+
+	"#Animator"
+	{
+		"name" "Dorota Sikorska"
+	}
+	
+	"#Artist"
+	{
+		"name" "Jonathan McEnroe"
+	}
+		
+	"#Visual FX Artist"
+	{
+		"name" "Julian Laing"
+	}
+
+	"#Concept Artist"
+	{
+		"name" "Richard Albon"
+	}
+
+	"#Creative Director"
+	{
+		"name" "Chris Peck"
+	}
+	
+	"#Designers"
+	{
+		"name" "Simon Hill"
+	}
+	
+	"#Designers"
+	{
+		"name" "Duncan Blair"
+	}
+	
+	"#Sound Designer"
+	{
+		"name" "Rebecca Parnell"
+	}
+	
+	"#Systems"
+	{
+		"name" "Ed Wilson"
+	}
+
+	"#Company PA"
+	{
+		"name" "Andrea Hunter"
+	}
+     
+        "#Voice Talent"
+	{
+		"name" "Julie Richmond (Miss Tweed, Game Announcer)"
+	}
+		
+        "#Voice Talent"
+	{
+		"name" "David Hall (Bellboy, Ambassador)"
+	}
+	
+        "#Voice Talent"
+	{
+		"name" "Glen McCready (Mr Takamura, Bank Manager, Grainger, Mr X)"
+	}
+	
+        "#Voice Talent"
+	{
+		"name" "Ellis Kerkhoven (Fence, Kidnapper)"
+	}
+
+	"#Voice Talent"
+	{
+		"name" "Edward Glass"
+	}
+	
+	"#Voice Talent"
+	{
+		"name" "Alek Hayes"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Casey Mongillo"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Suzie Chard"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Caro Breton"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Reanne Farley"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Lucy le Messurier"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Toby Williams"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Simon Nader"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Mark Lascelles"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Clareine Cronin"
+	}
+	
+    "#Voice Talent"
+	{
+		"name" "Rhys Williams"
+	}
+	
+	"#Script Writer (single player)"
+	{
+		"name" "Frank Brown"
+	}
+	
+	"#Song - My Baby Gives Me The Blues"
+	{
+		"name" "#Written and performed by Daniel Jones and Geraldine Rainford"
+	}
+	
+	"#Song - Scot Joplin's Solace"
+	{
+		"name" "#Performed by Jane Dalton"
+	}
+	
+	"#Mr X Intro Music Composed By"
+	{
+		"name" "Toby Scott"
+	}
+
+	"#Special Thanks To..."
+	{
+	}
+
+	" "
+	{
+		"name" "#Friends and family for their continued support"
+	}
+
+	"  "
+	{
+		"name" "Valve"
+	}
+
+	" "
+	{
+		"name" "#The Beta Testers"
+	}
+
+	"#Programmer"
+	{
+		"name" "Paul Wallace"
+	}
+
+	"#Graphic Design"
+	{
+		"name" "Ian 'Whippy' Wetton"
+	}
+
+	"#Outerlight Logo"
+	{
+		"name" "Darren Keegan"
+	}
+
+	"#Japanese Translation"
+	{
+		"name" "Yu Usami"
+	}
+	
+        "   "
+	{
+		"name" "John Breslin"
+	}
+	
+        "   "
+	{
+		"name" "Paul DiMambro"
+	}
+	
+        "   "
+	{
+		"name" "Colin Birrell"
+	}
+	
+        "   "
+	{
+		"name" "Bill Morrison"
+	}
+	
+        "   "
+	{
+		"name" "Geoff Peck"
+	}
+	
+        "   "
+	{
+		"name" "Eileen Peck"
+	}
+	
+        "   "
+	{
+		"name" "Pauline Wilson"
+	}
+	
+        "   "
+	{
+		"name" "Lea Wilson"
+	}
+	
+        "   "
+	{
+		"name" "Charles Grieve"
+	}
+	
+        "   "
+	{
+		"name" "Sandy Burgess"
+	}
+	
+        "   "
+	{
+		"name" "Joe Scott Plummer"
+	}
+	
+        "   "
+	{
+		"name" "The Tricap Consortium"
+	}
+	
+        "   "
+	{
+		"name" "David Grahame"
+	}
+	
+        "   "
+	{
+		"name" "Neil Cunningham"
+	}
+	
+        "   "
+	{
+		"name" "LINC Scotland"
+	}
+	
+        "   "
+	{
+		"name" "Scottish Enterprise"
+	}
+	
+        "   "
+	{
+		"name" "Midlothian Council"
+	}
+
+	"  "
+	{
+		"name" "ATI Technologies"
+	}
+
+	"  "
+	{
+		"name" "Microsoft"
+	}
+
+	"  "
+	{
+		"name" "AMD"
+	}
+
+	"  "
+	{
+		"name" "Game Warrior"
+	}
+
+	"  "
+	{
+		"name" "Jolt"
+	}
+
+	" "
+	{
+		"name" "Mike Gamble"
+	}
+
+	" "
+	{
+		"name" "Eric Coll"
+	}
+
+	" "
+	{
+		"name" "Ian McLurg"
+	}
+        
+        " "
+	{
+		"name" "Will Matthews"
+	}
+        
+        " "
+	{
+		"name" "Stephen Rockett"
+	}
+        
+        " "
+	{
+		"name" "Russell Clarke"
+	}
+	
+	" "
+	{
+		"name" "Stuart Beel"
+	}
+	
+	" "
+	{
+		"name" "Mike Rusby"
+	}
+
+	"  "
+	{
+		"name" "#Cylinder Preservation and Digitization Project, Department of Special Collections,"
+	}
+
+	"  "
+	{
+		"name" "#Donald C. Davidson Library, University of California, Santa Barbara"
+	}
+
+	" "
+	{
+		"name" "#Dr Sharkey of Strip Studios"
+	}
+
+}

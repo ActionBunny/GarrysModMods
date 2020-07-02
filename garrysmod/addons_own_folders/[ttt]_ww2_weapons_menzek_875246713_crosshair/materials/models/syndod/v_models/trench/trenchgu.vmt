@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\syndod\v_models\Trench\TRENCHGU"
+	"$bumpmap" "models\weapons\syndod\v_models\Trench\TRENCHGU norm"
+
+}

@@ -1,0 +1,303 @@
+// sample animation script
+//
+//
+// commands:
+//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+//		variables:
+//			FgColor
+//			BgColor
+//			Position
+//			Size
+//			Blur		(hud panels only)
+//			TextColor	(hud panels only)
+//			Ammo2Color	(hud panels only)
+//			Alpha		(hud weapon selection only)
+//			SelectionAlpha  (hud weapon selection only)
+//			TextScan	(hud weapon selection only)
+//
+//		interpolator:
+//			Linear
+//			Accel - starts moving slow, ends fast
+//			Deaccel - starts moving fast, ends slow
+//
+//	RunEvent <event name> <start time>
+//		starts another even running at the specified time
+//
+//	StopEvent <event name> <start time>
+//		stops another event that is current running at the specified time
+//
+//	StopAnimation <panel name> <variable> <start time>
+//		stops all animations refering to the specified variable in the specified panel
+//
+//	StopPanelAnimations <panel name> <start time>
+//		stops all active animations operating on the specified panel
+//
+//
+// Useful game console commands:
+//	cl_Animationinfo <hudelement name> or <panelname> 
+//		displays all the animatable variables for the hud element
+//
+event HudSecurityTurnRed
+{
+	Animate HudSecurity FGColor		"255 0 0 255"		Linear	0.0 0.1
+}
+
+// Wait until the guard/camera has turned off first before hiding the overall security
+event HudSecurityTurnGreen
+{
+	Animate HudSecurity FGColor		"0 255 0 255"		Linear	0.0 0.1
+}
+
+event HudSecurityOn
+{
+	Animate HudSecurity Alpha		"255"	Linear 0.0 0.5
+}
+event HudSecurityOff
+{
+	Animate HudSecurity Alpha		"0"	Linear 0.0 0.5
+}
+
+event HudGuardTurnOn
+{
+	StopEvent HudGuardTurnOff	0.0
+	Animate HudSecurityGuard Alpha		"255"	Linear	0.0 0.3
+}
+
+event HudGuardTurnOff
+{
+	StopEvent HudGuardTurnOn	0.0
+	Animate HudSecurityGuard Alpha		"0"		Linear 0.0 0.3
+}
+
+event HudGuardBribeRunningOut
+{
+	Animate HudSecurityGuard AlertColour	"255 0 0 255"		Linear 0.0	0.15
+	Animate HudSecurityGuard AlertColour	"255 255 0 255"		Linear 0.15	0.3
+	
+	RunEvent HudGuardBribeRunningOutLoop 0.3
+}
+
+event HudGuardBribeRunningOutLoop
+{
+	RunEvent HudGuardBribeRunningOut 0.0
+}
+
+event HudGuardBribeExpired
+{
+	StopEvent HudGuardBribeRunningOut		0.0
+	StopEvent HudGuardBribeRunningOutLoop	0.0
+	
+	Animate HudSecurityGuard AlertColour	"255 255 0 255"		Linear 0.0 0.1
+}
+
+event HudCameraTurnOn
+{
+	StopEvent HudCameraTurnOff	0.0
+	Animate HudSecurityCamera Alpha		"255"	Linear 0.0 0.3
+}
+
+event HudCameraTurnOff
+{
+	StopEvent HudCameraTurnOn	0.0
+	Animate HudSecurityCamera Alpha		"0"		Linear 0.0 0.3
+}
+
+event HudCameraBribeRunningOut
+{
+    Animate HudSecurityCamera AlertColour    "255 0 0 255"        Linear 0.0    0.15
+    Animate HudSecurityCamera AlertColour    "255 255 0 255"        Linear 0.15    0.3
+    
+    RunEvent HudCameraBribeRunningOutLoop 0.3
+}
+
+event HudCameraBribeRunningOutLoop
+{
+    RunEvent HudCameraBribeRunningOut 0.0
+}
+
+event HudCameraBribeExpired
+{
+    StopEvent HudCameraBribeRunningOut         0.0
+    StopEvent HudCameraBribeRunningOutLoop    0.0
+    
+    Animate HudSecurityCamera AlertColour    "255 255 0 255"        Linear 0.0 0.1
+}
+
+event HudTrespassTurnOn
+{
+	StopEvent HudTrespassTurnOff	0.0
+	Animate HudSecurityTrespass Alpha		"255"	Linear 0.0 0.3
+}
+
+event HudTrespassTurnOff
+{
+	StopEvent HudTrespassTurnOn	0.0
+	Animate HudSecurityTrespass Alpha		"0"		Linear 0.0 0.3
+}
+
+event HudTrespassFined
+{
+	Animate HudSecurityTrespass AlertColour	"255 0 0 255"		Linear 0.0	0.25
+	Animate HudSecurityTrespass AlertColour	"255 255 0 255"		Linear 0.25 0.5
+}
+
+event HudPassengerTurnOn
+{
+	StopEvent HudPassengerTurnOff	0.0
+	Animate HudSecurityPassenger Alpha		"255"	Linear 0.0 0.3
+}
+
+event HudPassengerTurnOff
+{
+	StopEvent HudPassengerTurnOn	0.0
+	Animate HudSecurityPassenger Alpha		"0"		Linear 0.0 0.3
+}
+
+event HudPassengerForceOnEnable
+{
+	Animate HudSecurityPassenger ForceOn	"1"		Linear 0.0 0.0
+}
+
+event HudPassengerForceOnDisable
+{
+	Animate HudSecurityPassenger ForceOn	"0"		Linear 0.0 0.0
+}
+
+event HudSprintForceOnEnable
+{
+	Animate HudSprint ForceOn	"1"	Linear 0.0 0.0
+}
+
+event HudSprintForceOnDisable
+{
+	Animate HudSprint ForceOn	"0"	Linear 0.0 0.0
+}
+
+event HudSprintForceOffEnable
+{
+	Animate HudSprint ForceOff	"1"	Linear 0.0 0.0
+}
+
+event HudSprintForceOffDisable
+{
+	Animate HudSprint ForceOff	"0"	Linear 0.0 0.0
+}
+
+//
+// Show/Hide Identity HUD
+//
+
+// NAME
+event HudIdentityNameOn
+{
+	Animate HudIdentity	NameAlpha	"255"	Linear 0.0 0.5
+}
+
+event HudIdentityNameOff
+{
+	Animate HudIdentity	NameAlpha	"0"		Linear 0.0 0.5
+}
+
+
+// LOCATION
+event HudIdentityLocOn
+{
+	Animate HudIdentity	LocAlpha	"255"	Linear 0.0 0.5
+}
+
+event HudIdentityLocOff
+{
+	Animate HudIdentity	LocAlpha	"0"		Linear 0.0 0.5
+}
+
+
+// PICTURE
+event HudIdentityPictureOn
+{
+	Animate HudIdentity	PictureAlpha	"255"	Linear 0.0 0.5
+}
+
+event HudIdentityPictureOff
+{
+	Animate HudIdentity	PictureAlpha	"0"		Linear 0.0 0.5
+}
+
+
+// BANK
+event HudIdentityBankOn
+{
+	Animate HudIdentity	BankAlpha	"255"	Linear 0.0 0.5
+}
+
+event HudIdentityBankOff
+{
+	Animate HudIdentity	BankAlpha	"0"		Linear 0.0 0.5
+}
+
+
+// CASH
+event HudIdentityCashOn
+{
+	Animate HudIdentity	CashAlpha	"255"	Linear 0.0 0.5
+}
+
+event HudIdentityCashOff
+{
+	Animate HudIdentity	CashAlpha	"0"		Linear 0.0 0.5
+}
+
+
+//
+// Show/Hide Quarry HUD
+//
+
+// NAME
+event HudQuarryNameOn
+{
+	Animate HudQuarry	NameAlpha	"255"	Linear 0.0 0.5
+}
+event HudQuarryNameOff
+{
+	Animate HudQuarry	NameAlpha	"0"		Linear 0.0 0.5
+}
+
+// LOCATION
+event HudQuarryLocOn
+{
+	Animate HudQuarry	LocAlpha	"255"	Linear 0.0 0.5
+}
+event HudQuarryLocOff
+{
+	Animate HudQuarry	LocAlpha	"0"		Linear 0.0 0.5
+}
+
+// PICTURE
+event HudQuarryPictureOn
+{
+	Animate HudQuarry	PictureAlpha	"255"	Linear 0.0 0.5
+}
+event HudQuarryPictureOff
+{
+	Animate HudQuarry	PictureAlpha	"0"		Linear 0.0 0.5
+}
+
+
+//
+// Animate entire HUD off
+//
+event HudOff
+{
+	Animate HudIdentity				CashAlpha		"0"		Linear 0.0 0.0
+	Animate HudIdentity				BankAlpha		"0"		Linear 0.0 0.0
+	Animate HudIdentity				NameAlpha		"0"		Linear 0.0 0.0
+	Animate HudIdentity				LocAlpha		"0"		Linear 0.0 0.0
+	Animate HudIdentity				PictureAlpha	"0"		Linear 0.0 0.0
+	Animate HudSecurityGuard		Alpha			"0"		Linear 0.0 0.0
+	Animate HudSecurityCamera		Alpha			"0"		Linear 0.0 0.0
+	Animate HudSecurityTrespass		Alpha			"0"		Linear 0.0 0.0
+	Animate HudSecurityPassenger	Alpha			"0"		Linear 0.0 0.0
+	Animate HudSecurity				Alpha			"0"		Linear 0.0 0.0
+	Animate HudQuarry				LocAlpha		"0"		Linear 0.0 0.0
+	Animate HudQuarry				NameAlpha		"0"		Linear 0.0 0.0
+	Animate HudQuarry				PictureAlpha	"0"		Linear 0.0 0.0
+}

@@ -1,0 +1,11 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/glass/glass_lampmarble"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$alpha"				1
+	"nocull"			1
+}

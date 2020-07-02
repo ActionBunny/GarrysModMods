@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/startsplash/startsplash_button_p"
+	"$vertexcolor" "1"
+	"$vertexalpha" "0"
+	
+	"$ignorez" "1"
+}

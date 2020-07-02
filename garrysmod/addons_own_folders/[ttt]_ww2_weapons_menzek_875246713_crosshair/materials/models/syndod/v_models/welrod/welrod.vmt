@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\syndod\v_models\Welrod\Welrod"
+	"$bumpmap" 	"models\weapons\syndod\v_models\Welrod\Welrod_n"
+	"$nocull" "1"
+}

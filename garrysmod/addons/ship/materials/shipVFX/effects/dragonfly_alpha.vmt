@@ -1,0 +1,13 @@
+
+"UnlitGeneric"
+{
+	"$model"			1
+	"$baseTexture"			"shipVFX\effects/dragonfly_alpha"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$nocull"			1
+	"$alpha"			1
+	"$baseAlphaEnvMapMask"		0
+	"$normalMapAlphaEnvMapMask"	0
+
+}

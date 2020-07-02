@@ -1,0 +1,9 @@
+
+"LightMappedGeneric"
+{
+	"$baseTexture"			"env/misc/decal_dials_b"
+	"$decal"			1
+	"$translucent"			0
+	"$alpha"				1
+	"$decalscale"			0.1
+}

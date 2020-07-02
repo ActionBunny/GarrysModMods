@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "char/f_underwear_3"
+	"$halflambert"		1
+	"$nodecal" "1"
+}

@@ -1,0 +1,9 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/obj/gents/gents_kilt_mann_03"
+	"$selfIllum"			0
+	"$translucent"			0
+}

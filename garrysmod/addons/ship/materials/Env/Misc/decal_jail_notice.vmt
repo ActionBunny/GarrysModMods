@@ -1,0 +1,10 @@
+
+"LightMappedGeneric"
+{
+	"$baseTexture"			"env/misc/decal_jail_notice"
+	"$decal" 1
+	"$selfIllum"			0
+	"$translucent"			0
+	"$decalscale" 0.08
+	"$alpha"				1
+}

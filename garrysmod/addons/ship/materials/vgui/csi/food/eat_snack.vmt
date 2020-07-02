@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/csi/food/eat_snack"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+	"$ignorez" "1"
+}

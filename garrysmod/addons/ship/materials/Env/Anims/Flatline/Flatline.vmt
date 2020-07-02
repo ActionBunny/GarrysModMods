@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	// Original shader: basetimesvertexcolor
+	"$model"       1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$znearer" 0
+	"$basetexture" "env/anims/Flatline/Flatline"
+	"$alpha" 0
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 30
+		}
+	}
+}

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$basetexture"
+	"models\weapons\v_models\Garand\Lins"
+	"$ignorez"	"1"
+	"$translucent"	"1"
+}

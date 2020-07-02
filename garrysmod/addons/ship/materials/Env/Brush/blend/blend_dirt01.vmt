@@ -1,0 +1,10 @@
+"WorldVertexTransition" 
+{ 
+	"$basetexture" "Env/Brush/blend/blend_dirt01"
+	"$basetexture2" "Env/Brush/blend/blend_grass01"
+	
+   "%tooltexture" "Env/Brush/blend/blend_dirt01" 
+   "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0" 
+   "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+   "%keywords" "blend_01" 
+}

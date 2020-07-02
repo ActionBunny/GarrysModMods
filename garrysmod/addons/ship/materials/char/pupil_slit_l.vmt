@@ -1,0 +1,5 @@
+"Eyeball"
+{
+	"$basetexture" "char/pupil_slit_l"
+	"$nodecal" "1"
+}

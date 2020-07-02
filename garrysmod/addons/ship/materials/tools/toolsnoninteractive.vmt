@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Tools/toolsnoninteractive"
+	"$translucent" 1
+	"%compileNonInteractive" 1
+}

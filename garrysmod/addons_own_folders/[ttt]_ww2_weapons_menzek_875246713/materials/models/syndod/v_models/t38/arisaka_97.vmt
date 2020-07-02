@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\syndod\v_models\T38/Arisaka_97"
+   	"$bumpmap" "models\weapons\syndod\v_models\T38/Arisaka_97_normal"
+}

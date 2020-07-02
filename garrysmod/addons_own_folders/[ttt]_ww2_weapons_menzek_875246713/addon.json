@@ -1,0 +1,11 @@
+{
+	"title"		:	"TTT_WW2-Weapons_Menzek",
+	"type"		:	"ServerContent",
+	"tags"		:	[ "roleplay", "realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}

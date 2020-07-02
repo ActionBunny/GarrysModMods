@@ -1,0 +1,12 @@
+
+"VertexLitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/metal/metal_prison_tray"
+	"$selfIllum"			0
+	"$envMap"				"env_cubemap"
+	"$translucent"			0
+	"$alpha"				1
+	"$baseAlphaEnvMapMask"			1
+}

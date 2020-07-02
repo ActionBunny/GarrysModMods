@@ -1,0 +1,18 @@
+
+"LightMappedGeneric"
+{
+	
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/walls/wall_kitchen_tiles"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	//"$envMap"				"env_cubemap"
+	//"$envMapTint"				"[0.2 0.2 0.2]"
+	//"$envMapSphere"				0
+	//"$envMapCameraSpace"			0
+	//"$baseAlphaEnvMapMask"			0
+	//"$normalMapAlphaEnvMapMask"			1
+	//"$bumpMap"				"env/brush/walls/wall_bluetiles_normal"
+	"$surfaceprop" "tile"
+}

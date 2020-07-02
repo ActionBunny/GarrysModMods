@@ -1,0 +1,9 @@
+
+"LightMappedGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"env/brush/misc/elev_shaft"
+	"$selfIllum"			0
+	"$translucent"			0
+
+}

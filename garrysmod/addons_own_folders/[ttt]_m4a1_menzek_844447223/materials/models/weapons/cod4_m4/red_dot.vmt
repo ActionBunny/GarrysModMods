@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weapons/cod4_m4/red_dot"
+	"$translucent" 1
+}
