@@ -54,7 +54,7 @@ SWEP.NoSights = true
 SWEP.CanUseKey = true
  
  
-SWEP.Primary.Delay                      = 0.9   --In seconds
+SWEP.Primary.Delay                      = 0.2   --In seconds
 SWEP.Primary.Recoil                     = 0             --Gun Kick
 SWEP.Primary.Damage                     = 65    --Damage per Bullet
 SWEP.Primary.NumShots           = 1             --Number of shots per one fire
@@ -88,7 +88,7 @@ if ( CLIENT ) then
 end
  
 function SWEP:WasBought(ply)
-		ply:GiveAmmo(2, "Xbowbolt")
+		ply:GiveAmmo(3, "Xbowbolt")
 end
  
 function SWEP:Initialize()
